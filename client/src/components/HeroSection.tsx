@@ -46,22 +46,6 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
 
       <div className="relative z-10 w-full container py-12 flex flex-col items-center text-center">
 
-        {/* توقيع د. الحوشان — أعلى الهيرو */}
-        <a
-          href="https://nsooos.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mb-4 opacity-90 hover:opacity-100 transition-opacity"
-          title="د. يوسف بن حمود الحوشان"
-        >
-          <img
-            src="/manus-storage/signature-hoshan-new_f6792fd1.png"
-            alt="توقيع د. يوسف الحوشان"
-            className="h-10 w-auto object-contain"
-            style={{ filter: "invert(1) brightness(2)" }}
-            onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
-          />
-        </a>
 
         {/* شريط أكاديمي */}
         <div className="mb-4 flex items-center gap-3">

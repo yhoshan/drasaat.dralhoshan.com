@@ -26,7 +26,7 @@ export default function Navbar() {
 
           {/* التوقيع — يمين */}
           <a
-            href="https://nsooos.com/"
+            href="https://dralhoshan.com"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center opacity-90 hover:opacity-100 transition-opacity"
@@ -53,12 +53,7 @@ export default function Navbar() {
               </h1>
               <span className="text-amber-400/60 text-xs">◆</span>
             </div>
-            <span
-              className="text-indigo-300 text-xs tracking-wide"
-              style={{ fontFamily: "Tajawal, sans-serif" }}
-            >
-              جامعة الرسائل العلمية
-            </span>
+
           </div>
 
           {/* زر الوضع الليلي — يسار */}
