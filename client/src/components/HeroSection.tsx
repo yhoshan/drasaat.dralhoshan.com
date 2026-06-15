@@ -64,16 +64,12 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
         </p>
 
         {/* ═══ بطاقات الإحصاءات — فوق البحث — لون موحّد ═══ */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 w-full max-w-3xl mb-8" dir="ltr">
+        <div className="flex flex-wrap justify-center gap-3 w-full max-w-3xl mb-8" dir="rtl">
+          {/* الترتيب معكوس في الكود لأن RTL يعكسه تلقائياً */}
           <StatCard
-            label="إجمالي الرسائل"
-            value={loading ? "..." : (stats?.total_items || 0).toLocaleString()}
-            sublabel="رسالة علمية"
-          />
-          <StatCard
-            label="رسائل الدكتوراه"
-            value={loading ? "..." : (stats?.degrees?.["دكتوراه"] || 0).toLocaleString()}
-            sublabel="الدكتوراه"
+            label="البحوث المحكمة"
+            value={loading ? "..." : (stats?.total_buhooth || 13746).toLocaleString()}
+            sublabel="البحوث"
           />
           <StatCard
             label="رسائل الماجستير"
@@ -81,9 +77,14 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
             sublabel="الماجستير"
           />
           <StatCard
-            label="البحوث المحكمة"
-            value={loading ? "..." : (stats?.total_buhooth || 13746).toLocaleString()}
-            sublabel="البحوث"
+            label="رسائل الدكتوراه"
+            value={loading ? "..." : (stats?.degrees?.["دكتوراه"] || 0).toLocaleString()}
+            sublabel="الدكتوراه"
+          />
+          <StatCard
+            label="إجمالي الرسائل"
+            value={loading ? "..." : (stats?.total_items || 0).toLocaleString()}
+            sublabel="رسالة علمية"
           />
         </div>
 
