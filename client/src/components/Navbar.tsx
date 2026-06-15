@@ -1,6 +1,6 @@
 /*
  * Navbar — مكنز الدراسات العليا
- * هوية أكاديمية: نيلي عميق، ختم مكنز، توقيع الحوشان، زر الوضع الليلي
+ * صورة التوقيع يميناً (بدل النص)، العنوان وسطاً، زر الوضع الليلي يساراً
  */
 import { useTheme } from "@/contexts/ThemeContext";
 import { Moon, Sun } from "lucide-react";
@@ -18,7 +18,7 @@ export default function Navbar() {
       }}
       dir="rtl"
     >
-      {/* خط ذهبي علوي رفيع */}
+      {/* خط ذهبي علوي */}
       <div className="h-0.5 bg-gradient-to-r from-transparent via-amber-400 to-transparent opacity-50 absolute top-0 left-0 right-0" />
 
       <div className="container">
@@ -30,27 +30,19 @@ export default function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center opacity-90 hover:opacity-100 transition-opacity"
-            title="د. يوسف بن حمود الحوشان — نصوص تراثية للباحثين"
+            title="د. يوسف بن حمود الحوشان"
           >
             <img
-              src="https://nsooos.com/wp-content/uploads/2023/01/sign-white.png"
+              src="/manus-storage/signature-hoshan-v3_499af48a.webp"
               alt="توقيع د. يوسف الحوشان"
               className="h-10 w-auto object-contain"
               style={{ filter: "invert(1) brightness(2)" }}
-              onError={(e) => {
-                const el = e.target as HTMLImageElement;
-                el.style.display = "none";
-                const span = document.createElement("span");
-                span.textContent = "د. يوسف الحوشان";
-                span.style.cssText = "color:white;font-family:Amiri,serif;font-size:14px;";
-                el.parentNode?.appendChild(span);
-              }}
+              onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
             />
           </a>
 
-          {/* الهوية المركزية */}
+          {/* العنوان المركزي */}
           <div className="flex flex-col items-center gap-0.5">
-            {/* ختم أكاديمي مصغر */}
             <div className="flex items-center gap-2">
               <span className="text-amber-400/60 text-xs">◆</span>
               <h1
@@ -69,7 +61,7 @@ export default function Navbar() {
             </span>
           </div>
 
-          {/* زر الوضع الليلي */}
+          {/* زر الوضع الليلي — يسار */}
           <button
             onClick={() => toggleTheme?.()}
             className="p-2 rounded-full transition-all hover:scale-110"

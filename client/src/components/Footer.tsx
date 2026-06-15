@@ -130,7 +130,7 @@ export default function Footer() {
               className="flex items-center"
             >
               <img
-                src="https://nsooos.com/wp-content/uploads/2023/01/sign-white.png"
+                src="/manus-storage/signature-hoshan-v3_499af48a.webp"
                 alt="توقيع د. يوسف الحوشان"
                 className="h-12 w-auto object-contain"
                 style={{ filter: "invert(1) brightness(2)" }}
