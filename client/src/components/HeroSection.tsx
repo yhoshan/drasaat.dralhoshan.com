@@ -82,11 +82,6 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
             sublabel="رسالة علمية"
           />
           <StatCard
-            label="البحوث المحكمة"
-            value={loading ? "..." : (stats?.total_buhooth || 13746).toLocaleString()}
-            sublabel="بحوث"
-          />
-          <StatCard
             label="رسائل دكتوراه"
             value={loading ? "..." : (stats?.degrees?.["دكتوراه"] || 0).toLocaleString()}
             sublabel="دكتوراه"
@@ -95,6 +90,11 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
             label="رسائل ماجستير"
             value={loading ? "..." : (stats?.degrees?.["ماجستير"] || 0).toLocaleString()}
             sublabel="ماجستير"
+          />
+          <StatCard
+            label="البحوث المحكمة"
+            value={loading ? "..." : (stats?.total_buhooth || 13746).toLocaleString()}
+            sublabel="بحوث"
           />
         </div>
 
