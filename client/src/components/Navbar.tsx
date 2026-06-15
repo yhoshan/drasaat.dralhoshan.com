@@ -150,15 +150,9 @@ export default function Navbar() {
 
             {/* تذييل النافذة */}
             <div
-              className="px-6 py-4 flex items-center justify-between"
+              className="px-6 py-4 flex justify-end"
               style={{ background: "rgba(0,0,0,0.2)", borderTop: "1px solid rgba(167,139,250,0.15)" }}
             >
-              <span
-                className="text-xs text-indigo-400"
-                style={{ fontFamily: "Tajawal, sans-serif" }}
-              >
-                مكنز الدراسات العليا — د. يوسف بن حمود الحوشان
-              </span>
               <button
                 onClick={() => setShowDisclaimer(false)}
                 className="px-4 py-1.5 rounded-lg text-sm font-medium text-white transition-all hover:opacity-90 active:scale-95"
