@@ -1,6 +1,6 @@
 /*
  * Navbar — مكنز الدراسات العليا
- * صورة التوقيع يميناً، زر إخلاء المسؤولية + زر الوضع الليلي يساراً
+ * زر إخلاء المسؤولية يميناً (بدل التوقيع)، زر الوضع الليلي يساراً
  */
 import { useState } from "react";
 import { useTheme } from "@/contexts/ThemeContext";
@@ -27,63 +27,43 @@ export default function Navbar() {
         <div className="container">
           <div className="flex items-center justify-between h-16">
 
-            {/* التوقيع — يمين */}
-            <a
-              href="https://dralhoshan.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center opacity-90 hover:opacity-100 transition-opacity"
-              title="د. يوسف بن حمود الحوشان"
+            {/* إخلاء المسؤولية — يمين (بدل التوقيع) */}
+            <button
+              onClick={() => setShowDisclaimer(true)}
+              className="flex flex-col items-center gap-0.5 px-2 py-1.5 rounded-xl transition-all hover:scale-105 group"
+              style={{
+                background: "rgba(255,255,255,0.08)",
+                border: "1px solid rgba(255,255,255,0.18)",
+              }}
+              title="إخلاء المسؤولية"
             >
-              <img
-                src="/manus-storage/signature-hoshan-new_f6792fd1.png"
-                alt="توقيع د. يوسف الحوشان"
-                className="h-10 w-auto object-contain"
-                style={{ filter: "invert(1) brightness(2)" }}
-                onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
-              />
-            </a>
+              <ShieldAlert className="w-4 h-4 text-amber-300 group-hover:text-amber-200 transition-colors" />
+              <span
+                className="text-amber-200 group-hover:text-white transition-colors leading-none"
+                style={{ fontFamily: "Cairo, sans-serif", fontSize: "9px", whiteSpace: "nowrap" }}
+              >
+                إخلاء المسؤولية
+              </span>
+            </button>
 
             {/* فراغ مركزي */}
             <div />
 
-            {/* الأزرار — يسار */}
-            <div className="flex items-center gap-2">
-              {/* أيقونة إخلاء المسؤولية */}
-              <button
-                onClick={() => setShowDisclaimer(true)}
-                className="flex flex-col items-center gap-0.5 px-2 py-1.5 rounded-xl transition-all hover:scale-105 group"
-                style={{
-                  background: "rgba(255,255,255,0.08)",
-                  border: "1px solid rgba(255,255,255,0.18)",
-                }}
-                title="إخلاء المسؤولية"
-              >
-                <ShieldAlert className="w-4 h-4 text-amber-300 group-hover:text-amber-200 transition-colors" />
-                <span
-                  className="text-amber-200 group-hover:text-white transition-colors leading-none"
-                  style={{ fontFamily: "Cairo, sans-serif", fontSize: "9px", whiteSpace: "nowrap" }}
-                >
-                  إخلاء المسؤولية
-                </span>
-              </button>
-
-              {/* زر الوضع الليلي */}
-              <button
-                onClick={() => toggleTheme?.()}
-                className="p-2 rounded-full transition-all hover:scale-110"
-                style={{
-                  background: "rgba(255,255,255,0.1)",
-                  border: "1px solid rgba(255,255,255,0.2)",
-                }}
-                title={isDark ? "الوضع النهاري" : "الوضع الليلي"}
-              >
-                {isDark
-                  ? <Sun className="w-5 h-5 text-amber-300" />
-                  : <Moon className="w-5 h-5 text-indigo-200" />
-                }
-              </button>
-            </div>
+            {/* زر الوضع الليلي — يسار */}
+            <button
+              onClick={() => toggleTheme?.()}
+              className="p-2 rounded-full transition-all hover:scale-110"
+              style={{
+                background: "rgba(255,255,255,0.1)",
+                border: "1px solid rgba(255,255,255,0.2)",
+              }}
+              title={isDark ? "الوضع النهاري" : "الوضع الليلي"}
+            >
+              {isDark
+                ? <Sun className="w-5 h-5 text-amber-300" />
+                : <Moon className="w-5 h-5 text-indigo-200" />
+              }
+            </button>
           </div>
         </div>
       </nav>
