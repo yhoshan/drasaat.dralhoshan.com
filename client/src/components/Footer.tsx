@@ -130,7 +130,7 @@ export default function Footer() {
               className="flex items-center"
             >
               <img
-                src="/manus-storage/signature-hoshan-v3_499af48a.webp"
+                src="/manus-storage/signature-hoshan-new_f6792fd1.png"
                 alt="توقيع د. يوسف الحوشان"
                 className="h-12 w-auto object-contain"
                 style={{ filter: "invert(1) brightness(2)" }}
