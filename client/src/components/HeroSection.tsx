@@ -71,19 +71,19 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
             sublabel="رسالة علمية"
           />
           <StatCard
-            label="رسائل دكتوراه"
+            label="رسائل الدكتوراه"
             value={loading ? "..." : (stats?.degrees?.["دكتوراه"] || 0).toLocaleString()}
-            sublabel="دكتوراه"
+            sublabel="الدكتوراه"
           />
           <StatCard
-            label="رسائل ماجستير"
+            label="رسائل الماجستير"
             value={loading ? "..." : (stats?.degrees?.["ماجستير"] || 0).toLocaleString()}
-            sublabel="ماجستير"
+            sublabel="الماجستير"
           />
           <StatCard
             label="البحوث المحكمة"
             value={loading ? "..." : (stats?.total_buhooth || 13746).toLocaleString()}
-            sublabel="بحوث"
+            sublabel="البحوث"
           />
         </div>
 
@@ -131,6 +131,7 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
 function StatCard({ label, value, sublabel }: { label: string; value: string; sublabel: string }) {
   return (
     <div
+      dir="rtl"
       className="rounded-xl p-4 text-center transition-all hover:scale-105"
       style={{
         background: "rgba(15, 12, 60, 0.55)",
