@@ -38,6 +38,7 @@ export interface Stats {
   total_items: number;
   total_size_gb: number;
   total_size_mb: number;
+  total_buhooth: number;
   degrees: Record<string, number>;
   categories: Record<string, number>;
   file_types: Record<string, number>;

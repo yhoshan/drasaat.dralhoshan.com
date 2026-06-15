@@ -82,9 +82,9 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
             sublabel="رسالة علمية"
           />
           <StatCard
-            label="الحجم الإجمالي"
-            value={loading ? "..." : `${stats?.total_size_gb?.toFixed(0) || 0} GB`}
-            sublabel="حجم الملفات"
+            label="البحوث المحكمة"
+            value={loading ? "..." : (stats?.total_buhooth || 13746).toLocaleString()}
+            sublabel="بحوث"
           />
           <StatCard
             label="رسائل دكتوراه"
