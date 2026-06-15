@@ -108,6 +108,12 @@ function ThesisCard({ item, index }: { item: ThesisItem; index: number }) {
       border: "rgba(107,114,128,0.2)",
       label: "رسالة",
     },
+    "بحث محكم": {
+      bg: "rgba(14,116,144,0.08)",
+      text: "#0e7490",
+      border: "rgba(14,116,144,0.25)",
+      label: "بحث محكم",
+    },
   };
 
   const deg = degreeConfig[item.degree] || degreeConfig["رسالة علمية"];
@@ -128,6 +134,7 @@ function ThesisCard({ item, index }: { item: ThesisItem; index: number }) {
     "ماجستير": "#4338ca",
     "بكالوريوس": "#059669",
     "رسالة علمية": "#6366f1",
+    "بحث محكم": "#0e7490",
   }[item.degree] || "#6366f1";
 
   return (

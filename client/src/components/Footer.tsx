@@ -124,7 +124,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-8 pb-8 border-b border-indigo-700 dark:border-indigo-800">
             {/* التوقيع */}
             <a
-              href="https://nsooos.com/"
+              href="https://dralhoshan.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center"

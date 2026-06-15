@@ -68,17 +68,17 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
           {/* الترتيب معكوس في الكود لأن RTL يعكسه تلقائياً */}
           <StatCard
             label="البحوث المحكمة"
-            value={loading ? "..." : (stats?.total_buhooth || 13746).toLocaleString()}
+            value={loading ? "..." : (stats?.total_buhooth || 2271).toLocaleString()}
             sublabel="البحوث"
           />
           <StatCard
             label="رسائل الماجستير"
-            value={loading ? "..." : ((stats as any)?.total_masters || 0).toLocaleString()}
+            value={loading ? "..." : (stats?.total_masters || 0).toLocaleString()}
             sublabel="الماجستير"
           />
           <StatCard
             label="رسائل الدكتوراه"
-            value={loading ? "..." : ((stats as any)?.total_phd || 0).toLocaleString()}
+            value={loading ? "..." : (stats?.total_phd || 0).toLocaleString()}
             sublabel="الدكتوراه"
           />
           <StatCard

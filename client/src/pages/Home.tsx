@@ -39,6 +39,8 @@ export interface Stats {
   total_size_gb: number;
   total_size_mb: number;
   total_buhooth: number;
+  total_masters: number;
+  total_phd: number;
   degrees: Record<string, number>;
   categories: Record<string, number>;
   file_types: Record<string, number>;
