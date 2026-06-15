@@ -52,14 +52,20 @@ export default function Navbar() {
               {/* أيقونة إخلاء المسؤولية */}
               <button
                 onClick={() => setShowDisclaimer(true)}
-                className="p-2 rounded-full transition-all hover:scale-110 group relative"
+                className="flex flex-col items-center gap-0.5 px-2 py-1.5 rounded-xl transition-all hover:scale-105 group"
                 style={{
-                  background: "rgba(255,255,255,0.1)",
-                  border: "1px solid rgba(255,255,255,0.2)",
+                  background: "rgba(255,255,255,0.08)",
+                  border: "1px solid rgba(255,255,255,0.18)",
                 }}
                 title="إخلاء المسؤولية"
               >
-                <ShieldAlert className="w-5 h-5 text-amber-300 group-hover:text-amber-200 transition-colors" />
+                <ShieldAlert className="w-4 h-4 text-amber-300 group-hover:text-amber-200 transition-colors" />
+                <span
+                  className="text-amber-200 group-hover:text-white transition-colors leading-none"
+                  style={{ fontFamily: "Cairo, sans-serif", fontSize: "9px", whiteSpace: "nowrap" }}
+                >
+                  إخلاء المسؤولية
+                </span>
               </button>
 
               {/* زر الوضع الليلي */}
