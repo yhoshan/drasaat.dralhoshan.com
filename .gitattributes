@@ -1,0 +1,4 @@
+client/public/items.json filter=lfs diff=lfs merge=lfs -text
+client/public/search-index.json filter=lfs diff=lfs merge=lfs -text
+client/public/search-index-lite.json filter=lfs diff=lfs merge=lfs -text
+client/public/search-title-index.json filter=lfs diff=lfs merge=lfs -text
