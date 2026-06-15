@@ -1,124 +1,213 @@
-@import "tailwindcss";
-@import "tw-animate-css";
+/* ============================================================
+   مكنز الدراسات العليا — نظام الألوان النيلي الفاتح
+   الأساس: أبيض/كريمي + نيلي (Indigo) كلون رئيسي
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@300;400;500;600;700;800&family=Tajawal:wght@300;400;500;700&display=swap');
 
-@custom-variant dark (&:is(.dark *));
+@import "tailwindcss";
 
 @theme inline {
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 4px);
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-card: var(--card);
-  --color-card-foreground: var(--card-foreground);
-  --color-popover: var(--popover);
-  --color-popover-foreground: var(--popover-foreground);
-  --color-primary: var(--primary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-secondary: var(--secondary);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-muted: var(--muted);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-accent: var(--accent);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-destructive: var(--destructive);
-  --color-destructive-foreground: var(--destructive-foreground);
-  --color-border: var(--border);
-  --color-input: var(--input);
-  --color-ring: var(--ring);
-  --color-chart-1: var(--chart-1);
-  --color-chart-2: var(--chart-2);
-  --color-chart-3: var(--chart-3);
-  --color-chart-4: var(--chart-4);
-  --color-chart-5: var(--chart-5);
-  --color-sidebar: var(--sidebar);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-ring: var(--sidebar-ring);
-}
+  --font-amiri: 'Amiri', serif;
+  --font-cairo: 'Cairo', sans-serif;
+  --font-tajawal: 'Tajawal', sans-serif;
 
-:root {
-  --primary: var(--color-blue-700);
-  --primary-foreground: var(--color-blue-50);
-  --sidebar-primary: var(--color-blue-600);
-  --sidebar-primary-foreground: var(--color-blue-50);
-  --chart-1: var(--color-blue-300);
-  --chart-2: var(--color-blue-500);
-  --chart-3: var(--color-blue-600);
-  --chart-4: var(--color-blue-700);
-  --chart-5: var(--color-blue-800);
+  /* النيلي الأساسي */
+  --color-indigo-50:  oklch(0.962 0.018 272.314);
+  --color-indigo-100: oklch(0.930 0.034 272.788);
+  --color-indigo-200: oklch(0.870 0.065 274.039);
+  --color-indigo-300: oklch(0.785 0.115 274.713);
+  --color-indigo-400: oklch(0.673 0.182 276.935);
+  --color-indigo-500: oklch(0.585 0.233 277.117);
+  --color-indigo-600: oklch(0.511 0.262 276.966);
+  --color-indigo-700: oklch(0.457 0.240 277.023);
+  --color-indigo-800: oklch(0.398 0.195 277.366);
+  --color-indigo-900: oklch(0.359 0.144 278.697);
+  --color-indigo-950: oklch(0.257 0.090 281.288);
+
+  /* الذهبي للتوكيد */
+  --color-amber-400: oklch(0.828 0.189 84.429);
+  --color-amber-500: oklch(0.769 0.188 70.08);
+  --color-amber-600: oklch(0.666 0.179 58.318);
+  --color-amber-700: oklch(0.555 0.163 48.998);
+
+  /* رمادي */
+  --color-gray-50:  oklch(0.985 0.002 247.839);
+  --color-gray-100: oklch(0.967 0.003 264.542);
+  --color-gray-200: oklch(0.928 0.006 264.531);
+  --color-gray-300: oklch(0.872 0.010 258.338);
+  --color-gray-400: oklch(0.707 0.022 261.325);
+  --color-gray-500: oklch(0.551 0.018 264.364);
+  --color-gray-600: oklch(0.446 0.016 265.522);
+  --color-gray-700: oklch(0.373 0.013 260.531);
+  --color-gray-800: oklch(0.278 0.033 256.848);
+  --color-gray-900: oklch(0.210 0.034 264.665);
+  --color-gray-950: oklch(0.130 0.028 261.692);
+
   --radius: 0.65rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.235 0.015 65);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.235 0.015 65);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.235 0.015 65);
-  --secondary: oklch(0.98 0.001 286.375);
-  --secondary-foreground: oklch(0.4 0.015 65);
-  --muted: oklch(0.967 0.001 286.375);
-  --muted-foreground: oklch(0.552 0.016 285.938);
-  --accent: oklch(0.967 0.001 286.375);
-  --accent-foreground: oklch(0.141 0.005 285.823);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(0.92 0.004 286.32);
-  --input: oklch(0.92 0.004 286.32);
-  --ring: oklch(0.623 0.214 259.815);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.235 0.015 65);
-  --sidebar-accent: oklch(0.967 0.001 286.375);
-  --sidebar-accent-foreground: oklch(0.141 0.005 285.823);
-  --sidebar-border: oklch(0.92 0.004 286.32);
-  --sidebar-ring: oklch(0.623 0.214 259.815);
 }
 
-.dark {
-  --primary: var(--color-blue-700);
-  --primary-foreground: var(--color-blue-50);
-  --sidebar-primary: var(--color-blue-500);
-  --sidebar-primary-foreground: var(--color-blue-50);
-  --background: oklch(0.141 0.005 285.823);
-  --foreground: oklch(0.85 0.005 65);
-  --card: oklch(0.21 0.006 285.885);
-  --card-foreground: oklch(0.85 0.005 65);
-  --popover: oklch(0.21 0.006 285.885);
-  --popover-foreground: oklch(0.85 0.005 65);
-  --secondary: oklch(0.24 0.006 286.033);
-  --secondary-foreground: oklch(0.7 0.005 65);
-  --muted: oklch(0.274 0.006 286.033);
-  --muted-foreground: oklch(0.705 0.015 286.067);
-  --accent: oklch(0.274 0.006 286.033);
-  --accent-foreground:  oklch(0.92 0.005 65);
-  --destructive: oklch(0.704 0.191 22.216);
+/* ============================================================
+   متغيرات CSS الرئيسية — الوضع الفاتح (النيلي)
+   ============================================================ */
+:root {
+  /* الألوان الأساسية */
+  --primary:            oklch(0.457 0.240 277.023);   /* indigo-700 */
+  --primary-foreground: oklch(0.985 0 0);
+  --primary-light:      oklch(0.962 0.018 272.314);   /* indigo-50 */
+  --primary-medium:     oklch(0.585 0.233 277.117);   /* indigo-500 */
+
+  /* الخلفية والنصوص */
+  --background:         oklch(0.985 0.002 247.839);   /* gray-50 — فاتح جداً */
+  --foreground:         oklch(0.257 0.090 281.288);   /* indigo-950 */
+
+  /* البطاقات */
+  --card:               oklch(1 0 0);
+  --card-foreground:    oklch(0.257 0.090 281.288);
+
+  /* Popover */
+  --popover:            oklch(1 0 0);
+  --popover-foreground: oklch(0.257 0.090 281.288);
+
+  /* ثانوي */
+  --secondary:          oklch(0.962 0.018 272.314);   /* indigo-50 */
+  --secondary-foreground: oklch(0.457 0.240 277.023); /* indigo-700 */
+
+  /* خافت */
+  --muted:              oklch(0.967 0.003 264.542);   /* gray-100 */
+  --muted-foreground:   oklch(0.551 0.018 264.364);   /* gray-500 */
+
+  /* تمييز */
+  --accent:             oklch(0.930 0.034 272.788);   /* indigo-100 */
+  --accent-foreground:  oklch(0.457 0.240 277.023);   /* indigo-700 */
+
+  /* تدمير */
+  --destructive:        oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.488 0.243 264.376);
-  --chart-1: var(--color-blue-300);
-  --chart-2: var(--color-blue-500);
-  --chart-3: var(--color-blue-600);
-  --chart-4: var(--color-blue-700);
-  --chart-5: var(--color-blue-800);
-  --sidebar: oklch(0.21 0.006 285.885);
-  --sidebar-foreground: oklch(0.85 0.005 65);
-  --sidebar-accent: oklch(0.274 0.006 286.033);
-  --sidebar-accent-foreground:  oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.488 0.243 264.376);
+
+  /* الحدود والمدخلات */
+  --border:             oklch(0.870 0.065 274.039);   /* indigo-200 */
+  --input:              oklch(0.928 0.006 264.531);
+  --ring:               oklch(0.585 0.233 277.117);   /* indigo-500 */
+
+  /* الشريط الجانبي */
+  --sidebar:            oklch(0.962 0.018 272.314);
+  --sidebar-foreground: oklch(0.257 0.090 281.288);
+  --sidebar-primary:    oklch(0.457 0.240 277.023);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent:     oklch(0.930 0.034 272.788);
+  --sidebar-accent-foreground: oklch(0.457 0.240 277.023);
+  --sidebar-border:     oklch(0.870 0.065 274.039);
+  --sidebar-ring:       oklch(0.585 0.233 277.117);
+
+  /* الرسوم البيانية */
+  --chart-1: oklch(0.785 0.115 274.713);
+  --chart-2: oklch(0.673 0.182 276.935);
+  --chart-3: oklch(0.585 0.233 277.117);
+  --chart-4: oklch(0.511 0.262 276.966);
+  --chart-5: oklch(0.457 0.240 277.023);
+}
+
+/* ============================================================
+   الوضع الليلي — نيلي داكن
+   ============================================================ */
+.dark {
+  --primary:            oklch(0.673 0.182 276.935);   /* indigo-400 */
+  --primary-foreground: oklch(0.257 0.090 281.288);
+  --primary-light:      oklch(0.359 0.144 278.697);
+
+  --background:         oklch(0.210 0.034 264.665);   /* gray-900 */
+  --foreground:         oklch(0.930 0.034 272.788);   /* indigo-100 */
+
+  --card:               oklch(0.278 0.033 256.848);
+  --card-foreground:    oklch(0.930 0.034 272.788);
+
+  --popover:            oklch(0.278 0.033 256.848);
+  --popover-foreground: oklch(0.930 0.034 272.788);
+
+  --secondary:          oklch(0.359 0.144 278.697);
+  --secondary-foreground: oklch(0.930 0.034 272.788);
+
+  --muted:              oklch(0.373 0.013 260.531);
+  --muted-foreground:   oklch(0.707 0.022 261.325);
+
+  --accent:             oklch(0.398 0.195 277.366);
+  --accent-foreground:  oklch(0.962 0.018 272.314);
+
+  --destructive:        oklch(0.704 0.191 22.216);
+  --destructive-foreground: oklch(0.985 0 0);
+
+  --border:             oklch(1 0 0 / 12%);
+  --input:              oklch(1 0 0 / 15%);
+  --ring:               oklch(0.673 0.182 276.935);
+
+  --sidebar:            oklch(0.278 0.033 256.848);
+  --sidebar-foreground: oklch(0.930 0.034 272.788);
+  --sidebar-primary:    oklch(0.673 0.182 276.935);
+  --sidebar-primary-foreground: oklch(0.257 0.090 281.288);
+  --sidebar-accent:     oklch(0.359 0.144 278.697);
+  --sidebar-accent-foreground: oklch(0.930 0.034 272.788);
+  --sidebar-border:     oklch(1 0 0 / 12%);
+  --sidebar-ring:       oklch(0.673 0.182 276.935);
+
+  --chart-1: oklch(0.785 0.115 274.713);
+  --chart-2: oklch(0.673 0.182 276.935);
+  --chart-3: oklch(0.585 0.233 277.117);
+  --chart-4: oklch(0.511 0.262 276.966);
+  --chart-5: oklch(0.457 0.240 277.023);
+}
+
+/* ============================================================
+   القواعد الأساسية
+   ============================================================ */
+@theme inline {
+  --color-primary:            var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-background:         var(--background);
+  --color-foreground:         var(--foreground);
+  --color-card:               var(--card);
+  --color-card-foreground:    var(--card-foreground);
+  --color-popover:            var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-secondary:          var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted:              var(--muted);
+  --color-muted-foreground:   var(--muted-foreground);
+  --color-accent:             var(--accent);
+  --color-accent-foreground:  var(--accent-foreground);
+  --color-destructive:        var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border:             var(--border);
+  --color-input:              var(--input);
+  --color-ring:               var(--ring);
+  --color-chart-1:            var(--chart-1);
+  --color-chart-2:            var(--chart-2);
+  --color-chart-3:            var(--chart-3);
+  --color-chart-4:            var(--chart-4);
+  --color-chart-5:            var(--chart-5);
+  --color-sidebar:            var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary:    var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent:     var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border:     var(--sidebar-border);
+  --color-sidebar-ring:       var(--sidebar-ring);
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+  }
   body {
     @apply bg-background text-foreground;
+    font-family: 'Cairo', sans-serif;
+  }
+  h1, h2, h3 {
+    font-family: 'Amiri', serif;
   }
   button:not(:disabled),
   [role="button"]:not([aria-disabled="true"]),
@@ -134,44 +223,100 @@
 }
 
 @layer components {
-  /**
-   * Custom container utility that centers content and adds responsive padding.
-   *
-   * This overrides Tailwind's default container behavior to:
-   * - Auto-center content (mx-auto)
-   * - Add responsive horizontal padding
-   * - Set max-width for large screens
-   *
-   * Usage: <div className="container">...</div>
-   *
-   * For custom widths, use max-w-* utilities directly:
-   * <div className="max-w-6xl mx-auto px-4">...</div>
-   */
   .container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 1rem; /* 16px - mobile padding */
+    padding-left: 1rem;
     padding-right: 1rem;
   }
-
   .flex {
     min-height: 0;
     min-width: 0;
   }
-
   @media (min-width: 640px) {
     .container {
-      padding-left: 1.5rem; /* 24px - tablet padding */
+      padding-left: 1.5rem;
       padding-right: 1.5rem;
     }
   }
-
   @media (min-width: 1024px) {
     .container {
-      padding-left: 2rem; /* 32px - desktop padding */
+      padding-left: 2rem;
       padding-right: 2rem;
-      max-width: 1280px; /* Standard content width */
+      max-width: 1400px;
     }
   }
+}
+
+/* ============================================================
+   أنماط مخصصة للمكنز
+   ============================================================ */
+
+/* نمط إسلامي هندسي خفيف للخلفية */
+.islamic-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%234338CA' fill-opacity='0.04'%3E%3Cpath d='M30 0L37.5 15H52.5L41.25 24.375L45 37.5L30 30L15 37.5L18.75 24.375L7.5 15H22.5L30 0z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* بطاقة رسالة علمية */
+.thesis-card {
+  border-top: 3px solid oklch(0.585 0.233 277.117);
+  transition: all 0.2s ease;
+}
+.thesis-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px oklch(0.457 0.240 277.023 / 0.15);
+  border-top-color: oklch(0.457 0.240 277.023);
+}
+
+/* شارات الدرجات */
+.badge-doctorate {
+  background: oklch(0.828 0.189 84.429 / 0.15);
+  color: oklch(0.555 0.163 48.998);
+  border: 1px solid oklch(0.828 0.189 84.429 / 0.4);
+}
+.badge-masters {
+  background: oklch(0.930 0.034 272.788);
+  color: oklch(0.457 0.240 277.023);
+  border: 1px solid oklch(0.870 0.065 274.039);
+}
+.badge-thesis {
+  background: oklch(0.967 0.003 264.542);
+  color: oklch(0.446 0.016 265.522);
+  border: 1px solid oklch(0.928 0.006 264.531);
+}
+
+/* زر بحث */
+.search-input {
+  background: oklch(1 0 0 / 0.95);
+  border: 2px solid oklch(0.870 0.065 274.039);
+  transition: border-color 0.2s;
+}
+.search-input:focus {
+  border-color: oklch(0.585 0.233 277.117);
+  box-shadow: 0 0 0 3px oklch(0.585 0.233 277.117 / 0.15);
+}
+
+/* تمرير سلس */
+html {
+  scroll-behavior: smooth;
+}
+
+/* إخفاء شريط التمرير مع الإبقاء على الوظيفة */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* تأثير shimmer للتحميل */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.skeleton {
+  background: linear-gradient(90deg,
+    oklch(0.928 0.006 264.531) 25%,
+    oklch(0.967 0.003 264.542) 50%,
+    oklch(0.928 0.006 264.531) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
 }
