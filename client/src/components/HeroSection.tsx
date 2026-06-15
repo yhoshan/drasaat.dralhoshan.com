@@ -47,17 +47,6 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
       <div className="relative z-10 w-full container py-12 flex flex-col items-center text-center">
 
 
-        {/* شريط أكاديمي */}
-        <div className="mb-4 flex items-center gap-3">
-          <div className="h-px w-16 bg-amber-400/50" />
-          <span
-            className="text-amber-300 text-sm tracking-widest"
-            style={{ fontFamily: "Tajawal, sans-serif", letterSpacing: "0.2em" }}
-          >
-            فهرس علمي أكاديمي
-          </span>
-          <div className="h-px w-16 bg-amber-400/50" />
-        </div>
 
         {/* العنوان */}
         <h2
@@ -75,7 +64,7 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
         </p>
 
         {/* ═══ بطاقات الإحصاءات — فوق البحث — لون موحّد ═══ */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 w-full max-w-3xl mb-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 w-full max-w-3xl mb-8" dir="ltr">
           <StatCard
             label="إجمالي الرسائل"
             value={loading ? "..." : (stats?.total_items || 0).toLocaleString()}

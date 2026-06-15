@@ -41,20 +41,8 @@ export default function Navbar() {
             />
           </a>
 
-          {/* العنوان المركزي */}
-          <div className="flex flex-col items-center gap-0.5">
-            <div className="flex items-center gap-2">
-              <span className="text-amber-400/60 text-xs">◆</span>
-              <h1
-                className="text-white font-bold text-lg leading-none"
-                style={{ fontFamily: "Amiri, serif" }}
-              >
-                مكنز الدراسات العليا
-              </h1>
-              <span className="text-amber-400/60 text-xs">◆</span>
-            </div>
-
-          </div>
+          {/* فراغ مركزي */}
+          <div />
 
           {/* زر الوضع الليلي — يسار */}
           <button
