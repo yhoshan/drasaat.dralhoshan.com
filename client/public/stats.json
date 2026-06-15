@@ -1,5 +1,5 @@
 {
-  "total_items": 62019,
+  "total_items": 64319,
   "total_size_gb": 379.0,
   "total_size_mb": 388091.6,
   "degrees": {
@@ -43,6 +43,8 @@
   },
   "featured_count": 169,
   "with_download_links": 62019,
-  "source": "جامعة الرسائل العلمية — @Arsail2020",
-  "total_buhooth": 13746
+  "source": "قناة @Arsail2020 + أرشيف الإنترنت",
+  "total_buhooth": 13746,
+  "total_masters": 1525,
+  "total_phd": 1296
 }

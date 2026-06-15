@@ -73,12 +73,12 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
           />
           <StatCard
             label="رسائل الماجستير"
-            value={loading ? "..." : (stats?.degrees?.["ماجستير"] || 0).toLocaleString()}
+            value={loading ? "..." : ((stats as any)?.total_masters || 0).toLocaleString()}
             sublabel="الماجستير"
           />
           <StatCard
             label="رسائل الدكتوراه"
-            value={loading ? "..." : (stats?.degrees?.["دكتوراه"] || 0).toLocaleString()}
+            value={loading ? "..." : ((stats as any)?.total_phd || 0).toLocaleString()}
             sublabel="الدكتوراه"
           />
           <StatCard
