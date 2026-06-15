@@ -1,6 +1,6 @@
 /*
  * Navbar — مكنز الدراسات العليا
- * زر إخلاء المسؤولية يميناً (بدل التوقيع)، زر الوضع الليلي يساراً
+ * زر "حول المكنز" يميناً، زر الوضع الليلي يساراً
  */
 import { useState } from "react";
 import { useTheme } from "@/contexts/ThemeContext";
@@ -35,14 +35,14 @@ export default function Navbar() {
                 background: "rgba(255,255,255,0.08)",
                 border: "1px solid rgba(255,255,255,0.18)",
               }}
-              title="إخلاء المسؤولية"
+              title="حول المكنز"
             >
               <ShieldAlert className="w-4 h-4 text-amber-300 group-hover:text-amber-200 transition-colors" />
               <span
                 className="text-amber-200 group-hover:text-white transition-colors leading-none"
                 style={{ fontFamily: "Cairo, sans-serif", fontSize: "9px", whiteSpace: "nowrap" }}
               >
-                إخلاء المسؤولية
+                حول المكنز
               </span>
             </button>
 
@@ -68,7 +68,7 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* نافذة إخلاء المسؤولية */}
+      {/* نافذة حول المكنز */}
       {showDisclaimer && (
         <div
           className="fixed inset-0 z-[100] flex items-center justify-center p-4"
@@ -99,7 +99,7 @@ export default function Navbar() {
                   className="text-lg font-bold text-white"
                   style={{ fontFamily: "Amiri, serif" }}
                 >
-                  إخلاء المسؤولية
+                  حول المكنز
                 </h2>
               </div>
               <button
