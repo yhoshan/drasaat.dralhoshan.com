@@ -34,6 +34,13 @@ export interface ThesisItem {
   download_links_count: number;
   date: string;
   content_group?: "thesis" | "research" | "entry";
+  external_links?: Array<{
+    url: string;
+    source?: string;
+    source_name?: string;
+    source_type?: string;
+    message_id?: number;
+  }>;
 }
 
 export interface Stats {

@@ -55,7 +55,15 @@ function readRows(filePath) {
   const extension = path.extname(filePath).toLowerCase();
   if (extension === ".json") {
     const payload = JSON.parse(fs.readFileSync(filePath, "utf8"));
-    return Array.isArray(payload) ? payload : (payload.items || payload.data || []);
+    if (Array.isArray(payload)) return payload;
+    if (Array.isArray(payload.books)) {
+      return payload.books.map((book) => ({
+        title: book.title,
+        links: Array.isArray(book.links) ? book.links : [],
+        source: "ملف كتب المداخل",
+      }));
+    }
+    return payload.items || payload.data || [];
   }
 
   const workbook = XLSX.readFile(filePath, { raw: false });
@@ -65,14 +73,19 @@ function readRows(filePath) {
 
 function classify(item) {
   const haystack = normalizeArabic([
-    item.content_group,
     item.degree,
     item.material_type,
     item.category,
     item.title,
   ].join(" "));
 
-  if (item.content_group === "entry" || /مدخل|مداخل علمي/.test(haystack)) return "entry";
+  // لا يكفي ورود كلمة «مدخل» في العنوان؛ إذ قد تكون جزءاً من عنوان رسالة أو بحث.
+  // تُعد المادة مدخلاً فقط إذا حملت حقلاً معيارياً صريحاً خاصاً بالمداخل.
+  if (
+    normalizeArabic(item.degree) === "مدخل علمي" ||
+    normalizeArabic(item.material_type) === "مدخل" ||
+    normalizeArabic(item.category) === "المداخل العلميه"
+  ) return "entry";
   if (item.content_group === "research" || /بحث محكم|بحث ترقي|بحث للترقي|ورقه علمي|مقال علمي|دراسه محكم/.test(haystack)) return "research";
   return "thesis";
 }
@@ -81,9 +94,19 @@ function makeEntry(row, index) {
   const title = field(row, ["العنوان", "عنوان", "title", "اسم الكتاب", "الكتاب"]);
   if (!title) return null;
 
-  const linkTelegram = field(row, ["رابط تيليجرام", "رابط التليجرام", "telegram", "link_telegram"]);
+  const externalLinks = Array.isArray(row.links)
+    ? row.links.filter((link) => link && clean(link.url)).map((link) => ({
+      url: clean(link.url),
+      source: clean(link.source),
+      source_name: clean(link.source_name),
+      source_type: clean(link.source_type),
+      message_id: Number(link.message_id) || undefined,
+    }))
+    : [];
+  const linkTelegram = field(row, ["رابط تيليجرام", "رابط التليجرام", "telegram", "link_telegram"]) || externalLinks[0]?.url || "";
   const linkDrive = field(row, ["رابط جوجل درايف", "رابط درايف", "drive", "link_drive"]);
   const linkDirect = field(row, ["رابط مباشر", "رابط التحميل", "direct", "link_direct", "الرابط"]);
+  const sources = [...new Set(externalLinks.map((link) => link.source_name || link.source).filter(Boolean))];
 
   return {
     id: `entry_${Date.now()}_${index + 1}`,
@@ -96,16 +119,17 @@ function makeEntry(row, index) {
     link_telegram: linkTelegram,
     link_drive: linkDrive,
     link_direct: linkDirect,
-    source: field(row, ["المصدر", "source"]) || "ملف المداخل العلمية",
+    source: sources.join(" • ") || field(row, ["المصدر", "source"]) || "ملف المداخل العلمية",
     category: field(row, ["التصنيف", "القسم", "category"]) || "المداخل العلمية",
     material_type: "مدخل",
     file_type: field(row, ["نوع الملف", "file_type"]) || "PDF",
     file_size: field(row, ["حجم الملف", "file_size"]),
     pages_count: field(row, ["عدد الصفحات", "pages_count", "الصفحات"]),
     is_featured: asBoolean(field(row, ["مميز", "is_featured"])),
-    download_links_count: [linkTelegram, linkDrive, linkDirect].filter(Boolean).length,
+    download_links_count: externalLinks.length || [linkTelegram, linkDrive, linkDirect].filter(Boolean).length,
     date: field(row, ["التاريخ", "date"]) || new Date().toISOString().slice(0, 10),
     content_group: "entry",
+    external_links: externalLinks,
   };
 }
 
@@ -165,7 +189,8 @@ const freshEntries = incomingEntries.filter((item) => {
 const mergedItems = [...existingItems, ...freshEntries].map((item) => ({ ...item, content_group: classify(item) }));
 const rebuiltStats = rebuildStats(mergedItems);
 
-fs.writeFileSync(itemsPath, `${JSON.stringify(mergedItems, null, 2)}\n`);
+// يظل ملف البيانات الكبير مضغوطاً لتقليل حجم النشر وسجل التغييرات.
+fs.writeFileSync(itemsPath, JSON.stringify(mergedItems));
 fs.writeFileSync(statsPath, `${JSON.stringify(rebuiltStats, null, 2)}\n`);
 
 console.log(`تم استيراد ${freshEntries.length.toLocaleString("en-US")} مدخل جديد من أصل ${incomingRows.length.toLocaleString("en-US")} صف.`);
