@@ -48,24 +48,25 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
 
 
 
-        {/* العنوان */}
-        <h2
-          className="text-white text-5xl md:text-6xl font-bold mb-3 drop-shadow-2xl"
-          style={{ fontFamily: "Amiri, serif", textShadow: "0 2px 20px rgba(0,0,0,0.5)" }}
+        {/* العنوان — خط ثمانية المرجعي مثل مكنز القضاء والأنظمة */}
+        <h1
+          className="font-bold leading-tight mb-3 drop-shadow-2xl"
+          style={{ fontFamily: "Thmanyah Serif Display, serif", textShadow: "0 2px 20px rgba(0,0,0,0.5)" }}
         >
-          مكنز الدراسات العليا
-        </h2>
+          <span className="block text-2xl sm:text-3xl text-white">مكنز</span>
+          <span className="mt-1 block text-4xl sm:text-5xl md:text-6xl text-white">الدراسات العليا</span>
+        </h1>
 
         <p
-          className="text-indigo-200 text-base md:text-lg mb-8 max-w-xl"
-          style={{ fontFamily: "Cairo, sans-serif" }}
+          className="text-indigo-100 text-sm leading-7 sm:text-base mb-8 max-w-2xl"
+          style={{ fontFamily: "Thmanyah Serif Text, serif", fontWeight: 500 }}
         >
-          فهرس الرسائل العلمية والبحوث
+          فهرس الرسائل العلمية والبحوث وكتب المداخل
         </p>
 
         {/* ═══ بطاقات الإحصاءات — فوق البحث — لون موحّد ═══ */}
-        <div className="flex flex-wrap justify-center gap-3 w-full max-w-4xl mb-8" dir="ltr">
-          {/* ترتيب بصري ثابت LTR: إجمالي المواد ← الرسائل ← البحوث ← المداخل */}
+        <div className="flex flex-wrap justify-center gap-3 w-full max-w-4xl mb-8" dir="rtl">
+          {/* ترتيب عربي ظاهر: إجمالي المواد ← الرسائل ← البحوث ← المداخل */}
           <StatCard
             label="إجمالي المواد"
             value={loading ? "..." : (stats?.total_materials ?? stats?.total_items ?? 0).toLocaleString()}
