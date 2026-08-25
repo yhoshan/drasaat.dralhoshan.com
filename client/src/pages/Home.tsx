@@ -33,13 +33,18 @@ export interface ThesisItem {
   is_featured: boolean;
   download_links_count: number;
   date: string;
+  content_group?: "thesis" | "research" | "entry";
 }
 
 export interface Stats {
   total_items: number;
+  total_materials?: number;
   total_size_gb: number;
   total_size_mb: number;
   total_buhooth: number;
+  total_research?: number;
+  total_theses?: number;
+  total_entries?: number;
   total_masters: number;
   total_phd: number;
   degrees: Record<string, number>;
@@ -263,7 +268,7 @@ export default function Home() {
             <div className="flex items-center justify-between mb-6 flex-wrap gap-3">
               <div className="flex items-center gap-3">
                 <span className="text-indigo-700 dark:text-indigo-300 font-semibold" style={{ fontFamily: "Cairo, sans-serif" }}>
-                  {loading ? "جاري التحميل..." : `${filteredItems.length.toLocaleString()} رسالة`}
+                  {loading ? "جاري التحميل..." : `${filteredItems.length.toLocaleString()} مادة`}
                 </span>
                 {activeFiltersCount > 0 && (
                   <button

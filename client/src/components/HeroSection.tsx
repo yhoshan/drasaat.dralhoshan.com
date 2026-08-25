@@ -1,7 +1,7 @@
 /*
  * HeroSection — مكنز الدراسات العليا
- * مربعات إحصاءات موحّدة اللون فوق شريط البحث
- * توقيع د. الحوشان في الأعلى
+ * مربعات الإحصاءات: إجمالي المواد، الرسائل العلمية، البحوث، المداخل
+ * مبدأ التصميم: إبراز طبقات المحتوى الأكاديمي بوضوح فوق شريط البحث
  */
 import { Search } from "lucide-react";
 import type { Stats } from "@/pages/Home";
@@ -64,27 +64,28 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
         </p>
 
         {/* ═══ بطاقات الإحصاءات — فوق البحث — لون موحّد ═══ */}
-        <div className="flex flex-wrap justify-center gap-3 w-full max-w-3xl mb-8" dir="rtl">
+        <div className="flex flex-wrap justify-center gap-3 w-full max-w-4xl mb-8" dir="rtl">
           {/* الترتيب معكوس في الكود لأن RTL يعكسه تلقائياً */}
           <StatCard
-            label="البحوث المحكمة"
-            value={loading ? "..." : (stats?.total_buhooth || 2271).toLocaleString()}
-            sublabel="البحوث"
+            label="المداخل"
+            value={loading ? "..." : (stats?.total_entries || 0).toLocaleString()}
+            sublabel="كتب المداخل العلمية"
           />
           <StatCard
-            label="رسائل الماجستير"
-            value={loading ? "..." : (stats?.total_masters || 0).toLocaleString()}
-            sublabel="الماجستير"
+            label="البحوث"
+            value={loading ? "..." : (stats?.total_research ?? stats?.total_buhooth ?? 0).toLocaleString()}
+            sublabel="بحوث ترقية وأوراق علمية"
           />
           <StatCard
-            label="رسائل الدكتوراه"
-            value={loading ? "..." : (stats?.total_phd || 0).toLocaleString()}
-            sublabel="الدكتوراه"
+            label="الرسائل العلمية"
+            value={loading ? "..." : (stats?.total_theses ?? ((stats?.total_items || 0) - (stats?.total_research ?? stats?.total_buhooth ?? 0) - (stats?.total_entries || 0))).toLocaleString()}
+            sublabel="تتضمن الماجستير والدكتوراه"
+            detail={loading ? "" : `ماجستير ${(stats?.total_masters || 0).toLocaleString()} · دكتوراه ${(stats?.total_phd || 0).toLocaleString()}`}
           />
           <StatCard
-            label="إجمالي الرسائل"
-            value={loading ? "..." : (stats?.total_items || 0).toLocaleString()}
-            sublabel="رسالة علمية"
+            label="إجمالي المواد"
+            value={loading ? "..." : (stats?.total_materials ?? stats?.total_items ?? 0).toLocaleString()}
+            sublabel="إجمالي مواد المكنز"
           />
         </div>
 
@@ -129,11 +130,11 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
 }
 
 /* بطاقة إحصاء — لون موحّد شفاف داكن (مثل الصورة المرجعية) */
-function StatCard({ label, value, sublabel }: { label: string; value: string; sublabel: string }) {
+function StatCard({ label, value, sublabel, detail }: { label: string; value: string; sublabel: string; detail?: string }) {
   return (
     <div
       dir="rtl"
-      className="rounded-xl p-4 text-center transition-all hover:scale-105"
+      className="min-w-[148px] rounded-xl px-4 py-3 text-center transition-all hover:scale-105"
       style={{
         background: "rgba(15, 12, 60, 0.55)",
         border: "1px solid rgba(255,255,255,0.15)",
@@ -147,10 +148,16 @@ function StatCard({ label, value, sublabel }: { label: string; value: string; su
         {value}
       </div>
       <div
-        className="text-indigo-200 text-sm mt-1"
+        className="text-indigo-100 text-sm mt-1 font-semibold"
         style={{ fontFamily: "Cairo, sans-serif" }}
       >
-        {sublabel}
+        {label}
+      </div>
+      <div
+        className="text-indigo-300/80 text-[11px] mt-0.5 whitespace-nowrap"
+        style={{ fontFamily: "Tajawal, sans-serif" }}
+      >
+        {detail || sublabel}
       </div>
     </div>
   );
