@@ -80,7 +80,7 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("الكل");
   const [selectedDegree, setSelectedDegree] = useState("الكل");
-  const [selectedFileType, setSelectedFileType] = useState("الكل");
+  const [selectedSource, setSelectedSource] = useState("الكل");
   const [sortBy, setSortBy] = useState("default");
   const [currentPage, setCurrentPage] = useState(1);
   const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
@@ -130,8 +130,12 @@ export default function Home() {
       result = result.filter((item) => item.degree === selectedDegree);
     }
 
-    if (selectedFileType !== "الكل") {
-      result = result.filter((item) => item.file_type === selectedFileType);
+    if (selectedSource !== "الكل") {
+      result = result.filter((item) =>
+        item.source === selectedSource ||
+        item.source.split(" • ").includes(selectedSource) ||
+        item.external_links?.some((link) => (link.source_name || link.source) === selectedSource)
+      );
     }
 
     if (hasDownloadOnly) {
@@ -158,12 +162,12 @@ export default function Home() {
     }
 
     return result;
-  }, [allItems, searchQuery, selectedCategory, selectedDegree, selectedFileType, sortBy, hasDownloadOnly]);
+  }, [allItems, searchQuery, selectedCategory, selectedDegree, selectedSource, sortBy, hasDownloadOnly]);
 
   // إعادة ضبط الصفحة عند تغيير الفلتر
   useEffect(() => {
     setCurrentPage(1);
-  }, [searchQuery, selectedCategory, selectedDegree, selectedFileType, sortBy, hasDownloadOnly]);
+  }, [searchQuery, selectedCategory, selectedDegree, selectedSource, sortBy, hasDownloadOnly]);
 
   const totalPages = Math.ceil(filteredItems.length / PAGE_SIZE);
   const paginatedItems = filteredItems.slice(
@@ -187,22 +191,31 @@ export default function Home() {
     return ["الكل", ...degs];
   }, [stats]);
 
-  const fileTypes = useMemo(() => {
-    const fts = Object.keys(stats?.file_types || {});
-    return ["الكل", ...fts];
-  }, [stats]);
+  const sources = useMemo(() => {
+    const counts = new Map<string, number>();
+    allItems.forEach((item) => {
+      const itemSources = [
+        ...item.source.split(" • "),
+        ...(item.external_links?.map((link) => link.source_name || link.source || "") || []),
+      ].filter(Boolean);
+      Array.from(new Set(itemSources)).forEach((source) => counts.set(source, (counts.get(source) || 0) + 1));
+    });
+    return Array.from(counts.entries())
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ar"))
+      .map(([source]) => source);
+  }, [allItems]);
 
   const activeFiltersCount = [
     selectedCategory !== "الكل",
     selectedDegree !== "الكل",
-    selectedFileType !== "الكل",
+    selectedSource !== "الكل",
     hasDownloadOnly,
   ].filter(Boolean).length;
 
   const resetFilters = () => {
     setSelectedCategory("الكل");
     setSelectedDegree("الكل");
-    setSelectedFileType("الكل");
+    setSelectedSource("الكل");
     setHasDownloadOnly(false);
     setSortBy("default");
     setSearchQuery("");
@@ -247,17 +260,14 @@ export default function Home() {
           {/* شريط الفلتر الجانبي — شاشات كبيرة */}
           <aside className="hidden lg:block w-64 flex-shrink-0">
             <FilterBar
-              categories={categories}
               degrees={degrees}
-              fileTypes={fileTypes}
-              selectedCategory={selectedCategory}
+              sources={sources}
               selectedDegree={selectedDegree}
-              selectedFileType={selectedFileType}
+              selectedSource={selectedSource}
               sortBy={sortBy}
               hasDownloadOnly={hasDownloadOnly}
-              onCategoryChange={setSelectedCategory}
               onDegreeChange={setSelectedDegree}
-              onFileTypeChange={setSelectedFileType}
+              onSourceChange={setSelectedSource}
               onSortChange={setSortBy}
               onDownloadOnlyChange={setHasDownloadOnly}
               onReset={resetFilters}
@@ -313,17 +323,14 @@ export default function Home() {
       <MobileFilterDrawer
         open={mobileFilterOpen}
         onClose={() => setMobileFilterOpen(false)}
-        categories={categories}
         degrees={degrees}
-        fileTypes={fileTypes}
-        selectedCategory={selectedCategory}
+        sources={sources}
         selectedDegree={selectedDegree}
-        selectedFileType={selectedFileType}
+        selectedSource={selectedSource}
         sortBy={sortBy}
         hasDownloadOnly={hasDownloadOnly}
-        onCategoryChange={setSelectedCategory}
         onDegreeChange={setSelectedDegree}
-        onFileTypeChange={setSelectedFileType}
+        onSourceChange={setSelectedSource}
         onSortChange={setSortBy}
         onDownloadOnlyChange={setHasDownloadOnly}
         onReset={resetFilters}

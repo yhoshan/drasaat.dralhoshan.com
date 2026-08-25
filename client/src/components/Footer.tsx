@@ -142,14 +142,14 @@ export default function Footer() {
 
             {/* شعار المكانز */}
             <a
-              href="https://dralhoshan.com/"
+              href="https://almakanaz.dralhoshan.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center gap-2 hover:opacity-80 transition-opacity group"
               title="منصة المكانز العلمية"
             >
               <img
-                src="https://zadwarod.dralhoshan.com/manus-storage/makanez-icon_85f25650.png"
+                src="https://almakanaz.dralhoshan.com/manus-storage/ref-makanez-logo_f06cee65.png"
                 alt="شعار المكانز"
                 className="h-11 md:h-9 w-auto object-contain group-hover:scale-105 transition-transform"
               />

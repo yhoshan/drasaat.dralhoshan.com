@@ -5,17 +5,14 @@
 import { RotateCcw, Filter } from "lucide-react";
 
 interface FilterBarProps {
-  categories: string[];
   degrees: string[];
-  fileTypes: string[];
-  selectedCategory: string;
+  sources: string[];
   selectedDegree: string;
-  selectedFileType: string;
+  selectedSource: string;
   sortBy: string;
   hasDownloadOnly: boolean;
-  onCategoryChange: (v: string) => void;
   onDegreeChange: (v: string) => void;
-  onFileTypeChange: (v: string) => void;
+  onSourceChange: (v: string) => void;
   onSortChange: (v: string) => void;
   onDownloadOnlyChange: (v: boolean) => void;
   onReset: () => void;
@@ -33,10 +30,9 @@ const SORT_OPTIONS = [
 ];
 
 export default function FilterBar({
-  categories, degrees, fileTypes,
-  selectedCategory, selectedDegree, selectedFileType,
+  degrees, sources, selectedDegree, selectedSource,
   sortBy, hasDownloadOnly,
-  onCategoryChange, onDegreeChange, onFileTypeChange,
+  onDegreeChange, onSourceChange,
   onSortChange, onDownloadOnlyChange,
   onReset, activeFiltersCount, totalFiltered,
 }: FilterBarProps) {
@@ -86,6 +82,23 @@ export default function FilterBar({
         </select>
       </FilterSection>
 
+      {/* المصدر — في الموضع المرجعي أسفل الترتيب */}
+      <FilterSection title="المصدر">
+        <select
+          value={selectedSource}
+          onChange={(e) => onSourceChange(e.target.value)}
+          className="w-full text-sm border border-indigo-200 dark:border-border rounded-lg px-3 py-2 bg-white dark:bg-background text-gray-700 dark:text-gray-200 focus:outline-none focus:border-indigo-500"
+          style={{ fontFamily: "Cairo, sans-serif" }}
+        >
+          <option value="الكل">المصدر: الكل</option>
+          {sources.slice(0, 20).map((source) => (
+            <option key={source} value={source}>
+              {source.length > 42 ? `${source.slice(0, 42)}…` : source}
+            </option>
+          ))}
+        </select>
+      </FilterSection>
+
       {/* الدرجة العلمية */}
       <FilterSection title="الدرجة العلمية">
         <div className="space-y-1">
@@ -101,46 +114,6 @@ export default function FilterBar({
               style={{ fontFamily: "Cairo, sans-serif" }}
             >
               {deg}
-            </button>
-          ))}
-        </div>
-      </FilterSection>
-
-      {/* نوع الملف */}
-      <FilterSection title="نوع الملف">
-        <div className="flex flex-wrap gap-2">
-          {fileTypes.map((ft) => (
-            <button
-              key={ft}
-              onClick={() => onFileTypeChange(ft)}
-              className={`text-xs px-3 py-1.5 rounded-full border transition-colors ${
-                selectedFileType === ft
-                  ? "bg-indigo-600 text-white border-indigo-600"
-                  : "border-indigo-200 text-indigo-700 dark:text-indigo-300 hover:bg-indigo-50 dark:hover:bg-indigo-950"
-              }`}
-              style={{ fontFamily: "Tajawal, sans-serif" }}
-            >
-              {ft}
-            </button>
-          ))}
-        </div>
-      </FilterSection>
-
-      {/* التخصص */}
-      <FilterSection title="التخصص">
-        <div className="space-y-1 max-h-64 overflow-y-auto scrollbar-hide">
-          {categories.map((cat) => (
-            <button
-              key={cat}
-              onClick={() => onCategoryChange(cat)}
-              className={`w-full text-right text-xs px-3 py-1.5 rounded-lg transition-colors ${
-                selectedCategory === cat
-                  ? "bg-indigo-600 text-white"
-                  : "text-gray-600 dark:text-gray-300 hover:bg-indigo-50 dark:hover:bg-indigo-950"
-              }`}
-              style={{ fontFamily: "Cairo, sans-serif" }}
-            >
-              {cat}
             </button>
           ))}
         </div>
