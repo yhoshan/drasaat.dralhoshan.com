@@ -64,17 +64,12 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
         </p>
 
         {/* ═══ بطاقات الإحصاءات — فوق البحث — لون موحّد ═══ */}
-        <div className="flex flex-wrap justify-center gap-3 w-full max-w-4xl mb-8" dir="rtl">
-          {/* الترتيب معكوس في الكود لأن RTL يعكسه تلقائياً */}
+        <div className="flex flex-wrap justify-center gap-3 w-full max-w-4xl mb-8" dir="ltr">
+          {/* ترتيب بصري ثابت LTR: إجمالي المواد ← الرسائل ← البحوث ← المداخل */}
           <StatCard
-            label="المداخل"
-            value={loading ? "..." : (stats?.total_entries || 0).toLocaleString()}
-            sublabel="كتب المداخل العلمية"
-          />
-          <StatCard
-            label="البحوث"
-            value={loading ? "..." : (stats?.total_research ?? stats?.total_buhooth ?? 0).toLocaleString()}
-            sublabel="بحوث ترقية وأوراق علمية"
+            label="إجمالي المواد"
+            value={loading ? "..." : (stats?.total_materials ?? stats?.total_items ?? 0).toLocaleString()}
+            sublabel="إجمالي مواد المكنز"
           />
           <StatCard
             label="الرسائل العلمية"
@@ -83,9 +78,14 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
             detail={loading ? "" : `ماجستير ${(stats?.total_masters || 0).toLocaleString()} · دكتوراه ${(stats?.total_phd || 0).toLocaleString()}`}
           />
           <StatCard
-            label="إجمالي المواد"
-            value={loading ? "..." : (stats?.total_materials ?? stats?.total_items ?? 0).toLocaleString()}
-            sublabel="إجمالي مواد المكنز"
+            label="البحوث"
+            value={loading ? "..." : (stats?.total_research ?? stats?.total_buhooth ?? 0).toLocaleString()}
+            sublabel="بحوث ترقية وأوراق علمية"
+          />
+          <StatCard
+            label="المداخل"
+            value={loading ? "..." : (stats?.total_entries || 0).toLocaleString()}
+            sublabel="كتب المداخل العلمية"
           />
         </div>
 
