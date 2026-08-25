@@ -115,12 +115,6 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
               </button>
             )}
           </div>
-          <p
-            className="text-indigo-300/70 text-xs mt-2 text-center"
-            style={{ fontFamily: "Tajawal, sans-serif" }}
-          >
-            البحث يتجاهل الهمزات — (أ، إ، آ، ا) تُعامَل كحرف واحد
-          </p>
         </div>
       </div>
 
