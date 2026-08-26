@@ -40,7 +40,7 @@ export default function MobileFilterDrawer({
         {/* الرأس */}
         <div className="flex items-center justify-between p-4 border-b border-border sticky top-0 bg-background">
           <h3
-            className="text-indigo-700 dark:text-indigo-300 font-semibold"
+            className="text-teal-700 dark:text-teal-300 font-semibold"
             style={{ fontFamily: "Cairo, sans-serif" }}
           >
             الفلاتر
@@ -62,7 +62,7 @@ export default function MobileFilterDrawer({
         <div className="p-4 border-t border-border sticky bottom-0 bg-background">
           <button
             onClick={onClose}
-            className="w-full bg-indigo-600 text-white py-3 rounded-xl font-medium hover:bg-indigo-700 transition-colors"
+            className="w-full bg-teal-600 text-white py-3 rounded-xl font-medium hover:bg-teal-700 transition-colors"
             style={{ fontFamily: "Cairo, sans-serif" }}
           >
             عرض {filterProps.totalFiltered.toLocaleString()} رسالة

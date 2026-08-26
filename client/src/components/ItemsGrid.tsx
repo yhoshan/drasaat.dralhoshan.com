@@ -91,9 +91,9 @@ function ThesisCard({ item, index }: { item: ThesisItem; index: number }) {
       label: "دكتوراه",
     },
     "ماجستير": {
-      bg: "rgba(55,48,163,0.08)",
-      text: "#3730a3",
-      border: "rgba(55,48,163,0.25)",
+      bg: "rgba(52,186,198,0.12)",
+      text: "#0e7d88",
+      border: "rgba(52,186,198,0.32)",
       label: "ماجستير",
     },
     "بكالوريوس": {
@@ -103,9 +103,9 @@ function ThesisCard({ item, index }: { item: ThesisItem; index: number }) {
       label: "بكالوريوس",
     },
     "رسالة علمية": {
-      bg: "rgba(107,114,128,0.08)",
-      text: "#374151",
-      border: "rgba(107,114,128,0.2)",
+      bg: "rgba(52,186,198,0.10)",
+      text: "#0d6772",
+      border: "rgba(52,186,198,0.28)",
       label: "رسالة",
     },
     "بحث محكم": {
@@ -131,30 +131,30 @@ function ThesisCard({ item, index }: { item: ThesisItem; index: number }) {
   // لون الحد العلوي حسب الدرجة
   const topBorderColor = {
     "دكتوراه": "#b45309",
-    "ماجستير": "#4338ca",
+    "ماجستير": "#0e97a4",
     "بكالوريوس": "#059669",
-    "رسالة علمية": "#6366f1",
+    "رسالة علمية": "#34bac6",
     "بحث محكم": "#0e7490",
-  }[item.degree] || "#6366f1";
+  }[item.degree] || "#34bac6";
 
   return (
     <div
-      className="bg-white dark:bg-card rounded-xl shadow-sm border border-indigo-100 dark:border-border p-4 flex flex-col gap-3 transition-all duration-200 hover:-translate-y-1"
+      className="bg-white dark:bg-card rounded-xl shadow-sm border border-teal-100 dark:border-border p-4 flex flex-col gap-3 transition-all duration-200 hover:-translate-y-1"
       style={{
         borderTop: `3px solid ${topBorderColor}`,
-        boxShadow: "0 1px 4px rgba(55,48,163,0.08)",
+        boxShadow: "0 1px 4px rgba(14,125,136,0.10)",
       }}
       onMouseEnter={(e) => {
-        (e.currentTarget as HTMLDivElement).style.boxShadow = `0 8px 24px rgba(55,48,163,0.14)`;
+        (e.currentTarget as HTMLDivElement).style.boxShadow = `0 8px 24px rgba(14,125,136,0.18)`;
       }}
       onMouseLeave={(e) => {
-        (e.currentTarget as HTMLDivElement).style.boxShadow = `0 1px 4px rgba(55,48,163,0.08)`;
+        (e.currentTarget as HTMLDivElement).style.boxShadow = `0 1px 4px rgba(14,125,136,0.10)`;
       }}
     >
       {/* الرأس: رقم + شارات */}
       <div className="flex items-center justify-between gap-2">
         <span
-          className="text-xs text-indigo-300 dark:text-indigo-500 font-mono"
+          className="text-xs text-teal-400 dark:text-teal-300 font-mono"
           style={{ fontFamily: "Tajawal, sans-serif" }}
         >
           #{index.toLocaleString()}
@@ -197,8 +197,8 @@ function ThesisCard({ item, index }: { item: ThesisItem; index: number }) {
       {/* بيانات فهرسية */}
       <div className="space-y-1 text-xs" style={{ fontFamily: "Cairo, sans-serif" }}>
         {item.category && item.category !== "دراسات متنوعة" && (
-          <div className="flex items-center gap-1.5 text-indigo-600 dark:text-indigo-400">
-            <span className="w-1 h-1 rounded-full bg-indigo-400 flex-shrink-0" />
+          <div className="flex items-center gap-1.5 text-teal-700 dark:text-teal-300">
+            <span className="w-1 h-1 rounded-full bg-teal-400 flex-shrink-0" />
             {item.category}
           </div>
         )}
@@ -213,7 +213,7 @@ function ThesisCard({ item, index }: { item: ThesisItem; index: number }) {
       {/* أزرار الإجراءات */}
       <div
         className="flex items-center gap-2 pt-2"
-        style={{ borderTop: "1px solid rgba(99,102,241,0.1)" }}
+        style={{ borderTop: "1px solid rgba(52,186,198,0.24)" }}
       >
         {item.link_telegram && (
           <a
@@ -222,7 +222,7 @@ function ThesisCard({ item, index }: { item: ThesisItem; index: number }) {
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-xs text-white px-3 py-1.5 rounded-lg transition-all hover:scale-105 flex-1 justify-center"
             style={{
-              background: "linear-gradient(135deg, #3730a3, #4f46e5)",
+              background: "linear-gradient(135deg, #168590, #34BAC6)",
               fontFamily: "Cairo, sans-serif",
             }}
           >
@@ -244,7 +244,7 @@ function ThesisCard({ item, index }: { item: ThesisItem; index: number }) {
         )}
         <button
           onClick={handleCopy}
-          className="flex items-center gap-1 text-xs text-gray-400 hover:text-indigo-600 px-2 py-1.5 rounded-lg hover:bg-indigo-50 dark:hover:bg-indigo-950 transition-colors"
+          className="flex items-center gap-1 text-xs text-gray-400 hover:text-teal-700 px-2 py-1.5 rounded-lg hover:bg-teal-50 dark:hover:bg-teal-950 transition-colors"
           title="نسخ الرابط"
         >
           {copied
@@ -284,7 +284,7 @@ function Pagination({ currentPage, totalPages, totalItems, pageSize, onPageChang
   }
 
   return (
-    <div className="flex flex-col items-center gap-4 py-8 border-t border-indigo-100 dark:border-border mt-4">
+    <div className="flex flex-col items-center gap-4 py-8 border-t border-teal-100 dark:border-border mt-4">
       <p
         className="text-sm text-gray-500"
         style={{ fontFamily: "Tajawal, sans-serif" }}
@@ -295,7 +295,7 @@ function Pagination({ currentPage, totalPages, totalItems, pageSize, onPageChang
         <button
           onClick={() => onPageChange(currentPage - 1)}
           disabled={currentPage === 1}
-          className="px-3 py-2 rounded-lg border border-indigo-200 text-indigo-700 disabled:opacity-40 disabled:cursor-not-allowed hover:bg-indigo-50 transition-colors text-sm"
+          className="px-3 py-2 rounded-lg border border-teal-200 text-teal-700 disabled:opacity-40 disabled:cursor-not-allowed hover:bg-teal-50 transition-colors text-sm"
           style={{ fontFamily: "Cairo, sans-serif" }}
         >
           ‹ السابق
@@ -311,12 +311,12 @@ function Pagination({ currentPage, totalPages, totalItems, pageSize, onPageChang
               className={`w-9 h-9 rounded-lg text-sm font-medium transition-all ${
                 currentPage === page
                   ? "text-white shadow-sm scale-110"
-                  : "border border-indigo-200 text-indigo-700 hover:bg-indigo-50"
+                  : "border border-teal-200 text-teal-700 hover:bg-teal-50"
               }`}
               style={{
                 fontFamily: "Tajawal, sans-serif",
                 background: currentPage === page
-                  ? "linear-gradient(135deg, #3730a3, #4f46e5)"
+                  ? "linear-gradient(135deg, #168590, #34BAC6)"
                   : undefined,
               }}
             >
@@ -328,7 +328,7 @@ function Pagination({ currentPage, totalPages, totalItems, pageSize, onPageChang
         <button
           onClick={() => onPageChange(currentPage + 1)}
           disabled={currentPage === totalPages}
-          className="px-3 py-2 rounded-lg border border-indigo-200 text-indigo-700 disabled:opacity-40 disabled:cursor-not-allowed hover:bg-indigo-50 transition-colors text-sm"
+          className="px-3 py-2 rounded-lg border border-teal-200 text-teal-700 disabled:opacity-40 disabled:cursor-not-allowed hover:bg-teal-50 transition-colors text-sm"
           style={{ fontFamily: "Cairo, sans-serif" }}
         >
           التالي ›

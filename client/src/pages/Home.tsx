@@ -245,8 +245,8 @@ export default function Home() {
                 onClick={() => setSelectedCategory(category)}
                 className={`flex-shrink-0 px-4 py-1.5 rounded-full text-sm font-medium transition-all duration-200 ${
                   selectedCategory === category
-                    ? "bg-indigo-700 text-white shadow-sm"
-                    : "bg-indigo-50 text-indigo-700 hover:bg-indigo-100 dark:bg-indigo-950 dark:text-indigo-300"
+                    ? "bg-teal-600 text-white shadow-sm"
+                    : "bg-teal-50 text-teal-700 hover:bg-teal-100 dark:bg-teal-950 dark:text-teal-300"
                 }`}
                 style={{ fontFamily: "Cairo, sans-serif" }}
               >
@@ -280,7 +280,7 @@ export default function Home() {
           <main className="flex-1 min-w-0">
             <div className="flex items-center justify-between mb-6 flex-wrap gap-3">
               <div className="flex items-center gap-3">
-                <span className="text-indigo-700 dark:text-indigo-300 font-semibold" style={{ fontFamily: "Cairo, sans-serif" }}>
+                <span className="text-teal-700 dark:text-teal-300 font-semibold" style={{ fontFamily: "Cairo, sans-serif" }}>
                   {loading ? "جاري التحميل..." : `${filteredItems.length.toLocaleString()} مادة`}
                 </span>
                 {activeFiltersCount > 0 && (
@@ -292,7 +292,7 @@ export default function Home() {
 
               <button
                 onClick={() => setMobileFilterOpen(true)}
-                className="lg:hidden flex items-center gap-2 px-4 py-2 bg-indigo-700 text-white rounded-lg text-sm font-medium"
+                className="lg:hidden flex items-center gap-2 px-4 py-2 bg-teal-600 text-white rounded-lg text-sm font-medium"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2a1 1 0 01-.293.707L13 13.414V19a1 1 0 01-.553.894l-4 2A1 1 0 017 21v-7.586L3.293 6.707A1 1 0 013 6V4z" />
