@@ -1,10 +1,9 @@
 /*
- * مكنز الدراسات العليا — الصفحة الرئيسية
- * الألوان: نيلي فاتح (Indigo) على خلفيات بيضاء/كريمية
- * الخطوط: Amiri للعناوين، Cairo للنصوص، Tajawal للتفاصيل
+ * Home — مكنز الدراسات العليا
+ * مبدأ البيانات: تحميل الإحصاءات الصغيرة مستقلاً كي تظهر العدادات فوراً،
+ * ثم تحميل قاعدة المواد الكبيرة للبحث والتصفية والبطاقات.
  */
-import { useState, useEffect, useMemo, useCallback, useRef } from "react";
-import { useTheme } from "@/contexts/ThemeContext";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import FilterBar from "@/components/FilterBar";
@@ -60,7 +59,6 @@ export interface Stats {
   with_download_links: number;
 }
 
-// تطبيع الهمزات للبحث
 function normalizeArabic(text: string): string {
   return text
     .replace(/[أإآا]/g, "ا")
@@ -77,6 +75,7 @@ export default function Home() {
   const [allItems, setAllItems] = useState<ThesisItem[]>([]);
   const [stats, setStats] = useState<Stats | null>(null);
   const [loading, setLoading] = useState(true);
+  const [statsLoading, setStatsLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("الكل");
   const [selectedDegree, setSelectedDegree] = useState("الكل");
@@ -87,38 +86,54 @@ export default function Home() {
   const [hasDownloadOnly, setHasDownloadOnly] = useState(false);
   const resultsRef = useRef<HTMLDivElement>(null);
 
-  // تحميل البيانات
   useEffect(() => {
-    const loadData = async () => {
+    let cancelled = false;
+
+    const loadStats = async () => {
       try {
-        const [itemsRes, statsRes] = await Promise.all([
-          fetch("/items.json"),
-          fetch("/stats.json"),
-        ]);
-        const items = await itemsRes.json();
-        const statsData = await statsRes.json();
-        setAllItems(items);
-        setStats(statsData);
-      } catch (err) {
-        console.error("خطأ في تحميل البيانات:", err);
+        // قيمة صغيرة تُجلب بعنوان جديد لتفادي بقاء إحصاءات قديمة في الكاش.
+        const response = await fetch(`/stats.json?updated=${Date.now()}`, { cache: "no-store" });
+        if (!response.ok) throw new Error(`تعذر تحميل الإحصاءات (${response.status})`);
+        const data = (await response.json()) as Stats;
+        if (!cancelled) setStats(data);
+      } catch (error) {
+        console.error("خطأ في تحميل الإحصاءات:", error);
       } finally {
-        setLoading(false);
+        if (!cancelled) setStatsLoading(false);
       }
     };
-    loadData();
+
+    const loadItems = async () => {
+      try {
+        const response = await fetch("/items.json");
+        if (!response.ok) throw new Error(`تعذر تحميل المواد (${response.status})`);
+        const data = (await response.json()) as ThesisItem[];
+        if (!cancelled) setAllItems(data);
+      } catch (error) {
+        console.error("خطأ في تحميل المواد:", error);
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
+    };
+
+    void loadStats();
+    void loadItems();
+
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
-  // التصفية والبحث
   const filteredItems = useMemo(() => {
     let result = [...allItems];
-    const q = normalizeArabic(searchQuery);
+    const query = normalizeArabic(searchQuery);
 
-    if (q.length > 1) {
+    if (query.length > 1) {
       result = result.filter((item) =>
-        normalizeArabic(item.title).includes(q) ||
-        normalizeArabic(item.category).includes(q) ||
-        normalizeArabic(item.author).includes(q) ||
-        normalizeArabic(item.degree).includes(q)
+        normalizeArabic(item.title).includes(query) ||
+        normalizeArabic(item.category).includes(query) ||
+        normalizeArabic(item.author).includes(query) ||
+        normalizeArabic(item.degree).includes(query)
       );
     }
 
@@ -142,7 +157,6 @@ export default function Home() {
       result = result.filter((item) => item.download_links_count > 0);
     }
 
-    // الترتيب
     switch (sortBy) {
       case "alpha":
         result.sort((a, b) => a.title.localeCompare(b.title, "ar"));
@@ -157,39 +171,27 @@ export default function Home() {
         result.sort((a, b) => a.category.localeCompare(b.category, "ar"));
         break;
       case "featured":
-        result.sort((a, b) => (b.is_featured ? 1 : 0) - (a.is_featured ? 1 : 0));
+        result.sort((a, b) => Number(b.is_featured) - Number(a.is_featured));
         break;
     }
 
     return result;
   }, [allItems, searchQuery, selectedCategory, selectedDegree, selectedSource, sortBy, hasDownloadOnly]);
 
-  // إعادة ضبط الصفحة عند تغيير الفلتر
   useEffect(() => {
     setCurrentPage(1);
   }, [searchQuery, selectedCategory, selectedDegree, selectedSource, sortBy, hasDownloadOnly]);
 
   const totalPages = Math.ceil(filteredItems.length / PAGE_SIZE);
-  const paginatedItems = filteredItems.slice(
-    (currentPage - 1) * PAGE_SIZE,
-    currentPage * PAGE_SIZE
-  );
+  const paginatedItems = filteredItems.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
 
   const handlePageChange = useCallback((page: number) => {
     setCurrentPage(page);
     resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   }, []);
 
-  // الأقسام والدرجات للفلتر
-  const categories = useMemo(() => {
-    const cats = Object.keys(stats?.categories || {});
-    return ["الكل", ...cats];
-  }, [stats]);
-
-  const degrees = useMemo(() => {
-    const degs = Object.keys(stats?.degrees || {});
-    return ["الكل", ...degs];
-  }, [stats]);
+  const categories = useMemo(() => ["الكل", ...Object.keys(stats?.categories || {})], [stats]);
+  const degrees = useMemo(() => ["الكل", ...Object.keys(stats?.degrees || {})], [stats]);
 
   const sources = useMemo(() => {
     const counts = new Map<string, number>();
@@ -198,7 +200,9 @@ export default function Home() {
         ...item.source.split(" • "),
         ...(item.external_links?.map((link) => link.source_name || link.source || "") || []),
       ].filter(Boolean);
-      Array.from(new Set(itemSources)).forEach((source) => counts.set(source, (counts.get(source) || 0) + 1));
+      Array.from(new Set(itemSources)).forEach((source) => {
+        counts.set(source, (counts.get(source) || 0) + 1);
+      });
     });
     return Array.from(counts.entries())
       .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ar"))
@@ -227,37 +231,34 @@ export default function Home() {
 
       <HeroSection
         stats={stats}
-        loading={loading}
+        loading={statsLoading}
         searchQuery={searchQuery}
         onSearchChange={setSearchQuery}
       />
 
-      {/* شريط التصفية السريعة للأقسام */}
       <div className="bg-white dark:bg-card border-b border-border sticky top-16 z-30 shadow-sm">
         <div className="container">
           <div className="flex items-center gap-2 py-3 overflow-x-auto scrollbar-hide">
-            {categories.slice(0, 12).map((cat) => (
+            {categories.slice(0, 12).map((category) => (
               <button
-                key={cat}
-                onClick={() => setSelectedCategory(cat)}
+                key={category}
+                onClick={() => setSelectedCategory(category)}
                 className={`flex-shrink-0 px-4 py-1.5 rounded-full text-sm font-medium transition-all duration-200 ${
-                  selectedCategory === cat
+                  selectedCategory === category
                     ? "bg-indigo-700 text-white shadow-sm"
                     : "bg-indigo-50 text-indigo-700 hover:bg-indigo-100 dark:bg-indigo-950 dark:text-indigo-300"
                 }`}
                 style={{ fontFamily: "Cairo, sans-serif" }}
               >
-                {cat}
+                {category}
               </button>
             ))}
           </div>
         </div>
       </div>
 
-      {/* المحتوى الرئيسي */}
       <div className="container py-8" ref={resultsRef}>
         <div className="flex gap-6">
-          {/* شريط الفلتر الجانبي — شاشات كبيرة */}
           <aside className="hidden lg:block w-64 flex-shrink-0">
             <FilterBar
               degrees={degrees}
@@ -276,25 +277,19 @@ export default function Home() {
             />
           </aside>
 
-          {/* شبكة النتائج */}
           <main className="flex-1 min-w-0">
-            {/* رأس النتائج */}
             <div className="flex items-center justify-between mb-6 flex-wrap gap-3">
               <div className="flex items-center gap-3">
                 <span className="text-indigo-700 dark:text-indigo-300 font-semibold" style={{ fontFamily: "Cairo, sans-serif" }}>
                   {loading ? "جاري التحميل..." : `${filteredItems.length.toLocaleString()} مادة`}
                 </span>
                 {activeFiltersCount > 0 && (
-                  <button
-                    onClick={resetFilters}
-                    className="text-xs text-red-500 hover:text-red-700 underline"
-                  >
+                  <button onClick={resetFilters} className="text-xs text-red-500 hover:text-red-700 underline">
                     مسح الفلاتر ({activeFiltersCount})
                   </button>
                 )}
               </div>
 
-              {/* زر الفلتر على الجوال */}
               <button
                 onClick={() => setMobileFilterOpen(true)}
                 className="lg:hidden flex items-center gap-2 px-4 py-2 bg-indigo-700 text-white rounded-lg text-sm font-medium"
@@ -319,7 +314,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* درج الفلتر على الجوال */}
       <MobileFilterDrawer
         open={mobileFilterOpen}
         onClose={() => setMobileFilterOpen(false)}
