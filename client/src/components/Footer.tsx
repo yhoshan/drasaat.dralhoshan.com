@@ -64,11 +64,11 @@ export default function Footer() {
   return (
     <footer className="mt-16" dir="rtl">
       {/* شريط المشاركة */}
-      <div className="bg-indigo-50 dark:bg-indigo-950 border-t border-indigo-100 dark:border-indigo-900 py-6">
+      <div className="bg-teal-50 dark:bg-teal-950 border-t border-teal-100 dark:border-teal-900 py-6">
         <div className="container">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p
-              className="text-indigo-700 dark:text-indigo-300 text-sm font-medium text-center md:text-right"
+              className="text-teal-800 dark:text-teal-200 text-sm font-medium text-center md:text-right"
               style={{ fontFamily: "Cairo, sans-serif" }}
             >
               ساهم في نشر المكنز{" "}
@@ -78,7 +78,7 @@ export default function Footer() {
               {/* نسخ الرابط */}
               <button
                 onClick={handleCopy}
-                className="flex items-center gap-1.5 text-xs bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full transition-colors"
+                className="flex items-center gap-1.5 text-xs bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 rounded-full transition-colors"
                 style={{ fontFamily: "Cairo, sans-serif" }}
               >
                 {copied ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
@@ -118,10 +118,10 @@ export default function Footer() {
       </div>
 
       {/* التذييل الرئيسي */}
-      <div className="bg-indigo-800 dark:bg-indigo-950 text-white py-10">
+      <div className="bg-[#34BAC6] dark:bg-[#168590] text-white py-10">
         <div className="container">
           {/* الصف الأول: التوقيع + شعار المكانز + الروابط */}
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-8 pb-8 border-b border-indigo-700 dark:border-indigo-800">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-8 pb-8 border-b border-white/25">
             {/* التوقيع */}
             <a
               href="https://dralhoshan.com/"
@@ -153,7 +153,7 @@ export default function Footer() {
                 alt="شعار المكانز"
                 className="h-11 md:h-9 w-auto object-contain group-hover:scale-105 transition-transform"
               />
-              <span className="text-xs text-indigo-300" style={{ fontFamily: "Tajawal, sans-serif" }}>
+              <span className="text-xs text-white/90" style={{ fontFamily: "Tajawal, sans-serif" }}>
                 منصة المكانز العلمية
               </span>
             </a>
@@ -164,14 +164,14 @@ export default function Footer() {
                 href={CHANNEL_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-indigo-200 hover:text-white transition-colors"
+                className="text-sm text-white/90 hover:text-white transition-colors"
                 style={{ fontFamily: "Cairo, sans-serif" }}
               >
                 📢 قناة المكنز على تيليجرام
               </a>
               <a
                 href={`mailto:${EMAIL}`}
-                className="text-sm text-indigo-200 hover:text-white transition-colors"
+                className="text-sm text-white/90 hover:text-white transition-colors"
                 style={{ fontFamily: "Cairo, sans-serif" }}
               >
                 ✉️ {EMAIL}
@@ -180,7 +180,7 @@ export default function Footer() {
                 href="https://nsooos.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-indigo-200 hover:text-white transition-colors"
+                className="text-sm text-white/90 hover:text-white transition-colors"
                 style={{ fontFamily: "Cairo, sans-serif" }}
               >
                 🌐 نصوص تراثية للباحثين
@@ -189,7 +189,7 @@ export default function Footer() {
           </div>
 
           {/* النصوص الإلزامية */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 text-sm text-indigo-200" style={{ fontFamily: "Cairo, sans-serif" }}>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 text-sm text-white/95" style={{ fontFamily: "Cairo, sans-serif" }}>
             <p>حقوق المواد محفوظة لمؤلفيها وناشريها.</p>
             <p>في حال عدم رغبتكم بنشر ما يخصكم، آمل المراسلة على: {EMAIL}</p>
             <p className="md:col-span-2">
@@ -198,14 +198,14 @@ export default function Footer() {
             </p>
             <p className="md:col-span-2">
               هل تبحث في السلاسل التراثية الأخرى؟{" "}
-              <a href="https://nsooos.com/" target="_blank" rel="noopener noreferrer" className="text-indigo-300 hover:text-white underline">
+              <a href="https://nsooos.com/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-white/80 underline">
                 انتقل لمنصة نصوص تراثية للباحثين
               </a>
             </p>
           </div>
 
           {/* حقوق النشر */}
-          <div className="text-center text-indigo-300 text-sm border-t border-indigo-700 pt-6" style={{ fontFamily: "Tajawal, sans-serif" }}>
+          <div className="text-center text-white/90 text-sm border-t border-white/30 pt-6" style={{ fontFamily: "Tajawal, sans-serif" }}>
             جميع الحقوق محفوظة © 2026 — مكنز الدراسات العليا لخدمة الباحثين. د. يوسف بن حمود الحوشان.
           </div>
         </div>
