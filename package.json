@@ -11,6 +11,7 @@
     "check": "tsc --noEmit",
     "format": "prettier --write .",
     "import:entries": "node scripts/import-entries.mjs"
+    ,"clean:titles": "node scripts/clean-title-noise.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
