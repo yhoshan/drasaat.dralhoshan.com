@@ -16,14 +16,11 @@ export default function Navbar() {
       <nav
         className="sticky top-0 z-50 shadow-lg"
         style={{
-          background: "linear-gradient(135deg, #1e1b4b 0%, #3730a3 60%, #1e1b4b 100%)",
-          borderBottom: "1px solid rgba(167,139,250,0.2)",
+          background: "#34BAC6",
+          borderBottom: "1px solid rgba(255,255,255,0.32)",
         }}
         dir="rtl"
       >
-        {/* خط ذهبي علوي */}
-        <div className="h-0.5 bg-gradient-to-r from-transparent via-amber-400 to-transparent opacity-50 absolute top-0 left-0 right-0" />
-
         <div className="container">
           <div className="flex items-center justify-between h-16">
 
@@ -37,9 +34,9 @@ export default function Navbar() {
               }}
               title="حول المكنز"
             >
-              <ShieldAlert className="w-4 h-4 text-amber-300 group-hover:text-amber-200 transition-colors" />
+              <ShieldAlert className="w-4 h-4 text-white transition-colors" />
               <span
-                className="text-amber-200 group-hover:text-white transition-colors leading-none"
+                className="text-white transition-colors leading-none"
                 style={{ fontFamily: "Cairo, sans-serif", fontSize: "9px", whiteSpace: "nowrap" }}
               >
                 حول المكنز
@@ -60,8 +57,8 @@ export default function Navbar() {
               title={isDark ? "الوضع النهاري" : "الوضع الليلي"}
             >
               {isDark
-                ? <Sun className="w-5 h-5 text-amber-300" />
-                : <Moon className="w-5 h-5 text-indigo-200" />
+                ? <Sun className="w-5 h-5 text-white" />
+                : <Moon className="w-5 h-5 text-white" />
               }
             </button>
           </div>
@@ -79,21 +76,20 @@ export default function Navbar() {
           <div
             className="relative w-full max-w-lg rounded-2xl shadow-2xl overflow-hidden"
             style={{
-              background: "linear-gradient(160deg, #1e1b4b 0%, #2d2a6e 100%)",
-              border: "1px solid rgba(167,139,250,0.35)",
+              background: "#0C5660",
+              border: "1px solid rgba(52,186,198,0.62)",
             }}
           >
-            {/* شريط ذهبي علوي */}
-            <div className="h-1 bg-gradient-to-r from-amber-500 via-yellow-300 to-amber-500 opacity-80" />
+            <div className="h-1 bg-[#34BAC6]" />
 
             {/* رأس النافذة */}
             <div className="flex items-center justify-between px-6 pt-5 pb-3">
               <div className="flex items-center gap-3">
                 <div
                   className="p-2 rounded-xl"
-                  style={{ background: "rgba(251,191,36,0.15)", border: "1px solid rgba(251,191,36,0.3)" }}
+                  style={{ background: "rgba(52,186,198,0.18)", border: "1px solid rgba(52,186,198,0.48)" }}
                 >
-                  <ShieldAlert className="w-5 h-5 text-amber-400" />
+                  <ShieldAlert className="w-5 h-5 text-[#A9F3F5]" />
                 </div>
                 <h2
                   className="text-lg font-bold text-white"
@@ -104,19 +100,19 @@ export default function Navbar() {
               </div>
               <button
                 onClick={() => setShowDisclaimer(false)}
-                className="p-1.5 rounded-lg text-indigo-300 hover:text-white hover:bg-white/10 transition-all"
+                className="p-1.5 rounded-lg text-cyan-100 hover:text-white hover:bg-white/10 transition-all"
               >
                 <X className="w-5 h-5" />
               </button>
             </div>
 
             {/* فاصل */}
-            <div className="mx-6 h-px bg-gradient-to-r from-transparent via-indigo-400/30 to-transparent" />
+            <div className="mx-6 h-px bg-gradient-to-r from-transparent via-cyan-200/45 to-transparent" />
 
             {/* نص إخلاء المسؤولية */}
             <div className="px-6 py-5">
               <p
-                className="leading-relaxed text-indigo-100"
+                className="leading-relaxed text-cyan-50"
                 style={{
                   fontFamily: "Cairo, sans-serif",
                   fontSize: "14.5px",
@@ -131,13 +127,13 @@ export default function Navbar() {
             {/* تذييل النافذة */}
             <div
               className="px-6 py-4 flex justify-end"
-              style={{ background: "rgba(0,0,0,0.2)", borderTop: "1px solid rgba(167,139,250,0.15)" }}
+              style={{ background: "rgba(0,0,0,0.16)", borderTop: "1px solid rgba(52,186,198,0.28)" }}
             >
               <button
                 onClick={() => setShowDisclaimer(false)}
                 className="px-4 py-1.5 rounded-lg text-sm font-medium text-white transition-all hover:opacity-90 active:scale-95"
                 style={{
-                  background: "linear-gradient(135deg, #4f46e5, #7c3aed)",
+                  background: "#34BAC6",
                   fontFamily: "Cairo, sans-serif",
                 }}
               >
