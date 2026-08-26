@@ -236,7 +236,7 @@ export default function Home() {
         onSearchChange={setSearchQuery}
       />
 
-      <div className="bg-white dark:bg-card border-b border-border sticky top-16 z-30 shadow-sm">
+      <div className="bg-[#34BAC6] dark:bg-[#168590] border-b border-[#168590] sticky top-16 z-30 shadow-sm">
         <div className="container">
           <div className="flex items-center gap-2 py-3 overflow-x-auto scrollbar-hide">
             {categories.slice(0, 12).map((category) => (
@@ -245,8 +245,8 @@ export default function Home() {
                 onClick={() => setSelectedCategory(category)}
                 className={`flex-shrink-0 px-4 py-1.5 rounded-full text-sm font-medium transition-all duration-200 ${
                   selectedCategory === category
-                    ? "bg-teal-600 text-white shadow-sm"
-                    : "bg-teal-50 text-teal-700 hover:bg-teal-100 dark:bg-teal-950 dark:text-teal-300"
+                    ? "bg-white text-[#0e7d88] shadow-sm"
+                    : "bg-white/15 text-white hover:bg-white/25 dark:bg-white/15 dark:text-white"
                 }`}
                 style={{ fontFamily: "Cairo, sans-serif" }}
               >
