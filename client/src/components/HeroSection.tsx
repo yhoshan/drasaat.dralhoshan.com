@@ -30,7 +30,7 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
         >
           <span className="block text-2xl sm:text-3xl text-white">مكنز</span>
           <span className="block text-2xl sm:text-3xl md:text-5xl text-white">الرسائل العلمية والبحوث الأكاديمية</span>
-          <span className="mt-2 block text-2xl sm:text-3xl md:text-4xl text-white">وكتب المداخل العلمية</span>
+          <span className="mt-2 block text-2xl sm:text-3xl md:text-4xl text-white">وكتب مداخل العلوم</span>
         </h1>
 
         {/* ═══ بطاقات الإحصاءات — فوق البحث — لون موحّد ═══ */}
@@ -39,23 +39,18 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
           <StatCard
             label="إجمالي المواد"
             value={loading ? "..." : (stats?.total_materials ?? stats?.total_items ?? 0).toLocaleString()}
-            sublabel="إجمالي مواد المكنز"
           />
           <StatCard
             label="الرسائل العلمية"
             value={loading ? "..." : (stats?.total_theses ?? ((stats?.total_items || 0) - (stats?.total_research ?? stats?.total_buhooth ?? 0) - (stats?.total_entries || 0))).toLocaleString()}
-            sublabel="تتضمن الماجستير والدكتوراه"
-            detail={loading ? "" : `ماجستير ${(stats?.total_masters || 0).toLocaleString()} · دكتوراه ${(stats?.total_phd || 0).toLocaleString()}`}
           />
           <StatCard
             label="البحوث"
             value={loading ? "..." : (stats?.total_research ?? stats?.total_buhooth ?? 0).toLocaleString()}
-            sublabel="بحوث ترقية وأوراق علمية"
           />
           <StatCard
             label="المداخل"
             value={loading ? "..." : (stats?.total_entries || 0).toLocaleString()}
-            sublabel="كتب المداخل العلمية"
           />
         </div>
 
@@ -92,7 +87,7 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
 }
 
 /* بطاقة إحصاء — لون موحّد شفاف داكن (مثل الصورة المرجعية) */
-function StatCard({ label, value, sublabel, detail }: { label: string; value: string; sublabel: string; detail?: string }) {
+function StatCard({ label, value }: { label: string; value: string }) {
   return (
     <div
       dir="rtl"
@@ -114,12 +109,6 @@ function StatCard({ label, value, sublabel, detail }: { label: string; value: st
         style={{ fontFamily: "Cairo, sans-serif" }}
       >
         {label}
-      </div>
-      <div
-        className="text-cyan-100/85 text-[11px] mt-0.5 whitespace-nowrap"
-        style={{ fontFamily: "Tajawal, sans-serif" }}
-      >
-        {detail || sublabel}
       </div>
     </div>
   );

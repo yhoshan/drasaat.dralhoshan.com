@@ -1,7 +1,7 @@
 /*
  * Home — مكنز الدراسات العليا
- * مبدأ البيانات: تحميل الإحصاءات الصغيرة مستقلاً كي تظهر العدادات فوراً،
- * ثم تحميل قاعدة المواد الكبيرة للبحث والتصفية والبطاقات.
+ * مبدأ البيانات: تحميل الإحصاءات ومعاينة الصفحة الأولى فوراً،
+ * ثم تحميل قاعدة المواد الكبيرة في الخلفية للبحث والتصفية والترقيم الكامل.
  */
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Navbar from "@/components/Navbar";
@@ -73,8 +73,10 @@ const PAGE_SIZE = 24;
 
 export default function Home() {
   const [allItems, setAllItems] = useState<ThesisItem[]>([]);
+  const [previewItems, setPreviewItems] = useState<ThesisItem[]>([]);
   const [stats, setStats] = useState<Stats | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [previewLoading, setPreviewLoading] = useState(true);
+  const [itemsLoaded, setItemsLoaded] = useState(false);
   const [statsLoading, setStatsLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("الكل");
@@ -103,24 +105,46 @@ export default function Home() {
       }
     };
 
+    const loadPreview = async () => {
+      try {
+        const response = await fetch("/home-preview.json");
+        if (!response.ok) throw new Error(`تعذر تحميل معاينة المواد (${response.status})`);
+        const data = (await response.json()) as ThesisItem[];
+        if (!cancelled) setPreviewItems(data);
+      } catch (error) {
+        console.error("خطأ في تحميل معاينة المواد:", error);
+      } finally {
+        if (!cancelled) setPreviewLoading(false);
+      }
+    };
+
     const loadItems = async () => {
       try {
         const response = await fetch("/items.json");
         if (!response.ok) throw new Error(`تعذر تحميل المواد (${response.status})`);
         const data = (await response.json()) as ThesisItem[];
-        if (!cancelled) setAllItems(data);
+        if (!cancelled) {
+          setAllItems(data);
+          setItemsLoaded(true);
+        }
       } catch (error) {
         console.error("خطأ في تحميل المواد:", error);
-      } finally {
-        if (!cancelled) setLoading(false);
       }
     };
 
     void loadStats();
-    void loadItems();
+    void loadPreview();
+
+    // تأخير طلب القاعدة الكبيرة حتى تُرسم الصفحة الأولى والمعاينة في إطار مستقل.
+    const firstFrame = window.requestAnimationFrame(() => {
+      window.requestAnimationFrame(() => {
+        void loadItems();
+      });
+    });
 
     return () => {
       cancelled = true;
+      window.cancelAnimationFrame(firstFrame);
     };
   }, []);
 
@@ -216,6 +240,21 @@ export default function Home() {
     hasDownloadOnly,
   ].filter(Boolean).length;
 
+  const requiresFullData =
+    searchQuery.trim().length > 0 ||
+    selectedCategory !== "الكل" ||
+    selectedDegree !== "الكل" ||
+    selectedSource !== "الكل" ||
+    sortBy !== "default" ||
+    hasDownloadOnly;
+
+  const showingPreview = !itemsLoaded && !requiresFullData;
+  const displayItems = showingPreview ? previewItems : paginatedItems;
+  const displayLoading = !itemsLoaded && (previewLoading || requiresFullData);
+  const displayTotalItems = showingPreview ? previewItems.length : filteredItems.length;
+  const displayTotalPages = showingPreview ? 1 : totalPages;
+  const displayCurrentPage = showingPreview ? 1 : currentPage;
+
   const resetFilters = () => {
     setSelectedCategory("الكل");
     setSelectedDegree("الكل");
@@ -281,7 +320,7 @@ export default function Home() {
             <div className="flex items-center justify-between mb-6 flex-wrap gap-3">
               <div className="flex items-center gap-3">
                 <span className="text-teal-700 dark:text-teal-300 font-semibold" style={{ fontFamily: "Cairo, sans-serif" }}>
-                  {loading ? "جاري التحميل..." : `${filteredItems.length.toLocaleString()} مادة`}
+                  {displayLoading ? "جاري التحميل..." : `${displayTotalItems.toLocaleString()} مادة`}
                 </span>
                 {activeFiltersCount > 0 && (
                   <button onClick={resetFilters} className="text-xs text-red-500 hover:text-red-700 underline">
@@ -302,11 +341,11 @@ export default function Home() {
             </div>
 
             <ItemsGrid
-              items={paginatedItems}
-              loading={loading}
-              currentPage={currentPage}
-              totalPages={totalPages}
-              totalItems={filteredItems.length}
+              items={displayItems}
+              loading={displayLoading}
+              currentPage={displayCurrentPage}
+              totalPages={displayTotalPages}
+              totalItems={displayTotalItems}
               onPageChange={handlePageChange}
               pageSize={PAGE_SIZE}
             />
