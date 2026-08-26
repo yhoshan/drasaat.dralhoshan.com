@@ -29,7 +29,7 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
           style={{ fontFamily: "Thmanyah Serif Display, serif", textShadow: "0 2px 20px rgba(0,0,0,0.18)" }}
         >
           <span className="block text-2xl sm:text-3xl text-white">مكنز</span>
-          <span className="block text-2xl sm:text-3xl md:text-5xl text-white">فهرس الرسائل العلمية والبحوث الأكاديمية</span>
+          <span className="block text-2xl sm:text-3xl md:text-5xl text-white">الرسائل العلمية والبحوث الأكاديمية</span>
           <span className="mt-2 block text-2xl sm:text-3xl md:text-4xl text-white">وكتب المداخل العلمية</span>
         </h1>
 
