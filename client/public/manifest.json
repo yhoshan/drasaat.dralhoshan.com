@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "مكنز الدراسات العليا",
+  "short_name": "بحوث",
+  "description": "فهرس الرسائل العلمية والبحوث الأكاديمية وكتب مداخل العلوم",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#34BAC6",
+  "theme_color": "#34BAC6",
+  "icons": [
+    {
+      "src": "/manus-storage/makanez-drasaat-home-screen-icon-v2-192_ea024836.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/manus-storage/makanez-drasaat-home-screen-icon-v2-512_d32f37b0.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
