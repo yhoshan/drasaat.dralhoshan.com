@@ -12,13 +12,13 @@
   "theme_color": "#34BAC6",
   "icons": [
     {
-      "src": "/manus-storage/makanez-drasaat-home-screen-icon-v2-192_ea024836.png",
+      "src": "/manus-storage/makanez-drasaat-home-screen-icon-full-v4-192_05d17937.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/manus-storage/makanez-drasaat-home-screen-icon-v2-512_d32f37b0.png",
+      "src": "/manus-storage/makanez-drasaat-home-screen-icon-full-v4-512_5b5f4ad0.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
