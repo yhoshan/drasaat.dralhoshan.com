@@ -69,6 +69,10 @@ function normalizeArabic(text: string): string {
     .toLowerCase();
 }
 
+function hasSunnahKeyword(title: string): boolean {
+  return normalizeArabic(title).includes("السنه");
+}
+
 const PAGE_SIZE = 24;
 
 export default function Home() {
@@ -179,6 +183,18 @@ export default function Home() {
 
     if (hasDownloadOnly) {
       result = result.filter((item) => item.download_links_count > 0);
+    }
+
+    const isDefaultLandingView =
+      query.length === 0 &&
+      selectedCategory === "الكل" &&
+      selectedDegree === "الكل" &&
+      selectedSource === "الكل" &&
+      sortBy === "default" &&
+      !hasDownloadOnly;
+
+    if (isDefaultLandingView) {
+      result.sort((a, b) => Number(hasSunnahKeyword(b.title)) - Number(hasSunnahKeyword(a.title)));
     }
 
     switch (sortBy) {
