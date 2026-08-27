@@ -25,7 +25,7 @@ export default function HeroSection({ stats, loading, searchQuery, onSearchChang
 
         {/* العنوان — خط ثمانية المرجعي مثل مكنز القضاء والأنظمة */}
         <h1
-          className="font-bold leading-tight mb-3 drop-shadow-2xl"
+          className="relative -top-3 font-bold leading-tight mb-3 drop-shadow-2xl"
           style={{ fontFamily: "Thmanyah Serif Display, serif", textShadow: "0 2px 20px rgba(0,0,0,0.18)" }}
         >
           <span className="block text-2xl sm:text-3xl text-white">مكنز</span>
