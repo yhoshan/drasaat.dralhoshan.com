@@ -6,7 +6,6 @@ import { useState } from "react";
 import { Copy, Check, Mail } from "lucide-react";
 
 const SITE_URL = "https://drasaat.dralhoshan.com";
-const CHANNEL_URL = "https://t.me/Arsail2020";
 const EMAIL = "yhoshan@gmail.com";
 
 export default function Footer() {
@@ -120,7 +119,7 @@ export default function Footer() {
       {/* التذييل الرئيسي */}
       <div className="bg-[#34BAC6] dark:bg-[#168590] text-white py-10">
         <div className="container">
-          {/* الصف الأول: التوقيع + شعار المكانز + الروابط */}
+          {/* الصف الأول: التوقيع + شعار المكانز */}
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-8 pb-8 border-b border-white/25">
             {/* التوقيع */}
             <a
@@ -158,34 +157,6 @@ export default function Footer() {
               </span>
             </a>
 
-            {/* روابط سريعة */}
-            <div className="flex flex-col items-center md:items-end gap-2">
-              <a
-                href={CHANNEL_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-white/90 hover:text-white transition-colors"
-                style={{ fontFamily: "Cairo, sans-serif" }}
-              >
-                📢 قناة المكنز على تيليجرام
-              </a>
-              <a
-                href={`mailto:${EMAIL}`}
-                className="text-sm text-white/90 hover:text-white transition-colors"
-                style={{ fontFamily: "Cairo, sans-serif" }}
-              >
-                ✉️ {EMAIL}
-              </a>
-              <a
-                href="https://nsooos.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-white/90 hover:text-white transition-colors"
-                style={{ fontFamily: "Cairo, sans-serif" }}
-              >
-                🌐 نصوص تراثية للباحثين
-              </a>
-            </div>
           </div>
 
           {/* النصوص الإلزامية */}
