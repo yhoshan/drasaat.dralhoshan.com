@@ -1,0 +1,652 @@
+{
+  "operation": "applied",
+  "source": "مكنز شيخ الإسلام ابن تيمية",
+  "source_records_examined": 3545,
+  "candidates": {
+    "total": 36,
+    "theses": 34,
+    "research": 2
+  },
+  "filtering": {
+    "ambiguous_or_incomplete_titles": 1,
+    "duplicates_within_source": 6,
+    "duplicates_in_target": 7
+  },
+  "additions": {
+    "total": 22,
+    "theses": 20,
+    "research": 2
+  },
+  "totals": {
+    "before": 116009,
+    "after": 116031
+  },
+  "validation": {
+    "ids_are_unique": true,
+    "addition_titles_are_unique_after_normalization": true,
+    "no_addition_title_exists_in_original_target": true,
+    "all_additions_have_a_documented_source_link": true
+  },
+  "source_repository": "yhoshan/ibntimiah.dralhoshan.com",
+  "source_data_file": "client/src/data/makknzz_data.json",
+  "import_policy": "رسائل أكاديمية بدليل صريح وأبحاث منشورة في مجلة علمية أو محكمة بدليل صريح فقط؛ العنوان هو أساس المقارنة؛ لا تعديل للسجلات الموجودة.",
+  "exclusions": [
+    {
+      "source_id": "38",
+      "title": "أصول التفسير بين شيخ الإسلام ابن تيمية وغيره من المفسرين عبد الله ديرية أبتدون -ماجستير",
+      "reason": "duplicate_within_source_after_normalization"
+    },
+    {
+      "source_id": "327",
+      "title": "شيخ الإسلام ابن تيمية وجهوده في الحديث وعلومه",
+      "reason": "duplicate_title_in_target_after_normalization"
+    },
+    {
+      "source_id": "328",
+      "title": "علم الحديث بين تقي الدين ابن تيمية والتاج السبكي، دراسة نظرية تطبيقية",
+      "reason": "duplicate_title_in_target_after_normalization"
+    },
+    {
+      "source_id": "734",
+      "title": "موقف شيخ الإسلام ابن تيمية من قضية الصفات الإلهية",
+      "reason": "duplicate_within_source_after_normalization"
+    },
+    {
+      "source_id": "737",
+      "title": "جهود شيخ الإسلام ابن تيمية في توضيح الإيمان بالقدر",
+      "reason": "duplicate_within_source_after_normalization"
+    },
+    {
+      "source_id": "741",
+      "title": "أجوبة شيخ الإسلام ابن تيمية عن الشبهات التفصيلية للمعطلة في الصفات الذاتية",
+      "reason": "duplicate_title_in_target_after_normalization"
+    },
+    {
+      "source_id": "1436",
+      "title": "اللغة والمعنى بين ابن حزم وابن تيمية",
+      "reason": "duplicate_title_in_target_after_normalization"
+    },
+    {
+      "source_id": "1826",
+      "title": "مناظرات ابن تيمية العقدية عبد الله الغامدي",
+      "reason": "duplicate_title_in_target_after_normalization"
+    },
+    {
+      "source_id": "1829",
+      "title": "التقسيمات العقدية عند شيخ الإسلام ابن تيمية جمعا ودراسة",
+      "reason": "duplicate_title_in_target_after_normalization"
+    },
+    {
+      "source_id": "2191",
+      "title": "أساليب تنمية القيم التربوية عند شيخ الإسلام بن تيمية",
+      "reason": "duplicate_within_source_after_normalization"
+    },
+    {
+      "source_id": "2886",
+      "title": "جهود تيمية في الدفاع عن آل البيت، د. خالد الرباح، دارالفضيلة",
+      "reason": "duplicate_title_in_target_after_normalization"
+    },
+    {
+      "source_id": "2977",
+      "title": "جهود شيخ الإسلام ابن تيمية في الحث على لزوم الجماعة والتحذير من الاختلاف والتفرق",
+      "reason": "duplicate_within_source_after_normalization"
+    },
+    {
+      "source_id": "2978",
+      "title": "جهود شيخ الإسلام ابن تيمية في الحث على لزوم الجماعة والتحذير من الاختلاف والتفرق",
+      "reason": "duplicate_within_source_after_normalization"
+    }
+  ],
+  "accepted_records": [
+    {
+      "id": "ibntimiah_academic_7",
+      "source_id": "7",
+      "title": "اختيارات ابن تيمية في التفسير من أول سورة الفاتحة إلى آخر سورة النساء: جمعًا وترتيبًا ودراسة",
+      "author": "محمد زيلعي هندي",
+      "degree": "دكتوراه",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "95876p.pdf",
+      "source_description": "اختيارات ابن تيمية في التفسير من أول سورة الفاتحة إلى آخر سورة النساء: جمعًا وترتيبًا ودراسة، محمد زيلعي هندي، جامعة الإمام محمد بن سعود، 2000م، دكتوراه )منشوره أيضًا باسم اختيارات ابن تيمية في التفسير ومنهجه في الترجيح. (1210",
+      "category": "غير مصنّف",
+      "tags": [
+        "التفسير وعلوم القرآن"
+      ],
+      "link_telegram": "https://t.me/makknzz/2243",
+      "link_drive": "",
+      "file_type": "PDF",
+      "file_size": "3.71 MB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "description",
+      "source_subject": "التفسير وعلوم القرآن"
+    },
+    {
+      "id": "ibntimiah_academic_37",
+      "source_id": "37",
+      "title": "أصول التفسير بين شيخ الإسلام ابن تيمية وغيره من المفسرين عبد الله ديرية أبتدون -ماجستير",
+      "author": "",
+      "degree": "ماجستير",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "أصول التفسير بين شيخ الإسلام ابن تيمية وغيره من المفسرين عبد الله....rar",
+      "source_description": "أصول التفسير بين شيخ الإسلام ابن تيمية وغيره من المفسرين عبد الله ديرية أبتدون -ماجستير",
+      "category": "غير مصنّف",
+      "tags": [
+        "التفسير وعلوم القرآن"
+      ],
+      "link_telegram": "https://t.me/makknzz/1908",
+      "link_drive": "",
+      "file_type": "RAR",
+      "file_size": "8.11 MB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "description",
+      "source_subject": "التفسير وعلوم القرآن"
+    },
+    {
+      "id": "ibntimiah_academic_168",
+      "source_id": "168",
+      "title": "توجيه القراءات عند شيخ الإسلام ابن تيمية وأثر ذلك في تفسيره دراسة نظرية تطبيقية ياسر بن حمزة بولشري",
+      "author": "",
+      "degree": "دكتوراه",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "توجيه القراءات عند شيخ الإسلام ابن تيمية.pdf",
+      "source_description": "توجيه القراءات عند شيخ الإسلام ابن تيمية وأثر ذلك في تفسيره دراسة نظرية تطبيقية ياسر بن حمزة بولشري دكتوراه التفسير",
+      "category": "غير مصنّف",
+      "tags": [
+        "التفسير وعلوم القرآن"
+      ],
+      "link_telegram": "https://t.me/makknzz/1925",
+      "link_drive": "",
+      "file_type": "PDF",
+      "file_size": "37.74 MB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "description",
+      "source_subject": "التفسير وعلوم القرآن"
+    },
+    {
+      "id": "ibntimiah_academic_472",
+      "source_id": "472",
+      "title": "موقف شيخ الإسلام ابن تيمية من المنطق الأرسطي خالد بن محمد عبد الكريم الزهراني",
+      "author": "",
+      "degree": "",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "دكتوراه خالد الزهراني كامل الرسالة .pdf",
+      "source_description": "موقف شيخ الإسلام ابن تيمية من المنطق الأرسطي خالد بن محمد عبد الكريم الزهراني الماجستير",
+      "category": "غير مصنّف",
+      "tags": [
+        "الرد على المخالفين"
+      ],
+      "link_telegram": "https://t.me/makknzz/1927",
+      "link_drive": "",
+      "file_type": "PDF",
+      "file_size": "3.05 MB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "description",
+      "source_subject": "الرد على المخالفين"
+    },
+    {
+      "id": "ibntimiah_academic_672",
+      "source_id": "672",
+      "title": "لمحات تاريخية من حياة ابن تيمية",
+      "author": "صالح بن سعيد هلابي",
+      "degree": "",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "لمحات من حياة شيخ الإسلام ابن تيمية.doc",
+      "source_description": "لمحات تاريخية من حياة ابن تيمية، صالح بن سعيد هلابي، مجلة الجامعة الإسلامية بالمدينة النبوية بالسعودية، مج2 ع1 وع2 سنة 1969م) 123 - 127( )119 - 135(.",
+      "category": "غير مصنّف",
+      "tags": [
+        "السيرة والتراجم والتاريخ"
+      ],
+      "link_telegram": "https://t.me/makknzz/2038",
+      "link_drive": "",
+      "file_type": "DOC",
+      "file_size": "1.36 MB",
+      "material_type": "بحث محكم",
+      "content_group": "research",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "description",
+      "source_subject": "السيرة والتراجم والتاريخ"
+    },
+    {
+      "id": "ibntimiah_academic_733",
+      "source_id": "733",
+      "title": "موقف شيخ الإسلام ابن تيمية من قضية الصفات الإلهية",
+      "author": "محمد يوسف هارون",
+      "degree": "ماجستير",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "ktp2019-tra20282.zip",
+      "source_description": "موقف شيخ الإسلام ابن تيمية من قضية الصفات الإلهية_محمد يوسف هارون_ماجستير",
+      "category": "غير مصنّف",
+      "tags": [
+        "العقيدة والتوحيد"
+      ],
+      "link_telegram": "https://t.me/makknzz/1910",
+      "link_drive": "",
+      "file_type": "ZIP",
+      "file_size": "7.33 MB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "description",
+      "source_subject": "العقيدة والتوحيد"
+    },
+    {
+      "id": "ibntimiah_academic_736",
+      "source_id": "736",
+      "title": "جهود شيخ الإسلام ابن تيمية في توضيح الإيمان بالقدر",
+      "author": "تامر محمد محمود متولي",
+      "degree": "دكتوراه",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "ktp2019-tra21351.zip",
+      "source_description": "جهود شيخ الإسلام ابن تيمية في توضيح الإيمان بالقدر_تامر محمد محمود متولي_دكتوراه",
+      "category": "غير مصنّف",
+      "tags": [
+        "العقيدة والتوحيد"
+      ],
+      "link_telegram": "https://t.me/makknzz/1912",
+      "link_drive": "",
+      "file_type": "ZIP",
+      "file_size": "1.45 MB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "description",
+      "source_subject": "العقيدة والتوحيد"
+    },
+    {
+      "id": "ibntimiah_academic_738",
+      "source_id": "738",
+      "title": "موافقة شيخ الإسلام ابن تيمية لأئمة السلف في تقرير القواعد والضوابط المتعلقة بباب الأسماء والصفات",
+      "author": "أحمد بن محمد بن الصادق النجار",
+      "degree": "ماجستير",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "ktp2019-tra21793.zip",
+      "source_description": "موافقة شيخ الإسلام ابن تيمية لأئمة السلف في تقرير القواعد والضوابط المتعلقة بباب الأسماء والصفات_أحمد بن محمد بن الصادق النجار_ماجستير",
+      "category": "غير مصنّف",
+      "tags": [
+        "العقيدة والتوحيد"
+      ],
+      "link_telegram": "https://t.me/makknzz/1681",
+      "link_drive": "",
+      "file_type": "ZIP",
+      "file_size": "5.34 MB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "description",
+      "source_subject": "العقيدة والتوحيد"
+    },
+    {
+      "id": "ibntimiah_academic_988",
+      "source_id": "988",
+      "title": "كتاب الإيمان الأوسط لشيخ الإسلام ابن تيمية",
+      "author": "",
+      "degree": "",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "كتاب الإيمان الأوسط لشيخ الإسلام ابن تيمية، رسالة علمية 1.pdf",
+      "source_description": "",
+      "category": "غير مصنّف",
+      "tags": [
+        "العقيدة والتوحيد"
+      ],
+      "link_telegram": "https://t.me/makknzz/1970",
+      "link_drive": "",
+      "file_type": "PDF",
+      "file_size": "10.43 MB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "file_name",
+      "source_subject": "العقيدة والتوحيد"
+    },
+    {
+      "id": "ibntimiah_academic_1012",
+      "source_id": "1012",
+      "title": "مسألة الإيمان وما يتعلق بها ملخص من كلام ابن تيمية",
+      "author": "",
+      "degree": "ماجستير",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "مسألة الإيمان ربيع 1.pdf",
+      "source_description": "مسألة الإيمان وما يتعلق بها ملخص من كلام ابن تيمية تأليف: محمد بن أحمد الذهبي (748هـ) دراسة وتحقيق رسالة علمية مقدمة لنيل درجة العالمية (الماجستير) إعداد الطالب نادر بن مرزوق مرضي العازمي",
+      "category": "غير مصنّف",
+      "tags": [
+        "العقيدة والتوحيد"
+      ],
+      "link_telegram": "https://t.me/makknzz/1918",
+      "link_drive": "",
+      "file_type": "PDF",
+      "file_size": "10.82 MB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "description",
+      "source_subject": "العقيدة والتوحيد"
+    },
+    {
+      "id": "ibntimiah_academic_1048",
+      "source_id": "1048",
+      "title": "مباحث الأمر التي انتقدها شيخ الإسلام ابن تيمية في مجموع الفتاوى",
+      "author": "سليمان الرحيلي",
+      "degree": "",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "307 mbahth amr timiah.doc",
+      "source_description": "مباحث الأمر التي انتقدها شيخ الإسلام ابن تيمية في مجموع الفتاوى، سليمان الرحيلي، مجلة الجامعة الإسلامية بالمدينة النبوية، ع123 سنة1424هـ)، 353 - 437(.",
+      "category": "غير مصنّف",
+      "tags": [
+        "الفقه وأصوله"
+      ],
+      "link_telegram": "https://t.me/makknzz/2042",
+      "link_drive": "",
+      "file_type": "DOC",
+      "file_size": "371.50 KB",
+      "material_type": "بحث محكم",
+      "content_group": "research",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "description",
+      "source_subject": "الفقه وأصوله"
+    },
+    {
+      "id": "ibntimiah_academic_1061",
+      "source_id": "1061",
+      "title": "القواعد الكلية لابن تيمية",
+      "author": "محيسن بن عبد الرحمن المحيسن",
+      "degree": "ماجستير",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "Figh06564 القواعد النورانية الفقهية باسمها الصحيح القواعد الكلية.pdf",
+      "source_description": "القواعد الكلية لابن تيمية، محيسن بن عبد الرحمن المحيسن، رسالة ماجستير.",
+      "category": "غير مصنّف",
+      "tags": [
+        "الفقه وأصوله"
+      ],
+      "link_telegram": "https://t.me/makknzz/1980",
+      "link_drive": "",
+      "file_type": "PDF",
+      "file_size": "11.09 MB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "description",
+      "source_subject": "الفقه وأصوله"
+    },
+    {
+      "id": "ibntimiah_academic_1178",
+      "source_id": "1178",
+      "title": "القواعد الفقهية الخمس الكبرى والقواعد المندرجة تحتها (جمع ودراسة من مجموع فتاوى شيخ الإسلام ابن تيمية)",
+      "author": "اسماعيل علوان",
+      "degree": "دكتوراه",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "القواعد الفقهية الخمس الكبرى والقواعد المندرجة تحتها (جمع ودراسة من مجموع فتاوى....pdf",
+      "source_description": "القواعد الفقهية الخمس الكبرى والقواعد المندرجة تحتها (جمع ودراسة من مجموع فتاوى شيخ الإسلام ابن تيمية – دكتوراه) اسماعيل علوان",
+      "category": "غير مصنّف",
+      "tags": [
+        "الفقه وأصوله"
+      ],
+      "link_telegram": "https://t.me/makknzz/1658",
+      "link_drive": "",
+      "file_type": "PDF",
+      "file_size": "10.07 MB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "description",
+      "source_subject": "الفقه وأصوله"
+    },
+    {
+      "id": "ibntimiah_academic_1394",
+      "source_id": "1394",
+      "title": "مفردات الحنفية التي اختارها شيخ الإسلام ابن تيمية دراسة نظرية تطبيقية",
+      "author": "",
+      "degree": "دكتوراه",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "مفردات الحنفية التي اختارها شيخ الإسلام ابن تيمية دراسة نظرية تطبيقية.pdf",
+      "source_description": "مفردات الحنفية التي اختارها شيخ الاسلام ابن تيمية- دكتوراه- علي الحارثي",
+      "category": "غير مصنّف",
+      "tags": [
+        "الفقه وأصوله"
+      ],
+      "link_telegram": "https://t.me/makknzz/2378",
+      "link_drive": "",
+      "file_type": "PDF",
+      "file_size": "5.36 MB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "file_name",
+      "source_subject": "الفقه وأصوله"
+    },
+    {
+      "id": "ibntimiah_academic_1449",
+      "source_id": "1449",
+      "title": "صورة ابن تيمية في أدب العصر المملوكي الأول",
+      "author": "",
+      "degree": "",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "سوسن أحمد يوسف نبريصي.pdf",
+      "source_description": "صورة ابن تيمية في أدب العصر المملوكي الأول رسالة علمية من جامعة النجاح الوطنية",
+      "category": "غير مصنّف",
+      "tags": [
+        "اللغة والبلاغة"
+      ],
+      "link_telegram": "https://t.me/makknzz/5361",
+      "link_drive": "",
+      "file_type": "PDF",
+      "file_size": "1.51 MB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "description",
+      "source_subject": "اللغة والبلاغة"
+    },
+    {
+      "id": "ibntimiah_academic_1864",
+      "source_id": "1864",
+      "title": "الخلاف في القواعد الأصولية المتعلقة بدلالة الألفاظ من حيث الشمول وعدمه وموقف شيخ الإسلام ابن تيمية منها",
+      "author": "محمد سنان سيف غالب",
+      "degree": "دكتوراه",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "Figh15386 الخلاف في القواعد الأصولية المتعلقة بدلالة الألفاظ من.pdf",
+      "source_description": "الخلاف في القواعد الأصولية المتعلقة بدلالة الألفاظ من حيث الشمول وعدمه وموقف شيخ الإسلام ابن تيمية منها، محمد سنان سيف غالب، الجامعة الإسلامية بالمدينة النبوية، 1408هـ، دكتوراه.",
+      "category": "غير مصنّف",
+      "tags": [
+        "متنوع / عام"
+      ],
+      "link_telegram": "https://t.me/makknzz/1978",
+      "link_drive": "",
+      "file_type": "PDF",
+      "file_size": "11.33 MB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "description",
+      "source_subject": "متنوع / عام"
+    },
+    {
+      "id": "ibntimiah_academic_2099",
+      "source_id": "2099",
+      "title": "استدراكات ابن تيمية فيما نسب إلى الامام أحمد في العبادات",
+      "author": "",
+      "degree": "",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "olmaa00871 استدراكات ابن تيمية فيما.pdf",
+      "source_description": "olmaa00871 استدراكات ابن تيمية فيما نسب إلى الامام أحمد في العبادات رسالة علمية.pdf",
+      "category": "غير مصنّف",
+      "tags": [
+        "متنوع / عام"
+      ],
+      "link_telegram": "https://t.me/makknzz/2008",
+      "link_drive": "",
+      "file_type": "PDF",
+      "file_size": "243.43 KB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "description",
+      "source_subject": "متنوع / عام"
+    },
+    {
+      "id": "ibntimiah_academic_2190",
+      "source_id": "2190",
+      "title": "أساليب تنمية القيم التربوية عند شيخ الإسلام بن تيمية",
+      "author": "عبده أحمد علي حسن العمري",
+      "degree": "ماجستير",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "أساليب تنمية القيم التربوية عند شيخ الإسلام ابن تيمية للباجث عبده.docx",
+      "source_description": "أساليب تنمية القيم التربوية عند شيخ الإسلام بن تيمية_عبده أحمد علي حسن العمري_ماجستير",
+      "category": "غير مصنّف",
+      "tags": [
+        "متنوع / عام"
+      ],
+      "link_telegram": "https://t.me/makknzz/1914",
+      "link_drive": "",
+      "file_type": "DOCX",
+      "file_size": "1.25 MB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "description",
+      "source_subject": "متنوع / عام"
+    },
+    {
+      "id": "ibntimiah_academic_2352",
+      "source_id": "2352",
+      "title": "جهود شيخ الإسلام ابن تيمية في توضيح أشراط الساعة سعود بن مصلح بن حمدي الصاعدي",
+      "author": "",
+      "degree": "دكتوراه",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "اشراط الساعة ابن تيمية.pdf",
+      "source_description": "جهود شيخ الإسلام ابن تيمية في توضيح أشراط الساعة سعود بن مصلح بن حمدي الصاعدي دكتوراه",
+      "category": "غير مصنّف",
+      "tags": [
+        "متنوع / عام"
+      ],
+      "link_telegram": "https://t.me/makknzz/1920",
+      "link_drive": "",
+      "file_type": "PDF",
+      "file_size": "5.17 MB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "description",
+      "source_subject": "متنوع / عام"
+    },
+    {
+      "id": "ibntimiah_academic_2438",
+      "source_id": "2438",
+      "title": "الأحاديث المرفوعة والموقوفة في كتاب اقتضاء الصراط المستقيم لابن تيميَّة، الجزء الأول من بداية فصل \"في حال الناس قبل الإسلام\" إلى نهاية فصل \"في مشابهتهم فيما ليس من شرعنا\"، تخريجًا ودراسة.",
+      "author": "",
+      "degree": "ماجستير",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "الأحاديث المرفوعة والموقوفة في كتاب اقتضاء الصراط المستقيم لابن.pdf",
+      "source_description": "الأحاديث المرفوعة والموقوفة في كتاب اقتضاء الصراط المستقيم لابن تيميَّة، الجزء الأول من بداية فصل \"في حال الناس قبل الإسلام\" إلى نهاية فصل \"في مشابهتهم فيما ليس من شرعنا\"، تخريجًا ودراسة. ماجستير",
+      "category": "غير مصنّف",
+      "tags": [
+        "متنوع / عام"
+      ],
+      "link_telegram": "https://t.me/makknzz/6673",
+      "link_drive": "https://drive.google.com/uc?export=download&id=1S_XfflYcqw60TPMTQWEajo1evKjskGw5",
+      "file_type": "PDF",
+      "file_size": "8.91 MB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 2,
+      "title_selection_source": "description",
+      "source_subject": "متنوع / عام"
+    },
+    {
+      "id": "ibntimiah_academic_2970",
+      "source_id": "2970",
+      "title": "موقف شيخ الإسلام ابن تيمية من تقديس الأماكن والأزمان",
+      "author": "أبو بكر صار",
+      "degree": "ماجستير",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "رسالة أبي بكر صار.doc",
+      "source_description": "موقف شيخ الإسلام ابن تيمية من تقديس الأماكن والأزمان_أبو بكر صار_ماجستير",
+      "category": "غير مصنّف",
+      "tags": [
+        "متنوع / عام"
+      ],
+      "link_telegram": "https://t.me/makknzz/1682",
+      "link_drive": "",
+      "file_type": "DOC",
+      "file_size": "6.03 MB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "description",
+      "source_subject": "متنوع / عام"
+    },
+    {
+      "id": "ibntimiah_academic_2976",
+      "source_id": "2976",
+      "title": "جهود شيخ الإسلام ابن تيمية في الحث على لزوم الجماعة والتحذير من الاختلاف والتفرق",
+      "author": "أبو بكر",
+      "degree": "دكتوراه",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "رسالة الدكتوراه بعنوان جهود شيخ الإسلام ابن تيمية في الحث .doc",
+      "source_description": "جهود شيخ الإسلام ابن تيمية في الحث على لزوم الجماعة والتحذير من الاختلاف والتفرق_أبو بكر_دكتوراه",
+      "category": "غير مصنّف",
+      "tags": [
+        "متنوع / عام"
+      ],
+      "link_telegram": "https://t.me/makknzz/1916",
+      "link_drive": "",
+      "file_type": "DOC",
+      "file_size": "5.16 MB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_selection_source": "description",
+      "source_subject": "متنوع / عام"
+    }
+  ]
+}

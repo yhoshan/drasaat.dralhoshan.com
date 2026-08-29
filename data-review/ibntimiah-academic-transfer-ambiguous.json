@@ -1,0 +1,48 @@
+{
+  "summary": {
+    "source_project": "مكنز شيخ الإسلام ابن تيمية",
+    "source_repository": "yhoshan/ibntimiah.dralhoshan.com",
+    "source_data_path": "client/src/data/makknzz_data.json",
+    "source_record_count": 3545,
+    "candidate_count": 36,
+    "candidate_theses": 34,
+    "candidate_research": 2,
+    "ambiguous_count": 1,
+    "duplicates_within_source": 6,
+    "duplicates_in_target": 7,
+    "accepted_count": 22,
+    "accepted_theses": 20,
+    "accepted_research": 2
+  },
+  "records": [
+    {
+      "id": "ibntimiah_academic_2979",
+      "source_id": "2979",
+      "title": "رسالة الماجستير أنس الهزاني",
+      "title_source": "file_name",
+      "title_keys": [
+        "رساله الماجستير انس الهزاني"
+      ],
+      "author": "",
+      "degree": "ماجستير",
+      "source": "مكنز شيخ الإسلام ابن تيمية",
+      "source_url": "https://ibntimiah.dralhoshan.com/",
+      "source_file": "رسالة الماجستير أنس الهزاني.pdf",
+      "source_description": "",
+      "category": "غير مصنّف",
+      "tags": [
+        "متنوع / عام"
+      ],
+      "link_telegram": "https://t.me/makknzz/1922",
+      "link_drive": "",
+      "file_type": "PDF",
+      "file_size": "3.85 MB",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "is_featured": false,
+      "download_links_count": 1,
+      "_kind": "thesis"
+    }
+  ],
+  "review_reason": "عناوين تحتوي دليلاً أكاديمياً، غير أن عنوان المادة نفسه غير كافٍ للتعريف بها على نحو موثوق؛ لم تُدمج آلياً."
+}
