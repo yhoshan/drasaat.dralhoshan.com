@@ -1,0 +1,16 @@
+{
+  "source": "بوابة الأبحاث والرسائل العلمية - جامعة الأزهر",
+  "batch": "9",
+  "before_count": 109638,
+  "raw_records": 3,
+  "planning_filters": {
+    "unique_source_titles": 3,
+    "excluded": 0,
+    "excluded_by_reason": {},
+    "exclusions": []
+  },
+  "candidates": 3,
+  "additions": 3,
+  "exclusions": 0,
+  "excluded": []
+}
