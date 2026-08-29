@@ -1,0 +1,51 @@
+{
+  "operation": "no_additions_required",
+  "source": "مكنز زاد المستقنع والروض المربع",
+  "source_repository": "yhoshan/alzadwarod",
+  "source_file": "client/public/items.json",
+  "source_records_examined": 926,
+  "selection_policy": "قبول البحث المنشور في مجلة فقط عند وجود رابط ضمن مسار journals لمصدر أبحاث buhooth.link، مع اشتراط صلة العنوان الصريحة بزاد المستقنع أو الروض المربع.",
+  "journal_items_with_direct_evidence": 6,
+  "excluded_as_not_explicitly_related_to_zad_or_rawd": 1,
+  "candidates": {
+    "total": 5,
+    "theses": 0,
+    "research": 5
+  },
+  "filtering": {
+    "ambiguous": 0,
+    "duplicates_within_source": 0,
+    "duplicates_in_target": 5
+  },
+  "additions": {
+    "total": 0,
+    "theses": 0,
+    "research": 0
+  },
+  "excluded_duplicates_in_target": [
+    {
+      "source_id": "203",
+      "title": "مقاصد الشريعة في القضاء عند الحنابلة من خلال: (الروض المربع): جمعٌ وتأصيلٌ"
+    },
+    {
+      "source_id": "204",
+      "title": "معالم في صناعة الشرح الفقهي: (الروض المربع أنموذجاً): دراسةٌ تطبيقيةٌ على كتابَي الطهارة والصلاة"
+    },
+    {
+      "source_id": "206",
+      "title": "الاقتباس في كتب الفقهاء الحنابلة من خلال كتاب: (زاد المستقنع في اختصار المقنع) (ربع العبادات نموذجاً): تحقيقاً"
+    },
+    {
+      "source_id": "207",
+      "title": "التعقبات على: (الروض المربع) من خلال حواشيه في كتاب: (الطهارة)"
+    },
+    {
+      "source_id": "208",
+      "title": "المسائل الفقهية المبنية على الترجيح بمقصد الوسطية عند الشيخ ابن عثيمين في كتابه: (الشرح الممتع على زاد المستقنع)"
+    }
+  ],
+  "validation": {
+    "no_data_mutation_required": true,
+    "all_eligible_titles_already_present_in_target": true
+  }
+}

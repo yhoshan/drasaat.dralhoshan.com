@@ -1,0 +1,109 @@
+{
+  "operation": "applied",
+  "source": "مكنز الإمام النووي",
+  "source_records_examined": 3584,
+  "candidates": {
+    "total_initial": 13,
+    "excluded_as_not_related_to_imam_nawawi": 3,
+    "related_to_imam_nawawi": 10,
+    "theses": 1,
+    "journal_research": 9
+  },
+  "filtering": {
+    "ambiguous_or_incomplete_titles": 1,
+    "duplicates_within_source": 0,
+    "duplicates_in_target": 8
+  },
+  "additions": {
+    "total": 1,
+    "theses": 0,
+    "research": 1
+  },
+  "totals": {
+    "before": 116750,
+    "after": 116751
+  },
+  "validation": {
+    "ids_are_unique": true,
+    "addition_titles_are_unique_after_normalization": true,
+    "no_addition_title_exists_in_original_target": true,
+    "all_additions_have_documented_source_links": true
+  },
+  "source_repository": "yhoshan/annawawe.dralhoshan.com",
+  "source_file": "client/public/items.json",
+  "import_policy": "لا تقبل إلا الرسائل أو البحوث ذات الدليل الصريح والمرتبطة بالإمام النووي أو مؤلفاته، مع استبعاد النتائج غير المرتبطة بمصطلح النووي ومواد الأذكار العامة.",
+  "exclusions": [
+    {
+      "source_id": "nawawi_1205",
+      "title": "المسؤولية المدنية في الحوادث النووية الناتجة عن الاستخدامات السلمية للطاقة النووية: دراسةٌ تحليليةٌ مقارنةٌ",
+      "reason": "duplicate_title_in_target_after_normalization"
+    },
+    {
+      "source_id": "nawawi_1206",
+      "title": "التوازي التركيبي في بعض الجمل المتشابهة تركيبياً ودلالته في الحديث النبوي: دراسةٌ نصيةٌ في: (رياض الصالحين)",
+      "reason": "duplicate_title_in_target_after_normalization"
+    },
+    {
+      "source_id": "nawawi_1209",
+      "title": "تحرير الفتاوي على التنبيه والمنهاج والحاوي، ت: أبي زرعة العراقي، (كتاب الجعالة): دراسةً وتحقيقاً",
+      "reason": "duplicate_title_in_target_after_normalization"
+    },
+    {
+      "source_id": "nawawi_1212",
+      "title": "تعقبات الإمام النووي للقاضي عياضٍ في شرح صحيح مسلمٍ: دراسةٌ استقرائيةٌ تحليليةٌ",
+      "reason": "duplicate_title_in_target_after_normalization"
+    },
+    {
+      "source_id": "nawawi_1213",
+      "title": "منهج النقد الفقهي عند الإمام النووي من خلال كتابه: (المجموع)",
+      "reason": "duplicate_title_in_target_after_normalization"
+    },
+    {
+      "source_id": "nawawi_1214",
+      "title": "الضوابط الفقهية في مقدمة كتاب: (المجموع)، للنووي: دراسةٌ تأصيليةٌ تطبيقيةٌ",
+      "reason": "duplicate_title_in_target_after_normalization"
+    },
+    {
+      "source_id": "archive_20250705_20250705_0315",
+      "title": "القواعد الأصولية عند الإمام النووي وتطبيقاتها على الفروع الفقهية من خلال شرحه صحيح مسلم في كتاب العبادات",
+      "reason": "duplicate_title_in_target_after_normalization"
+    },
+    {
+      "source_id": "6880450a",
+      "title": "التطبيق الأصولي على أحاديث فضائل القرآن الكريم من (رياض الصالحين)",
+      "reason": "duplicate_title_in_target_after_normalization"
+    }
+  ],
+  "accepted_records": [
+    {
+      "id": "nawawi_academic_nawawi_1215",
+      "source_id": "nawawi_1215",
+      "title": "منهج الإمام/ النووي في دفع التعارض بين النصوص الشرعية بحمل العام على الخاص",
+      "author": "د. أحمد بن عبد الله المجايشي",
+      "degree": "",
+      "source": "مكنز الإمام النووي",
+      "original_source": "موقع بحوث",
+      "source_url": "https://nawawithes-b9ojl4i9.manus.space/",
+      "source_link": "https://www.buhooth.link:8080/data/journals/%D9%85%D8%AC%D9%84%D8%A9%20%D8%AC%D8%A7%D9%85%D8%B9%D8%A9%20%D8%A7%D9%84%D9%85%D9%84%D9%83%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2%20%D9%84%D9%84%D8%A2%D8%AF%D8%A7%D8%A8%20%D9%88%D8%A7%D9%84%D8%B9%D9%84%D9%88%D9%85%20%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A%D8%A9%20(%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9)/29/7/14%20%D9%85%D9%86%D9%87%D8%AC%20%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85&%20%D8%A7%D9%84%D9%86%D9%88%D9%88%D9%8A%20%D9%81%D9%8A%20%D8%AF%D9%81%D8%B9%20%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D8%B1%D8%B6%20...%20%D8%A7%D9%84%D9%86%D8%B5%D9%88%D8%B5%20%D8%A7%D9%84%D8%B4%D8%B1%D8%B9%D9%8A%D8%A9%20%D8%A8%D8%AD%D9%85%D9%84%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B5.pdf",
+      "link_telegram": "",
+      "link_drive": "",
+      "link_direct": "https://www.buhooth.link:8080/data/journals/%D9%85%D8%AC%D9%84%D8%A9%20%D8%AC%D8%A7%D9%85%D8%B9%D8%A9%20%D8%A7%D9%84%D9%85%D9%84%D9%83%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2%20%D9%84%D9%84%D8%A2%D8%AF%D8%A7%D8%A8%20%D9%88%D8%A7%D9%84%D8%B9%D9%84%D9%88%D9%85%20%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A%D8%A9%20(%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9)/29/7/14%20%D9%85%D9%86%D9%87%D8%AC%20%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85&%20%D8%A7%D9%84%D9%86%D9%88%D9%88%D9%8A%20%D9%81%D9%8A%20%D8%AF%D9%81%D8%B9%20%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D8%B1%D8%B6%20...%20%D8%A7%D9%84%D9%86%D8%B5%D9%88%D8%B5%20%D8%A7%D9%84%D8%B4%D8%B1%D8%B9%D9%8A%D8%A9%20%D8%A8%D8%AD%D9%85%D9%84%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B5.pdf",
+      "category": "غير مصنّف",
+      "tags": [
+        "مؤلفات في النووي وعلومه",
+        "مجلة جامعة الملك عبد العزيز للآداب والعلوم الإنسانية (السعودية)",
+        "مجلة جامعة الملك عبد العزيز للآداب والعلوم الإنسانية (السعودية)"
+      ],
+      "material_type": "بحث محكم",
+      "content_group": "research",
+      "file_type": "بحث",
+      "file_size": "",
+      "pages_count": "",
+      "year": "",
+      "is_featured": false,
+      "download_links_count": 1,
+      "title_source": "source_title",
+      "original_detection_kind": "research"
+    }
+  ]
+}

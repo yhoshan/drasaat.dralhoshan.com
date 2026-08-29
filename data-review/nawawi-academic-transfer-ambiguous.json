@@ -1,0 +1,72 @@
+{
+  "summary": {
+    "source_project": "مكنز الإمام النووي",
+    "source_repository": "yhoshan/annawawe.dralhoshan.com",
+    "source_file": "client/public/items.json",
+    "source_record_count": 3584,
+    "raw_academic_or_research_candidates": 13,
+    "excluded_as_not_related_to_imam_nawawi": 3,
+    "candidate_count_after_nawawi_scope": 10,
+    "candidate_theses": 1,
+    "candidate_research": 9,
+    "ambiguous_count": 1,
+    "conflicting_type_groups_within_source": 0,
+    "duplicates_within_source": 0,
+    "duplicates_in_target": 8,
+    "accepted_count": 1,
+    "accepted_theses": 0,
+    "accepted_research": 1
+  },
+  "records": [
+    {
+      "id": "nawawi_academic_de742fca",
+      "source_id": "de742fca",
+      "title": "التوازي التركيبي في بعض الجمل المتشابهة ... النبوي دراسةٌ نصيةٌ في (رياض الصالحين)",
+      "title_source": "source_title",
+      "title_key": "التوازي التركيبي في بعض الجمل المتشابهه النبوي دراسه نصيه في رياض الصالحين",
+      "author": "",
+      "degree": "",
+      "source": "مكنز الإمام النووي",
+      "original_source": "موقع بحوث",
+      "source_url": "https://nawawithes-b9ojl4i9.manus.space/",
+      "source_link": "https://www.buhooth.link:8080/data/journals/%D9%85%D8%AC%D9%84%D8%A9%20%D8%A7%D9%84%D8%B9%D9%84%D9%88%D9%85%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9%20-%20%D8%AC%D8%A7%D9%85%D8%B9%D8%A9%20%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85%20(%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9)/41/2%20%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B2%D9%8A%20%D8%A7%D9%84%D8%AA%D8%B1%D9%83%D9%8A%D8%A8%D9%8A%20%D9%81%D9%8A%20%D8%A8%D8%B9%D8%B6%20%D8%A7%D9%84%D8%AC%D9%85%D9%84%20%D8%A7%D9%84%D9%85%D8%AA%D8%B4%D8%A7%D8%A8%D9%87%D8%A9%20...%20%D8%A7%D9%84%D9%86%D8%A8%D9%88%D9%8A%24%20%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9%D9%8C%20%D9%86%D8%B5%D9%8A%D8%A9%D9%8C%20%D9%81%D9%8A%24%20(%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%A7%D9%84%D8%B5%D8%A7%D9%84%D8%AD%D9%8A%D9%86).pdf?v=",
+      "link_telegram": "",
+      "link_drive": "",
+      "link_direct": "https://www.buhooth.link:8080/data/journals/%D9%85%D8%AC%D9%84%D8%A9%20%D8%A7%D9%84%D8%B9%D9%84%D9%88%D9%85%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9%20-%20%D8%AC%D8%A7%D9%85%D8%B9%D8%A9%20%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85%20(%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9)/41/2%20%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B2%D9%8A%20%D8%A7%D9%84%D8%AA%D8%B1%D9%83%D9%8A%D8%A8%D9%8A%20%D9%81%D9%8A%20%D8%A8%D8%B9%D8%B6%20%D8%A7%D9%84%D8%AC%D9%85%D9%84%20%D8%A7%D9%84%D9%85%D8%AA%D8%B4%D8%A7%D8%A8%D9%87%D8%A9%20...%20%D8%A7%D9%84%D9%86%D8%A8%D9%88%D9%8A%24%20%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9%D9%8C%20%D9%86%D8%B5%D9%8A%D8%A9%D9%8C%20%D9%81%D9%8A%24%20(%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%A7%D9%84%D8%B5%D8%A7%D9%84%D8%AD%D9%8A%D9%86).pdf?v=",
+      "category": "غير مصنّف",
+      "tags": [
+        "مؤلفات في النووي وعلومه",
+        "الحديث النبوي",
+        "مجلة العلوم العربية - جامعة الإمام (السعودية)"
+      ],
+      "material_type": "بحث محكم",
+      "content_group": "research",
+      "file_type": "PDF",
+      "file_size": "",
+      "pages_count": "",
+      "year": "",
+      "is_featured": false,
+      "download_links_count": 1,
+      "_kind": "research",
+      "_ambiguity_reason": "title_appears_truncated"
+    }
+  ],
+  "scope_exclusions": [
+    {
+      "source_id": "nawawi_1201",
+      "title": "ما استحسنه الإسنوي في (نهاية السول) من عبارة البيضاوي في (المنهاج): جمعاً ودراسةً",
+      "reason": "not_explicitly_related_to_imam_nawawi_or_his_known_work"
+    },
+    {
+      "source_id": "nawawi_1202",
+      "title": "الإبهاج في حسن المنهاج: دراسةٌ تحليليةٌ منهجيةٌ لكتاب: (القواعد النورانية)، لشيخ الإسلام ابن تيمية",
+      "reason": "not_explicitly_related_to_imam_nawawi_or_his_known_work"
+    },
+    {
+      "source_id": "nawawi_1203",
+      "title": "الأذكار والأدعية المتعلقة بالحرمين الشريفين",
+      "reason": "not_explicitly_related_to_imam_nawawi_or_his_known_work"
+    }
+  ],
+  "review_reason": "عنوان غير مكتمل أو بيانات لا تكفي لتحديد مادة أكاديمية مستقلة؛ لم يدمج آلياً."
+}
