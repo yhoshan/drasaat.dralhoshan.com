@@ -19,7 +19,7 @@ interface MobileFilterDrawerProps {
   onDownloadOnlyChange: (v: boolean) => void;
   onReset: () => void;
   activeFiltersCount: number;
-  totalFiltered: number;
+  totalFiltered: number | null;
 }
 
 export default function MobileFilterDrawer({
@@ -65,7 +65,9 @@ export default function MobileFilterDrawer({
             className="w-full bg-teal-600 text-white py-3 rounded-xl font-medium hover:bg-teal-700 transition-colors"
             style={{ fontFamily: "Cairo, sans-serif" }}
           >
-            عرض {filterProps.totalFiltered.toLocaleString()} رسالة
+            {filterProps.totalFiltered === null
+              ? "عرض النتائج"
+              : `عرض ${filterProps.totalFiltered.toLocaleString()} رسالة`}
           </button>
         </div>
       </div>

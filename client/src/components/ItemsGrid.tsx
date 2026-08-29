@@ -11,7 +11,7 @@ interface ItemsGridProps {
   loading: boolean;
   currentPage: number;
   totalPages: number;
-  totalItems: number;
+  totalItems: number | null;
   onPageChange: (page: number) => void;
   pageSize: number;
 }
@@ -63,6 +63,7 @@ export default function ItemsGrid({
           totalPages={totalPages}
           totalItems={totalItems}
           pageSize={pageSize}
+          pageItemCount={items.length}
           onPageChange={onPageChange}
         />
       )}
@@ -260,15 +261,18 @@ function ThesisCard({ item, index }: { item: ThesisItem; index: number }) {
 // ==============================
 // ترقيم الصفحات
 // ==============================
-function Pagination({ currentPage, totalPages, totalItems, pageSize, onPageChange }: {
+function Pagination({ currentPage, totalPages, totalItems, pageSize, pageItemCount, onPageChange }: {
   currentPage: number;
   totalPages: number;
-  totalItems: number;
+  totalItems: number | null;
   pageSize: number;
+  pageItemCount: number;
   onPageChange: (page: number) => void;
 }) {
   const start = (currentPage - 1) * pageSize + 1;
-  const end = Math.min(currentPage * pageSize, totalItems);
+  const end = totalItems === null
+    ? start + Math.max(pageItemCount - 1, 0)
+    : Math.min(currentPage * pageSize, totalItems);
 
   const pages: (number | "...")[] = [];
   if (totalPages <= 7) {
@@ -289,7 +293,9 @@ function Pagination({ currentPage, totalPages, totalItems, pageSize, onPageChang
         className="text-sm text-gray-500"
         style={{ fontFamily: "Tajawal, sans-serif" }}
       >
-        عرض {start.toLocaleString()} – {end.toLocaleString()} من {totalItems.toLocaleString()} رسالة
+        {totalItems === null
+          ? `عرض ${start.toLocaleString()} – ${end.toLocaleString()} من النتائج المتاحة`
+          : `عرض ${start.toLocaleString()} – ${end.toLocaleString()} من ${totalItems.toLocaleString()} رسالة`}
       </p>
       <div className="flex items-center gap-1.5 flex-wrap justify-center">
         <button

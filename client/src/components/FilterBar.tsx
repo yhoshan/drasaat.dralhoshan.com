@@ -17,7 +17,7 @@ interface FilterBarProps {
   onDownloadOnlyChange: (v: boolean) => void;
   onReset: () => void;
   activeFiltersCount: number;
-  totalFiltered: number;
+  totalFiltered: number | null;
 }
 
 const SORT_OPTIONS = [
@@ -63,7 +63,7 @@ export default function FilterBar({
       {/* عدد النتائج */}
       <div className="text-center py-2 bg-teal-50 dark:bg-teal-950 rounded-lg">
         <span className="text-teal-700 dark:text-teal-300 font-bold text-lg" style={{ fontFamily: "Tajawal, sans-serif" }}>
-          {totalFiltered.toLocaleString()}
+          {totalFiltered === null ? "…" : totalFiltered.toLocaleString()}
         </span>
         <span className="text-gray-500 text-xs mr-1" style={{ fontFamily: "Cairo, sans-serif" }}>رسالة</span>
       </div>
