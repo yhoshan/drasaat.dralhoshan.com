@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-08-30T17:53:17.306Z",
+  "success": true,
+  "totals": {
+    "total_items": 138353,
+    "total_theses": 110761,
+    "total_research": 20804,
+    "total_entries": 591
+  },
+  "unique_ids": 138353,
+  "search_index_records": 138353,
+  "blocked_records_remaining": 0,
+  "refined_first_added": 1,
+  "refined_second_added": 0,
+  "failures": []
+}

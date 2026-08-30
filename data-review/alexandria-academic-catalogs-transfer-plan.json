@@ -1,0 +1,21 @@
+{
+  "operation": "dry-run",
+  "source_file": "/home/ubuntu/upload/pasted_file_6cjiJL_alexandria_academic_catalogs_to_mine.json",
+  "generated_at": "2026-08-30T14:02:42.453Z",
+  "summary": {
+    "source": "مكتبة الإسكندرية",
+    "declared_records_count": 22,
+    "source_records": 22,
+    "records_with_individual_title": 0,
+    "qualified_academic_records": 0,
+    "qualified_theses": 0,
+    "qualified_research": 0,
+    "internal_duplicates": 0,
+    "duplicates_in_target": 0,
+    "blocked_by_iran_hizbullah_policy": 0,
+    "review_count": 22,
+    "accepted_count": 0
+  },
+  "accepted_records": [],
+  "note": "لم تُقترح إضافات لأن الملف المرفوع لا يتضمن عناوين مواد فردية؛ وهو قائمة بملفات CBZ تتطلب استخراج محتواها الداخلي أولاً."
+}

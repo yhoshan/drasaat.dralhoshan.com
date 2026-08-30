@@ -1,0 +1,852 @@
+{
+  "operation": "alexandria-150907-direct-thesis-transfer-plan",
+  "source_file": "/home/ubuntu/alexandria-work/extracted/alexandria-150907.xlsx",
+  "catalog_count_before": 138352,
+  "source_candidate_count": 49,
+  "accepted_additions": [],
+  "internal_or_catalog_duplicates": [
+    {
+      "row": 8577,
+      "source_id": "Alexandrina-224499",
+      "title": "مشروع النهضة بين الاسلام و العلمانية : دراسة فى فكر محمد عمارة و محمد عابد الجابرى : رسالة دكتوراه",
+      "author": "أبو هندى، محمد علي.",
+      "subjects": "[الفلسفة الاسلامية., الجابرى، محمد عابد., عمارة، محمد.]",
+      "keywords": "[ عمارة، محمد. bibalex الجابرى، محمد عابد. bibalex الفلسفة الاسلامية. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:224499",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 14621,
+      "source_id": "Alexandrina-146391",
+      "title": "تحقيق عن رسالة الماجستير \\\"دراسة فى اصوات المد فى التجويد القرآنى\\\"",
+      "author": "عوف، حسن.",
+      "subjects": "[القرآن، تجويد]",
+      "keywords": "[ القرآن، تجويد maaq]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:146391",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 17560,
+      "source_id": "Alexandrina-224673",
+      "title": "منهج الحنفية فى نقد الحديث بين النظرية و التطبيق : رسالة ماجستير",
+      "author": "خليفة، كيلانى محمد.",
+      "subjects": "[الحديث--المسانيد., الحديث--مسند ابى حنيفة., أبو حنيفة النعمان بن ثابت،--80-150 هـ.--مسند.]",
+      "keywords": "[ أبو حنيفة النعمان بن ثابت، 80-150 هـ. مسند. bibalex الحديث مسند ابى حنيفة. bibalex الحديث المسانيد. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:224673",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 18175,
+      "source_id": "Alexandrina-281451",
+      "title": "الكشف الالهى عن شديد الضعف و الموضوع و الواهى : رسالة ماجستير",
+      "author": "السندروسي، محمد بن محمد",
+      "subjects": "[الحديث--إسناد.]",
+      "keywords": "[ الحديث إسناد. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:281451",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 18228,
+      "source_id": "Alexandrina-295830",
+      "title": "الامام ابو جعفر الطحاوى : و اثره فى الحديث : رسالة ماجستير",
+      "author": "عبد الباقى، مصياح الله.",
+      "subjects": "[علم الكلام., علم رواية الحديث., الحديث، علم., الطحاوي، أحمد بن محمد،--239-321 هـ.]",
+      "keywords": "[ الطحاوي، أحمد بن محمد، 239-321 هـ. bibalex علم الكلام. bibalex الحديث، علم. bibalex علم رواية الحديث. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:295830",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 20426,
+      "source_id": "Alexandrina-033258",
+      "title": "حد السرقة بين الاعمال و التعطيل و اثرة على المجتمع الاسلامى : (دراسة فقهية) : رسالة ماجستير",
+      "author": "القدومى، فارس عبد الرحمن.",
+      "subjects": "[الحدود (شريعة اسلامية)., العقوبات (فقه اسلامى)., السرقة (فقه اسلامى).]",
+      "keywords": "[ السرقة (فقه اسلامى). qrmak العقوبات (فقه اسلامى). qrmak الحدود (شريعة اسلامية). qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:33258",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 20649,
+      "source_id": "Alexandrina-295923",
+      "title": "سنة الخلفاء الراشدين : بحث فى المفهوم و الحجيه : رسالة ماجستير",
+      "author": "بو شعراء، زيد.",
+      "subjects": "[الخلفاء الراشدون., السنة--حجيتها.]",
+      "keywords": "[ السنة حجيتها. bibalex الخلفاء الراشدون. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:295923",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 23161,
+      "source_id": "Alexandrina-137137",
+      "title": "مكانة المهدى المنتظر عند السنة و الشيعة و فى الاديان السماوية : جزء من رسالة الدكتوراه",
+      "author": "علوان، رشا محمد عبد الغفار.",
+      "subjects": "[المهدى المنتظر.]",
+      "keywords": "[ المهدى المنتظر. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:137137",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 24850,
+      "source_id": "Alexandrina-235437",
+      "title": "الفضالة فى الفقه الاسلامى و القانون المدنى : رسالة مقدمة لنيل درجة الدكتوراه",
+      "author": "مرسال، عبد اللطيف محمد السيد.",
+      "subjects": "[الفقه الإسلامي., القانون الدستوري (فقه إسلامي)]",
+      "keywords": "[ القانون الدستوري (فقه إسلامي) bibalex الفقه الإسلامي. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:235437",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 24962,
+      "source_id": "Alexandrina-243788",
+      "title": "التعددية الحزبية فى ظل الدولة الاسلامية : رسالة ماجستير",
+      "author": "الشارود، علي جابر العبد.",
+      "subjects": "[الاسلام و السياسة., الاحزاب السياسية., التعددية., الاسلام، نظام الحكم فى.]",
+      "keywords": "[ الاسلام و السياسة. bibalex الاحزاب السياسية. bibalex الاسلام، نظام الحكم فى. bibalex التعددية. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:243788",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 29099,
+      "source_id": "Alexandrina-086575",
+      "title": "شيخ الاسلام عبد الله الانصارى الهروى : مبادئه و اراؤه الكلامية و الروحية 396-481 هـ. : رسالة دكتوراه فى العقيدة و الفلسفة",
+      "author": "الافغانى، محمد سعيد عبد المجيد سعيد.",
+      "subjects": "[الانصارى الهروى، عبد الله بن محمد،--396-481 هـ.]",
+      "keywords": "[ الانصارى الهروى، عبد الله بن محمد، 396-481 هـ. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:86575",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 30125,
+      "source_id": "Alexandrina-264368",
+      "title": "مفهوم الحياة فى القران و الحديث : رساله دكتوراه",
+      "author": "الأحمدى، محمد.",
+      "subjects": "[الحياة الدينية (الاسلام)]",
+      "keywords": "[ الحياة الدينية (الاسلام) bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:264368",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 52664,
+      "source_id": "Alexandrina-156304",
+      "title": "الحصانة القضائية للدولة فى الميدان التجارى : (رسالة ماجستير)",
+      "author": "الشاوى، سما سلطان.",
+      "subjects": "[الحصانة الدبلوماسية.]",
+      "keywords": "[ الحصانة الدبلوماسية. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:156304",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 52674,
+      "source_id": "Alexandrina-235498",
+      "title": "الحماية الدولية لاحكام التحكيم الاجنبية : رسالة لنيل درجة الدكتوراه فى الحقوق",
+      "author": "محمد، هشام محمد اسماعيل.",
+      "subjects": "[الاتفاقيات الدولية., التحكيم الدولى.]",
+      "keywords": "[ التحكيم الدولى. bibalex الاتفاقيات الدولية. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:235498",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 53915,
+      "source_id": "Alexandrina-164974",
+      "title": "الضمانات الخاصة بعيوب مرحلة ما بعد الانشاء فى عقود البناء و الانشاء : الاساس النظرى و توزيع المخاطر : دراسة مقارنة فى القوانين الكويتى و الفرنسى و الانجليزى : اطروحة مقدمة لنيل درجة الدكتوراه فى القانون الخاص",
+      "author": "الهاجري، مشاعل عبد العزيز.",
+      "subjects": "[البناء--قوانين و تشريعات., عقود البناء., الانشاءات--عقود و مواصفات., البناء--مواصفات الامان.]",
+      "keywords": "[ عقود البناء. bibalex البناء مواصفات الامان. bibalex الانشاءات عقود و مواصفات. bibalex البناء قوانين و تشريعات. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:164974",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 55031,
+      "source_id": "Alexandrina-085880",
+      "title": "الجرائم الناشئة عن استخدام الانترنت : رسالة دكتوراه فى القانون الجنائى",
+      "author": "ابن يونس، عمر محمد.",
+      "subjects": "[القانون الجنائى., الحاسبات الالكترونية--قوانين و تشريعات., جرائم الحاسب.]",
+      "keywords": "[ جرائم الحاسب. bibalex القانون الجنائى. qrmak الحاسبات الالكترونية قوانين و تشريعات. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:85880",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 56245,
+      "source_id": "Alexandrina-266218",
+      "title": "التحكيم فى منازعات البنوك : رساله للحصول على درجة الدكتوراه فى الحقوق",
+      "author": "بطيخ، رمضان محمد.",
+      "subjects": "[البنوك--قوانين و تشريعات.]",
+      "keywords": "[ البنوك قوانين و تشريعات. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:266218",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 63950,
+      "source_id": "Alexandrina-154571",
+      "title": "موانئ الساحل الغربى للخليج العربى فيما بين خليج سلوى و رأس مسندم : دراسة فى الجغرافيا الاقتصادية : (رسالة ماجستير)",
+      "author": "الكوارى، نوره يوسف مبارك.",
+      "subjects": "[الجغرافيا الاقتصادية., الموانىء--الخليج العربى.]",
+      "keywords": "[ الموانىء الخليج العربى. bibalex الجغرافيا الاقتصادية. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:154571",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 64143,
+      "source_id": "Alexandrina-135483",
+      "title": "جرح النفس : ملخص رسالة دكتوراه",
+      "author": "حسن، امنة عبد الرحمن.",
+      "subjects": "[الختان--جوانب نفسية., الختان--جوانب اجتماعية., الختان--عادات و تقاليد.]",
+      "keywords": "[ الختان جوانب اجتماعية. bibalex الختان جوانب نفسية. bibalex الختان عادات و تقاليد. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:135483",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 80755,
+      "source_id": "Alexandrina-200939",
+      "title": "طرق تصوير الطبيعة فى مناظر الدولة القديمة : رسالة ماجستير فى الاثار المصرية",
+      "author": "الطنبولى، محمد عبد اللطيف.",
+      "subjects": "[الفن المصرى القديم., التصوير., النحت., الرسم.]",
+      "keywords": "[ الفن المصرى القديم. qrmak التصوير. qrmak النحت. qrmak الرسم. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:200939",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 81548,
+      "source_id": "Alexandrina-148995",
+      "title": "الهندسة الانشائية فى مساجد حلب : رسالة قدمت لنيل درجة الماجستير فى تاريخ العلوم التطبيقية",
+      "author": "عثمان، نجوى.",
+      "subjects": "[العمارة الاسلامية--سوريا., سوريا--اثار اسلامية, المساجد--سوريا]",
+      "keywords": "[ العمارة الاسلامية سوريا. qrmak سوريا اثار اسلامية qrmak المساجد سوريا qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:148995",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 81549,
+      "source_id": "Alexandrina-069604",
+      "title": "الهندسة الانشائية فى مساجد حلب : رسالة قدمت لنيل درجة الماجستير فى تاريخ العلوم التطبيقية",
+      "author": "عثمان، نجوى.",
+      "subjects": "[العمارة الاسلامية--سوريا., سوريا--اثار اسلامية, المساجد--سوريا]",
+      "keywords": "[ العمارة الاسلامية سوريا. qrmak سوريا اثار اسلامية qrmak المساجد سوريا qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:69604",
+      "disposition": "internal_duplicate_title",
+      "duplicate_of_source_id": "Alexandrina-148995"
+    },
+    {
+      "row": 117212,
+      "source_id": "Alexandrina-010816",
+      "title": "رب الثورة اوزيريس و عقيد الخلود فى مصر القديمة : نص رسالة دكتوراه.",
+      "author": "القمني، سيد",
+      "subjects": "[مصر القديمة--تاريخ., الحضارة الفرعونية., قدماء المصريين., التاريخ--فلسفة., مصر القديمة--ديانات., المصريات، علم., الآلهة المصرية]",
+      "keywords": "[ الآلهة المصرية qrmak مصر القديمة ديانات. qrmak الحضارة الفرعونية. qrmak المصريات، علم. qrmak قدماء المصريين. qrmak التاريخ فلسفة. qrmak مصر القديمة تاريخ. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:10816",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 126970,
+      "source_id": "Alexandrina-015156",
+      "title": "اثر الالتزام التنظيمى و الثقة فى الادارة على العلاقة بين العدالة التنظيمية و سلوكيات المواطنة التنظيمية بالتطبيق على البنوك التجارية : رسالة مقدمة لنيل درجة الماجستير فى ادارة الاعمال",
+      "author": "حواس، اميرة محمد رفعت.",
+      "subjects": "[البنوك التجارية., إدارة الأعمال--أخلاقيات, السلوك التنظيمي]",
+      "keywords": "[ السلوك التنظيمي bibalex إدارة الأعمال أخلاقيات qrmak البنوك التجارية. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15156",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 127020,
+      "source_id": "Alexandrina-015237",
+      "title": "اثر الدين فى النظم القانونية : دراسة مقارنة بين الاسلام و المسيحية : رسالة لنيل درجة الدكتوراه فى الحقوق",
+      "author": "عبد الوهاب، فاطمة محمد عبد العليم.",
+      "subjects": "[الشريعة الاسلامية., القانون--فلسفة., المسيحية--قوانين و تشريعات.]",
+      "keywords": "[ القانون فلسفة. qrmak الشريعة الاسلامية. qrmak المسيحية قوانين و تشريعات. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15237",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 127052,
+      "source_id": "Alexandrina-015267",
+      "title": "اثر الوعى بالعمليات الابداعية و الاسلوب الابداعى فى كفاءة حل المشكلات : (رسالة دكتوراه)",
+      "author": "الصبوة، محمد نجيب أحمد.",
+      "subjects": "[الابداع., الابتكار., المشاكل الاجتماعية.]",
+      "keywords": "[ الابداع. qrmak الابتكار. qrmak المشاكل الاجتماعية. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15267",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 127358,
+      "source_id": "Alexandrina-015268",
+      "title": "اسباب اختلاف المفسرين فى تفسير ايات الاحكام : اطروحة معدة لنيل درجة الماجستير",
+      "author": "الحورى، عبد الاله حورى.",
+      "subjects": "[قرآن--تفسير., قرآن--الأحكام التي اشتمل عليها.]",
+      "keywords": "[ قرآن تفسير. qrmak قرآن الأحكام التي اشتمل عليها. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15268",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 128391,
+      "source_id": "Alexandrina-402042",
+      "title": "الاعداد و التدريب الادارى بين النظرية و التطبيق : رسالة مقدمة لنيل درجة الدكتوراه",
+      "author": null,
+      "subjects": "[]",
+      "keywords": "[]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:402042",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 129876,
+      "source_id": "Alexandrina-015258",
+      "title": "التحول فى الاشياء و التصرفات و العقود و اثره فى الحكم الشرعى : رسالة مقدمة لنيل درجة الماجستير",
+      "author": "الراشد، على ابراهيم.",
+      "subjects": "[الشريعة الاسلامية., الفقه--بحوث., العقود--اخلال., العقود (فقه اسلامى)., الفقه الإسلامي, المعاملات (فقه إسلامي), الإبراء (فقه إسلامي)]",
+      "keywords": "[ الفقه بحوث. qrmak المعاملات (فقه إسلامي) qrmak الفقه الإسلامي bibalex الإبراء (فقه إسلامي) qrmak العقود اخلال. qrmak العقود (فقه اسلامى). qrmak الشريعة الاسلامية. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15258",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 131185,
+      "source_id": "Alexandrina-236937",
+      "title": "الحرب النفسية كما تحدث عنها القرآن : رسالة ماجستير",
+      "author": null,
+      "subjects": "[]",
+      "keywords": "[]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:236937",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 131677,
+      "source_id": "Alexandrina-413592",
+      "title": "الدكتور حسن مصطفى ناصف خلال إعداد رسالة الدكتوراه في جامعة جامعة سيراكيوز في الولايات المتحدة الأمريكية",
+      "author": null,
+      "subjects": "[]",
+      "keywords": "[]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:413592",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 131688,
+      "source_id": "Alexandrina-015198",
+      "title": "الدلالات الرمزية و القيم الفنية لتيجان الالهة فى النقوش المصرية القديمة = Symbolic denotations and artistic values of Gods crowns in Ancient Egyptian carving : رسالة مقدمة لقسم النقد و التذوق الفنى استكمالا لمتطلبات الحصول على درجة الماجستير فى التربية الفنية",
+      "author": "نايل، نهى محمود.",
+      "subjects": "[التربية الفنية., الفن--تاريخ و نقد., النقوش المصرية., التذوق الفنى., مصر--الآثار]",
+      "keywords": "[ النقوش المصرية. qrmak التذوق الفنى. qrmak الفن تاريخ و نقد. qrmak التربية الفنية. qrmak مصر الآثار bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15198",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 131998,
+      "source_id": "Alexandrina-516139",
+      "title": "الرقابة على أعمال الإدارة فى الشريعة الاسلامية و النظم المعاصرة : رسالة للدكتوراه الحائز على مرتبة الشرف الاولى",
+      "author": null,
+      "subjects": "[]",
+      "keywords": "[]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:516139",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 132911,
+      "source_id": "Alexandrina-015318",
+      "title": "الطريقة القادرية و الاستعمار الفرنسى فى موريتانيا (1903-1960) : رسالة مقدمة لنيل درجة الماجستير فى الدراسات الافريقية من قسم التاريخ ( التاريخ الحديث و المعاصر)",
+      "author": "ابراهيم، عبد الله عبد الرازق.",
+      "subjects": "[الاستعمار الفرنسى., موريتانيا--تاريخ--العصر الحديث--الاحتلال الفرنسى (1903-1960 م.).]",
+      "keywords": "[ الاستعمار الفرنسى. qrmak موريتانيا تاريخ العصر الحديث الاحتلال الفرنسى (1903-1960 م.). qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15318",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 133258,
+      "source_id": "Alexandrina-015308",
+      "title": "العلاقة بين الاتجاه نحو التقنية الحديثة و التوافق المهنى لدى العاملين فى القطاع الحكومى و القطاع الخاص : (دراسة عبر حضارية) : رسالة مقدمة لنيل درجة الدكتوراه فى علم النفس",
+      "author": "الشيخ، عبد السلام احمدى",
+      "subjects": "[القطاع العام., القطاع الخاص., العمل و العمال--علم نفس., العمال--جوانب نفسية.]",
+      "keywords": "[ العمل و العمال علم نفس. qrmak القطاع العام. qrmak القطاع الخاص. qrmak العمال جوانب نفسية. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15308",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 134091,
+      "source_id": "Alexandrina-424865",
+      "title": "القياس المحاسبى لتكاليف ازالة التلوث البحرى بالبترول الناتج عن السفن فى ضوء معيار عدم التحيز : رسالة مقدمة للحصول على درجة الماجستير فى المحاسبة",
+      "author": "سامى، يسرى امين.",
+      "subjects": "[التلوث، ازالة--جوانب اقتصادية., البحار و المحيطات--تلوث, البترول--تلوث بالمياه.]",
+      "keywords": "[]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:424865",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 140182,
+      "source_id": "Alexandrina-015275",
+      "title": "تعقبات الزجاج للفراء فى معانى القرآن و اعرابه : رسالة ماجستير",
+      "author": "الصراف، عادل على منصور على.",
+      "subjects": "[اللغة العربية--النحو, الفراء، يحيى بن زياد،--144-207 هـ., القرآن، إعراب., الزجاج، إبراهيم بن السري،--241-311 هـ., قرآن--ألفاظ (من الناحية البلاغية).]",
+      "keywords": "[ الفراء، يحيى بن زياد، 144-207 هـ. maaq الزجاج، إبراهيم بن السري، 241-311 هـ. maaq قرآن ألفاظ (من الناحية البلاغية). bibalex اللغة العربية النحو qrmak القرآن، إعراب. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15275",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 142429,
+      "source_id": "Alexandrina-015408",
+      "title": "دراسة لبعض المشكلات النفسية للاطفال متعددى الاعاقة و دور الاخصائى الاجتماعى فى التعامل معها : رسالة مقدمة للحصول على درجة الماجستير فى دراسات الطفولة من قسم الدارسات النفسية و الاجتماعية",
+      "author": "حفنى، غادة انور عبد الحميد.",
+      "subjects": "[المعوقون--علم نفس., الاطفال المعوقون--علم نفس., الأطفال--علم نفس]",
+      "keywords": "[ الأطفال علم نفس bibalex الاطفال المعوقون علم نفس. qrmak المعوقون علم نفس. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15408",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 143731,
+      "source_id": "Alexandrina-520413",
+      "title": "سلطات مأمور الضبط القضائي : رسالة دكتوراه : دراسة مقارنه",
+      "author": null,
+      "subjects": "[]",
+      "keywords": "[]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:520413",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 144968,
+      "source_id": "Alexandrina-015287",
+      "title": "علاقة ابعاد عملية الادراك الاجتماعى ببعض العمليات العقلية : دراسة بين اطفال المرحلة الابتدائية : رسالة مقدمة للحصول على درجة دكتوراه الفلسفة فى التربية تخصص (تربية طفل)",
+      "author": "عبد الرحمن، سعد.",
+      "subjects": "[الاطفال--رعاية ذهنية., التعليم الابتدائى., الادراك الاجتماعى., الأطفال--علم نفس, الأطفال--تربية]",
+      "keywords": "[ التعليم الابتدائى. qrmak الأطفال علم نفس bibalex الاطفال رعاية ذهنية. qrmak الأطفال تربية qrmak الادراك الاجتماعى. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15287",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 147664,
+      "source_id": "Alexandrina-015278",
+      "title": "ما لا يجرى القياس فيه : رسالة مقدمة لنيل درجة الماجستير فى الشريعة",
+      "author": "الحريتى، محمد نصار.",
+      "subjects": "[الفقه الإسلامي، أصول, القياس (فقه إسلامي), الاجماع (اصول فقه)]",
+      "keywords": "[ القياس (فقه إسلامي) qrmak الاجماع (اصول فقه) qrmak الفقه الإسلامي، أصول bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15278",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 148169,
+      "source_id": "Alexandrina-015263",
+      "title": "محمد فريد وجدى مفكرا اسلاميا : رسالة ماجستير",
+      "author": "الجوينى، مصطفى الصاوى.",
+      "subjects": "[الفلسفة الاسلامية., الفلاسفة المسلمون., وجدى، محمد فريد.]",
+      "keywords": "[ وجدى، محمد فريد. الفلسفة الاسلامية. qrmak الفلاسفة المسلمون. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15263",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 148569,
+      "source_id": "Alexandrina-015280",
+      "title": "مسائل الاعتقاد عند الامير الصنعانى محمد بن اسماعيل (ت : 1182 هـ) : رسالة مقدمة لنيل درجة الماجستير",
+      "author": "طاهر، حامد",
+      "subjects": "[الفلسفة الاسلامية., العقائد--تراجم., الصنعاني، محمد بن إسماعيل،--1099-1182 هـ.]",
+      "keywords": "[ الصنعاني، محمد بن إسماعيل، 1099-1182 هـ. maaq العقائد تراجم. qrmak الفلسفة الاسلامية. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15280",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 149602,
+      "source_id": "Alexandrina-015342",
+      "title": "منطق الفئات و جذوره الارسطية = The logic of classes and its Aristotelian roots : رسالة مقدمة للحصول على درجة الماجستير",
+      "author": "رشوان، محمد مهران",
+      "subjects": "[المنطق., المنطق الرمزى و الرياضى., الارسطية (فلسفة), الرياضيات--فلسفة]",
+      "keywords": "[ المنطق الرمزى و الرياضى. qrmak الارسطية (فلسفة) qrmak الرياضيات فلسفة qrmak المنطق. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15342",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 149641,
+      "source_id": "Alexandrina-015247",
+      "title": "منهج الامام شريح القاضى الفقهى : دراسة تاصيلية : اطروحة لنيل درجة الماجستير فى الشريعة الاسلامية",
+      "author": "الوردانى، عمرو مصطفى.",
+      "subjects": "[الشريعة الاسلامية., الفقه الإسلامي, شريح القاضي،--ت. 78 هـ.]",
+      "keywords": "[ شريح القاضي، ت. 78 هـ. maaq الفقه الإسلامي bibalex الشريعة الاسلامية. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15247",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 149642,
+      "source_id": "Alexandrina-427721",
+      "title": "منهج الامام شريح القاضى الفقهى : دراسة تاصيلية : اطروحة لنيل درجة الماجستير فى الشريعة الاسلامية",
+      "author": "الوردانى، عمرو مصطفى.",
+      "subjects": "[الشريعة الاسلامية., الفقه الإسلامي, شريح القاضي،--ت. 78 هـ.]",
+      "keywords": "[]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:427721",
+      "disposition": "internal_duplicate_title",
+      "duplicate_of_source_id": "Alexandrina-015247"
+    },
+    {
+      "row": 149685,
+      "source_id": "Alexandrina-015235",
+      "title": "منهج لتأثير العناصر الاقليمية بالمدن المتوسطة على توجيه النمو العمرانى : رسالة معدة للحصول على درجة دكتوراه الفلسفة فى التخطيط الاقليمى",
+      "author": "كامل، مها سامى.",
+      "subjects": "[التخطيط الاقليمى., تخطيط المدن.]",
+      "keywords": "[ التخطيط الاقليمى. qrmak تخطيط المدن. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15235",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 150216,
+      "source_id": "Alexandrina-015338",
+      "title": "نظام الالتزام فى ريف الصعيد فى العصر العثمانى : رسالة مقدمة لنيل درجة الماجستير فى الاداب من قسم التاريخ",
+      "author": "عفيفي، محمد",
+      "subjects": "[مصر--احوال اجتماعية., مصر--تاريخ--العصر العثمانى (1517-1914 م.)., مصر--أحوال اقتصادية]",
+      "keywords": "[ مصر تاريخ العصر العثمانى (1517-1914 م.). qrmak مصر أحوال اقتصادية qrmak مصر احوال اجتماعية. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15338",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    },
+    {
+      "row": 150353,
+      "source_id": "Alexandrina-005123",
+      "title": "نظرية مقاصد الشريعة بين شيخ الاسلام ابن تيمية و جمهور الاصوليين : دراسة مقارنة من القرن الخامس الى القرن الثامن الهجرى : اطروحة لنيل درجة الماجستير",
+      "author": "بلتاجي، محمد.",
+      "subjects": "[الشريعة الاسلامية., مقاصد الشريعة--تاريخ., الفقه الإسلامي, ابن تيمية، أحمد بن عبد الحليم،--661-728 هـ.]",
+      "keywords": "[ ابن تيمية، أحمد بن عبد الحليم، 661-728 هـ. maaq مقاصد الشريعة تاريخ. qrmak الفقه الإسلامي bibalex الشريعة الاسلامية. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:5123",
+      "disposition": "duplicate_normalized_title_with_catalog"
+    }
+  ],
+  "blocked_by_policy": [],
+  "review": [
+    {
+      "row": 155,
+      "source_id": "Alexandrina-097194",
+      "title": "كيف تكتب بحثا او رسالة : دراسة منهجية لكتابة الابحاث و اعداد رسائل الماجستير و الدكتوراه",
+      "author": "شلبى، احمد.",
+      "subjects": "[طرق البحث., البحث., الكتابة العلمية.]",
+      "keywords": "[ البحث. bibalex الكتابة العلمية. bibalex طرق البحث. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:97194",
+      "reason": "كتاب منهجي أو تعليمي عن كتابة الرسائل، لا رسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 166,
+      "source_id": "Alexandrina-016222",
+      "title": "الاسس العلمية لكتابة رسائل الماجستير و الدكتوراه",
+      "author": "سعودي، محمد عبد الغني.",
+      "subjects": "[الرسائل الجامعية., البحوث., طرق البحث., الكتابة العلمية.]",
+      "keywords": "[ طرق البحث. qrmak البحوث. qrmak الرسائل الجامعية. qrmak الكتابة العلمية. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:16222",
+      "reason": "كتاب منهجي أو تعليمي عن كتابة الرسائل، لا رسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 262,
+      "source_id": "Alexandrina-163008",
+      "title": "كيف تكتب بحثا او رسالة : دراسة منهجية لكتابة البحوث و اعداد رسائل الماجستير و الدكتوراه",
+      "author": "شلبى، احمد.",
+      "subjects": "[طرق البحث., البحث., الكتابة العلمية.]",
+      "keywords": "[ البحث. bibalex الكتابة العلمية. bibalex طرق البحث. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:163008",
+      "reason": "كتاب منهجي أو تعليمي عن كتابة الرسائل، لا رسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 263,
+      "source_id": "Alexandrina-307842",
+      "title": "كيف تكتب بحثا او رسالة : دراسة منهجية لكتابة البحوث و اعداد رسائل الماجستير و الدكتوراه",
+      "author": "شلبى، احمد.",
+      "subjects": "[طرق البحث., البحث., الكتابة العلمية.]",
+      "keywords": "[ البحث. qrmak الكتابة العلمية. qrmak طرق البحث. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:307842",
+      "reason": "كتاب منهجي أو تعليمي عن كتابة الرسائل، لا رسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 264,
+      "source_id": "Alexandrina-005189",
+      "title": "كيف تكتب بحثا او رسالة : دراسة منهجية لكتابة البحوث و اعداد رسائل الماجستير و الدكتوراه",
+      "author": "شلبى، احمد.",
+      "subjects": "[طرق البحث., البحث., الكتابة العلمية.]",
+      "keywords": "[ البحث. bibalex الكتابة العلمية. bibalex طرق البحث. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:5189",
+      "reason": "كتاب منهجي أو تعليمي عن كتابة الرسائل، لا رسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 267,
+      "source_id": "Alexandrina-095679",
+      "title": "البحوث العلمية للماجستير و الدكتوراة و البحوث التطبيقية",
+      "author": "شتا، السيد علي.",
+      "subjects": "[طرق البحث., الكتابة العلمية., البحث العلمى.]",
+      "keywords": "[ البحث العلمى. qrmak طرق البحث. qrmak الكتابة العلمية. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:95679",
+      "reason": "كتاب منهجي أو تعليمي عن كتابة الرسائل، لا رسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 85171,
+      "source_id": "Alexandrina-095572",
+      "title": "كيف تعد رسالة دكتوراه : تقنيات و طرائق البحث و الدراسة و الكتابة",
+      "author": "إكو، أمبرتو",
+      "subjects": "[طرق البحث., طرق التدريس.]",
+      "keywords": "[ طرق البحث. bibalex طرق التدريس. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:95572",
+      "reason": "كتاب منهجي أو تعليمي عن كتابة الرسائل، لا رسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 147412,
+      "source_id": "Alexandrina-485294",
+      "title": "كيف تكتب بحثا او رسالة : دراسة منهجية لكتابة البحوث و اعداد رسائل الماجستير و الدكتوراه",
+      "author": null,
+      "subjects": "[]",
+      "keywords": "[]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:485294",
+      "reason": "كتاب منهجي أو تعليمي عن كتابة الرسائل، لا رسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 165,
+      "source_id": "Alexandrina-022120",
+      "title": "اعداد البحث العلمى : ليسانس، ماجستير، دكتوراه",
+      "author": "عناية، غازي.",
+      "subjects": "[طرق البحث.]",
+      "keywords": "[ طرق البحث. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:22120",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 255,
+      "source_id": "Alexandrina-016285",
+      "title": "تبسيط كتابة البحث العلمى : من البكالوريوس، ثم الماجيستير-- و حتى الدكتوراه",
+      "author": "ساعاتي، أمين",
+      "subjects": "[طرق البحث., الكتابة العلمية.]",
+      "keywords": "[ طرق البحث. bibalex الكتابة العلمية. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:16285",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 259,
+      "source_id": "Alexandrina-135332",
+      "title": "كتابة البحوث العلمية و رسائل الدبلوم و الماجستير و الدكتوراة",
+      "author": "سعودى، محمد عبد الغنى.",
+      "subjects": "[البحوث., طرق البحث.]",
+      "keywords": "[ طرق البحث. bibalex البحوث. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:135332",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 1578,
+      "source_id": "Alexandrina-022281",
+      "title": "المملكة العربية السعودية فى مائة عام (1319-1419 هـ) : من خلال رسائل الماجستير و الدكتوراه المقدمة الى جامعة الامام محمد بن سعود الاسلامية",
+      "author": "الربيع، محمد بن عبد الرحمن.",
+      "subjects": "[الرسائل الجامعية--ببليوجرافيات., جامعة الامام محمد بن سعود الاسلامية--الرسائل الجامعية.]",
+      "keywords": "[ الرسائل الجامعية ببليوجرافيات. qrmak جامعة الامام محمد بن سعود الاسلامية الرسائل الجامعية. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:22281",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 36735,
+      "source_id": "Alexandrina-034747",
+      "title": "قضايا الطفولة فى بحوث الاعلام : دراسة تحليلية لعينة من رسائل الماجستير و الدكتوراه بكليات و اقسام الاعلام المصرية",
+      "author": "زلطة، عبد الله.",
+      "subjects": "[الثقافة العربية., الاعلام., وسائل الإعلام و الأطفال]",
+      "keywords": "[ وسائل الإعلام و الأطفال bibalex الثقافة العربية. qrmak الاعلام. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:34747",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 51557,
+      "source_id": "Alexandrina-164763",
+      "title": "الاصول العلمية لكتابة البحث القانونى : رسائل الدكتوراه و الماجستير، بحث نقابة المحامين، بحث المعهد القضائى و البحوث الطلابية، المؤتمرات و الندوات",
+      "author": "الملكاوي، بشار عدنان.",
+      "subjects": "[الكتابة العلمية., القانون--طرق البحث.]",
+      "keywords": "[ القانون طرق البحث. bibalex الكتابة العلمية. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:164763",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 51560,
+      "source_id": "Alexandrina-195923",
+      "title": "قواعد البحث القانونى : الجوانب الشكلية و الموضوعية لاسيما فى رسائل الماجستير و الدكتوراه و نظم ترقية القضاة و تدرج المحامين",
+      "author": "الشيخلي، عبد القادر.",
+      "subjects": "[البحث., الكتابة العلمية., القانون.]",
+      "keywords": "[ البحث. bibalex القانون. bibalex الكتابة العلمية. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:195923",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 63264,
+      "source_id": "Alexandrina-057101",
+      "title": "دراسات لرسائل جامعية: [ماجستير-دكتوراة-استاذية]",
+      "author": "قريب الله، حسن الفاتح.",
+      "subjects": "[الرسائل الجامعية, الدرجات العلمية]",
+      "keywords": "[ الرسائل الجامعية qrmak الدرجات العلمية qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:57101",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 63268,
+      "source_id": "Alexandrina-296349",
+      "title": "من الاخطاء الشائعة فى رسائل الماجستير و الدكتوراه",
+      "author": "درويش، محمد درويش.",
+      "subjects": "[الرسائل الجامعية.]",
+      "keywords": "[ الرسائل الجامعية. bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:296349",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 78267,
+      "source_id": "Alexandrina-063997",
+      "title": "اعداد رسائل الماجستير و الدكتوراه فى العلوم الادارية : ادارة الأعمال، المحاسبة و الاقتصاد",
+      "author": "عطيه، طاهر مرسي.",
+      "subjects": "[الرسائل الجامعية., إدارة الأعمال--طرق البحث]",
+      "keywords": "[ إدارة الأعمال طرق البحث qrmak الرسائل الجامعية. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:63997",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 85170,
+      "source_id": "Alexandrina-075290",
+      "title": "اعداد الرسائل العلمية و الجامعية = preparing dissertations and theses",
+      "author": "أليسون، بريان",
+      "subjects": "[طرق البحث., البحث., الكتابة العلمية.]",
+      "keywords": "[ الكتابة العلمية. qrmak طرق البحث. qrmak البحث. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:75290",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 126280,
+      "source_id": "Alexandrina-506392",
+      "title": "\\\"ماذا قدم العبادي للدراسات الكلاسيكية؟: ندوة عقدت بجمعية الآثار بالإسكندرية في 22 نوفمبر 2005 بمناسبة حصول أ.د. مصطفى العبادي على درجة الدكتوراه الفخرية من جامعة كيبيك بمونتريال بكندا \\\"",
+      "author": null,
+      "subjects": "[]",
+      "keywords": "[]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:506392",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 127138,
+      "source_id": "Alexandrina-015245",
+      "title": "اجماعات ابن عبد البر : دراسة فقهية مقارنة : بحث مقدم لنيل درجة الماجستير",
+      "author": "عثمان، سيد عبده بكر.",
+      "subjects": "[الشريعة الاسلامية., الفقه الاسلامى--مذاهب., الفقه الإسلامي, ابن عبد البر، يوسف بن عبد الله،--368-463 هـ.]",
+      "keywords": "[ ابن عبد البر، يوسف بن عبد الله، 368-463 هـ. maaq الشريعة الاسلامية. qrmak الفقه الاسلامى مذاهب. qrmak الفقه الإسلامي bibalex]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15245",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 127156,
+      "source_id": "Alexandrina-015261",
+      "title": "احكام الجوائح فى الفقه الاسلامى و صلتها بنظريتى الضرورة و الظروف الطارئة : بحث مقدم لنيل درجة الدكتوراه",
+      "author": "المطيرات، عادل مبارك.",
+      "subjects": "[البيع (معاملات اسلامية)., الافات الزراعية., الفقه الإسلامي]",
+      "keywords": "[ البيع (معاملات اسلامية). qrmak الفقه الإسلامي bibalex الافات الزراعية. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15261",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 127208,
+      "source_id": "Alexandrina-015279",
+      "title": "اداب العالم و المتعلم عند المفكرين المسلمين من منتصف القرن الثانى الهجرى و حتى نهاية القرن السابع : بحث مقدم لنيل درجة الماجستير فى الفلسفة الاسلامية",
+      "author": "مراد، يحيى حسن على.",
+      "subjects": "[الفلسفة الاسلامية., الأخلاق الإسلامية]",
+      "keywords": "[ الأخلاق الإسلامية qrmak الفلسفة الاسلامية. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15279",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 127402,
+      "source_id": "Alexandrina-429340",
+      "title": "استخدام الاحصاء فى البحوث الاجتماعية : تحليل مضمون لعينة من رسائل الماجستير و الدكتوراه فى علم الاجتماع",
+      "author": "الشاذلى، خلاف خلف.",
+      "subjects": "[البحوث الاجتماعية., الاجتماع، علم--طرق احصائية., البحوث--طرق احصائية.]",
+      "keywords": "[]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:429340",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 128375,
+      "source_id": "Alexandrina-015266",
+      "title": "الاطلاق و التقييد و اثرهما فى فقه المعاملات و العقوبات : دراسة تطبيقية على الاحاديث الواردة فى نيل الاوطار شرح منتقى الاخبار للامام الشوكانى : بحث مقدم لنيل درجة الدكتوراه فى اللغة العربية و ادابها",
+      "author": "شلبى، سماح صلاح الدين عبد العزيز.",
+      "subjects": "[العقوبات (فقه اسلامى)., الفقه الإسلامي, الشوكاني، محمد بن علي،--1173-1250 هـ., الإفلاس (فقه إسلامي)]",
+      "keywords": "[ الشوكاني، محمد بن علي، 1173-1250 هـ. maaq الفقه الإسلامي bibalex الإفلاس (فقه إسلامي) qrmak العقوبات (فقه اسلامى). qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15266",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 131593,
+      "source_id": "Alexandrina-015368",
+      "title": "الخيال فى الرسوم و علاقته بالابداع لدى الجنسين من سن 6 الى 16 سنة = The imagination in the drawings and its relationship with creativity for both sexes from 6-16 years : (بحث مقدم استكمالا لمتطلبات الحصول على درجة الماجستير فى التربية الفنية) (تخصص علم نفس)",
+      "author": "عوض، هناء محمد.",
+      "subjects": "[الابداع., الخيال., رسوم الاطفال., رسم الاطفال.]",
+      "keywords": "[ الخيال. qrmak الابداع. qrmak رسوم الاطفال. qrmak رسم الاطفال. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15368",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 132146,
+      "source_id": "Alexandrina-015298",
+      "title": "السجع القرآنى-دراسة اسلوبية : بحث مقدم لنيل درجة الماجستير",
+      "author": "نصر، عاطف جودة.",
+      "subjects": "[القرآن، بلاغة., قرآن--ألفاظ (من الناحية البلاغية).]",
+      "keywords": "[ قرآن ألفاظ (من الناحية البلاغية). bibalex القرآن، بلاغة. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15298",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 135592,
+      "source_id": "Alexandrina-015304",
+      "title": "المناجم و المحاجر فى مصر القديمة : (منذ بداية الدولة القديمة و حتى نهاية الدولة الحديثة) : بحث مقدم لنيل درجة الدكتوراه فى الاداب",
+      "author": "السوداني، أمينة عبد الفتاح محمد.",
+      "subjects": "[المناجم--مصر القديمة., المحاجر., مصر القديمة--تاريخ--الدولة القديمة (3400-2260 ق.م.)]",
+      "keywords": "[ المناجم مصر القديمة. qrmak المحاجر. qrmak مصر القديمة تاريخ الدولة القديمة (3400-2260 ق.م.) qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15304",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 138566,
+      "source_id": "Alexandrina-015295",
+      "title": "بعض متغيرات الشخصية و خصائص المثير المسئولة عن رفع او خفض درجة الازاحة بين تذوق العاديين و المتخصصين فى \\\"الفنون المرئية\\\" : بحث مقدم لنيل درجة دكتوراه الفلسفة فى الاداب من قسم علم النفس",
+      "author": "حبيب، نشوى زكى محمد.",
+      "subjects": "[الجمال، علم., علم النفس الجمالى.]",
+      "keywords": "[ علم النفس الجمالى. qrmak الجمال، علم. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15295",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 142632,
+      "source_id": "Alexandrina-439750",
+      "title": "دكتوراه فى الحب : من وحى أسطورة بيجماليون : مسرحية كوميديا",
+      "author": null,
+      "subjects": "[]",
+      "keywords": "[]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:439750",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    },
+    {
+      "row": 144259,
+      "source_id": "Alexandrina-015254",
+      "title": "صحار و تاريخها السياسى و الحضارى منذ ظهور الاسلام و حتى نهاية القرن الرابع الهجرى : بحث لنيل درجة الماجستير",
+      "author": "المنذرى، محمد بن ناصر بن راشد.",
+      "subjects": "[صحار (عمان)--تاريخ.]",
+      "keywords": "[ صحار (عمان) تاريخ. qrmak]",
+      "source_url": "http://dar.bibalex.org/webpages/mainpage.jsf?PID=DAF-Job:15254",
+      "reason": "توجد إشارة للدرجة لكن لا يتضح أن العنوان لرسالة أكاديمية فردية.",
+      "disposition": "excluded_or_reviewed_during_source_classification"
+    }
+  ],
+  "counts": {
+    "candidates": 49,
+    "additions": 0,
+    "duplicates": 49,
+    "blocked": 0,
+    "review": 31
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "operation": "independent-verification",
+  "source": "الرسائل العلمية والبحوث المحكمة",
+  "items_total": 137734,
+  "added_count": 26,
+  "unique_ids": 137734,
+  "stats_total_items": 137734,
+  "search_title_index_count": 137734,
+  "blocked_records_in_added_batch": 0,
+  "failures": [],
+  "passed": true
+}

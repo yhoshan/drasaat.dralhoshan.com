@@ -1,0 +1,36 @@
+{
+  "operation": "maqasid-malaysia-title-candidates-quality-audit",
+  "source_file": "/home/ubuntu/upload/pasted_file_hpwA9C_manus_maqasid_malaysia_270_TITLE_CANDIDATES.json",
+  "source_declared_records": 270,
+  "records_read": 270,
+  "counts": {
+    "needs_title_review": 148,
+    "likely_fragments_or_ocr_corruption": 268,
+    "title_under_30_characters": 239,
+    "explicit_incomplete_fragments": 4
+  },
+  "by_source": {
+    "كشاف الدراسات المقاصدية في الجامعات والمجلات السعودية": {
+      "records": 250,
+      "thesis": 117,
+      "research": 133,
+      "needs_title_review": 128,
+      "likely_fragment": 248,
+      "short_title": 239
+    },
+    "الرسائل الجامعية المتصلة بالقرآن الكريم واللغة العربية - الجامعة الإسلامية العالمية بماليزيا": {
+      "records": 20,
+      "thesis": 20,
+      "research": 0,
+      "needs_title_review": 20,
+      "likely_fragment": 20,
+      "short_title": 0
+    }
+  },
+  "decision": "no_automatic_import",
+  "rationale": "العناوين تتضمن اقتطاعات وخللاً في OCR حتى داخل سجلات needs_title_review=false، كما لا توفر الدفعة رابطاً أو نصاً أصلياً لكل صفحة لإعادة بناء العنوان حرفياً. لا يجوز إدخال عنوان مختصر أو مستنتج في قاعدة المكنز.",
+  "external_verification_attempt": {
+    "source": "https://ijasat.com/index.php/ijasat_ar/article/view/273/262",
+    "result": "رابط القراءة يشير إلى ملف PDF مفقود، بينما صفحة المجلة البديلة تعلن أن بيانات التنزيل غير متاحة."
+  }
+}

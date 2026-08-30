@@ -1,0 +1,12 @@
+{
+  "operation": "independent-verification",
+  "source": "فهرس أبحاث مجلة جامعة القصيم للعلوم الشرعية",
+  "items_total": 138305,
+  "added_count": 571,
+  "unique_ids": 138305,
+  "stats_total_items": 138305,
+  "search_title_index_count": 138305,
+  "blocked_records_in_added_batch": 0,
+  "failures": [],
+  "passed": true
+}

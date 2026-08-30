@@ -1,0 +1,13 @@
+{
+  "operation": "independent-verification",
+  "source": "بحوث حديثية – دفعة حديثة 164",
+  "checked_at": "2026-08-30T15:16:39.695Z",
+  "items_total": 137708,
+  "added_count": 155,
+  "unique_ids": 137708,
+  "stats_total_items": 137708,
+  "search_title_index_count": 137708,
+  "blocked_records_in_added_batch": 0,
+  "failures": [],
+  "passed": true
+}

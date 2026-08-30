@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-08-30T16:19:56.869Z",
+  "success": true,
+  "totals": {
+    "total_items": 138352,
+    "total_theses": 110760,
+    "total_research": 20804,
+    "total_entries": 591
+  },
+  "unique_ids": 138352,
+  "unique_normalized_titles": 136382,
+  "preexisting_normalized_duplicate_events": 1970,
+  "new_addition_normalized_duplicate_events": 0,
+  "search_index_records": 138352,
+  "first_archive_added": 47,
+  "second_archive_added": 0,
+  "blocked_records_remaining": 0,
+  "failures": []
+}

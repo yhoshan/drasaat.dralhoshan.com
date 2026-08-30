@@ -1,0 +1,137 @@
+{
+  "operation": "merge",
+  "source_file": "/home/ubuntu/upload/pasted_file_rZr8ju_result.json",
+  "generated_at": "2026-08-30T15:18:38.397Z",
+  "before_total": 137708,
+  "after_total": 137734,
+  "summary": {
+    "source": "الرسائل العلمية والبحوث المحكمة",
+    "source_messages": 134,
+    "accepted_count": 26,
+    "accepted_theses": 2,
+    "accepted_research": 24,
+    "internal_duplicates": 0,
+    "duplicates_in_target": 17,
+    "blocked_by_iran_hizbullah_policy": 0,
+    "review_count": 0
+  },
+  "added_count": 26,
+  "added_ids": [
+    "scientific_channel_60895_489f7258f0820da7",
+    "scientific_channel_60898_7c58424265676879",
+    "scientific_channel_60901_921983dfcc72480b",
+    "scientific_channel_60911_da1098ad8e8acfe6",
+    "scientific_channel_60914_5b58195482e1fce1",
+    "scientific_channel_60917_916d06578790ca73",
+    "scientific_channel_60920_a52ef4946c0ad2c1",
+    "scientific_channel_60934_4e61c6d32d28c95b",
+    "scientific_channel_60938_28a5426c4ca428ba",
+    "scientific_channel_60944_fbbdadea6eb6b73a",
+    "scientific_channel_60947_be0bc0d099951957",
+    "scientific_channel_60950_29d6733dd0725032",
+    "scientific_channel_60953_accfa15ae5976f7f",
+    "scientific_channel_60956_8127b5ec74eccc89",
+    "scientific_channel_60962_dae26c76535496ba",
+    "scientific_channel_60965_236327da4fb6cd15",
+    "scientific_channel_60968_f89bba615923b1d9",
+    "scientific_channel_60971_c35630bc16354b04",
+    "scientific_channel_60979_0cceb9e0ca8220db",
+    "scientific_channel_60982_36602e5b3350b558",
+    "scientific_channel_60985_4eb10233547a269c",
+    "scientific_channel_60993_50e36d83003e6a7b",
+    "scientific_channel_60996_6cc9e010a9231921",
+    "scientific_channel_61005_81937f7a005ce32a",
+    "scientific_channel_61026_dc02f25c86f0361d",
+    "scientific_channel_61029_8110c6697ef8f131"
+  ],
+  "duplicates_internal": [],
+  "duplicates_target": [
+    {
+      "title": "الأحاديث التي لم يعمل بها الإمام الشافعي في كتابه «الأم» في أبواب العبادات",
+      "source_message_id": 60904,
+      "duplicate_by": "normalized_title"
+    },
+    {
+      "title": "صفات الله التي انفردت بها السنة النبوية «دراسة حديثية موضوعية»",
+      "source_message_id": 60908,
+      "duplicate_by": "normalized_title"
+    },
+    {
+      "title": "القواعد والضوابط الفقهية الحاكمة لباب اللهو واللعب والترفيه، وتطبيقاتها المعاصرة",
+      "source_message_id": 60923,
+      "duplicate_by": "normalized_title"
+    },
+    {
+      "title": "إعجاز القرآن من خلال كتاب «الإتقان في علوم القرآن» : عرض وتحليل",
+      "source_message_id": 60928,
+      "duplicate_by": "normalized_title"
+    },
+    {
+      "title": "موقف الإمام الشوكاني من البدع في الشعائر الدينية «دراسة فقهية تحليلية»",
+      "source_message_id": 60931,
+      "duplicate_by": "normalized_title"
+    },
+    {
+      "title": "جهود بعض علماء البلد الحرام في تقرير العقيدة السلفية في القرن الرابع عشر الهجري",
+      "source_message_id": 60941,
+      "duplicate_by": "normalized_title"
+    },
+    {
+      "title": "الأحاديث التي حكم عليها الإمام البغوي بالغرابة في كتابه: «شرح السنة» دراسة حديثية تحليلية",
+      "source_message_id": 60959,
+      "duplicate_by": "normalized_title"
+    },
+    {
+      "title": "أحكام الحافظ ابن السكن على الأحاديث من خلال كتاب «إتحاف المهرة» لابن حجر العسقلاني - دراسة حديثية",
+      "source_message_id": 60988,
+      "duplicate_by": "normalized_title"
+    },
+    {
+      "title": "المذهبية الفقهية عند الإمام أبي داود السجستاني من خلال كتابه السنن",
+      "source_message_id": 60999,
+      "duplicate_by": "normalized_title"
+    },
+    {
+      "title": "من اعتراضات العيني النحوية على ابن حجر العسقلاني «أربع مسائل عرضًا ودراسة»",
+      "source_message_id": 61002,
+      "duplicate_by": "normalized_title"
+    },
+    {
+      "title": "حديث سمرة بن جندب في سكتات الإمام في الصلاة (دراسة حديثية فقهية)",
+      "source_message_id": 61008,
+      "duplicate_by": "normalized_title"
+    },
+    {
+      "title": "حديث جابر بن عبدالله - رضي الله عنهما - في حل أكل الضبع: دراسة حديثية فقهية",
+      "source_message_id": 61011,
+      "duplicate_by": "normalized_title"
+    },
+    {
+      "title": "المراد بالاسترقاء المنفي في حديث السبعين ألفًا الذين يدخلون الجنة بغير حساب ولا عذاب",
+      "source_message_id": 61014,
+      "duplicate_by": "normalized_title"
+    },
+    {
+      "title": "أدعية قضاء الدَّين في السنة النبوية \"جمعاً ودراسة\"",
+      "source_message_id": 61017,
+      "duplicate_by": "normalized_title"
+    },
+    {
+      "title": "الأحاديث والآثار المصرَّح فيها بألفاظ يستحيا منها وتوجيهها",
+      "source_message_id": 61020,
+      "duplicate_by": "normalized_title"
+    },
+    {
+      "title": "الأحاديث والآثار الواردة في توجيه المحتضر إلى القبلة «جمعًا ودراسة»",
+      "source_message_id": 61023,
+      "duplicate_by": "normalized_title"
+    },
+    {
+      "title": "منهج أهل السنة والجماعة في الاستدلال باللغة العربية على مسائل العقيدة",
+      "source_message_id": 61032,
+      "duplicate_by": "normalized_title"
+    }
+  ],
+  "blocked": [],
+  "rebuild_output": "{\n  \"output\": \"/home/ubuntu/drasaat-dralhoshan/client/public/search-title-index.json\",\n  \"records\": 137734,\n  \"bytes\": 38872565\n}\n{\n  \"total_items\": 137734,\n  \"total_theses\": 110713,\n  \"total_research\": 20233,\n  \"total_entries\": 591,\n  \"total_masters\": 10766,\n  \"total_phd\": 4909,\n  \"total_size_mb\": 350234.6,\n  \"total_size_gb\": 342.03,\n  \"categories\": 439,\n  \"degrees\": 9,\n  \"file_types\": 12,\n  \"featured_count\": 169,\n  \"with_download_links\": 79434,\n  \"last_updated\": \"2026-08-27\"\n}"
+}
