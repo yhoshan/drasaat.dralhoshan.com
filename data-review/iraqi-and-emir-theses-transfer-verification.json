@@ -1,0 +1,17 @@
+{
+  "verified_at": "2026-08-30T19:37:45.351Z",
+  "catalog_counts": {
+    "total_items": 138828,
+    "total_theses": 111236,
+    "total_research": 20804,
+    "total_entries": 591
+  },
+  "search_index_records": 138828,
+  "batch_counts": {
+    "iraqi_refined_titles": 340,
+    "emir_abdelkader": 135
+  },
+  "blocked_matches": 0,
+  "failures": [],
+  "passed": true
+}

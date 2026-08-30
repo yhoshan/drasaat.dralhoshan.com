@@ -1,0 +1,3479 @@
+{
+  "operation": "iraqi-refined-title-list-transfer-plan",
+  "generated_at": "2026-08-30T19:30:21.626Z",
+  "source_file": "/home/ubuntu/iraqi-refined-title-list.json",
+  "source_name": "بنك الرسائل والأطاريح الجامعية العراقية",
+  "catalog_count_before": 138353,
+  "counts": {
+    "source_title_occurrences": 360,
+    "unique_titles": 350,
+    "internal_duplicates": 10,
+    "matched_to_channel_post": 1,
+    "additions": 340,
+    "duplicates": 8,
+    "blocked": 2
+  },
+  "additions": [
+    {
+      "id": "iraqi-theses-refined-0001",
+      "title": "التصرف الخطي للعتبات المركبة المصنوعة من مواد لزجة مرنة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "1",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0002",
+      "title": "التشكيل المجازي في الخطاب النقدي والبلاغي (اطار تنظيري)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "2",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0003",
+      "title": "استخلاص المركب2- هيدروكسي – 1،4 - نفثوكوينون من الحناء ودراسة طيفية لبعض معقداته",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "3",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0004",
+      "title": "أثر الجهـد البدنـي متزايد الشـدة في المتغيرات البايوكيميائيـة في الدم و بعض المهارات الأساسية بكرة القدم",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "4",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0005",
+      "title": "ابن الابار البلنسي الاندلسي ومنهجه في كتابه الحلة السيراء",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "5",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0006",
+      "title": "الفوائد الضيائية للجامي دراسة وتحليل",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "6",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0007",
+      "title": "التوجيهات النحوية في القراءات القرآنية عند الزمخشري المتوفى سنة528هـ في الكشاف",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "7",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0008",
+      "title": "الاخصاب المختبري لبويضات الابقار",
+      "author": "سيف أسامة عبد الحافظ احمد",
+      "degree": "ماجستير في العلوم الزراعية - الإنتاج الحيواني",
+      "university": "جامعة الانبار - كلية الزراعة 2017",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_message_id": 78,
+      "source_url": "https://thesesuniversity.blogspot.com/2018/08/blog-post.html",
+      "link_direct": "https://thesesuniversity.blogspot.com/2018/08/blog-post.html",
+      "source_line_number": "8",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "file_type": "PDF",
+      "download_links_count": 1
+    },
+    {
+      "id": "iraqi-theses-refined-0009",
+      "title": "الشعرية العربية في ضوء معايير النقد العربي القديم حتى نهاية القرن السابع الهجري",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "9",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0010",
+      "title": "دراسة بيئية وفسلجية لبعض انواع العائلة Saprolegniaceae في نهر الفرات ضمن مدينة الرمادي وبحيرة الحبانية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "10",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0011",
+      "title": "عزل وتشخيص البر وسيلا من دم المصابين بالحمى المتموجة في مدينة الرمادي ودراسة تأثيراتها المناعية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "11",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0012",
+      "title": "دراسة طيفية لمعقدات انتقال الشحنة لبعض الصبغات",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "12",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0013",
+      "title": "التحضير والدراسة الطيفية لمعقدات بعض العناصرالانتقالية مــــــع الايثرات التاجيــــة والكربتاند [2,2,2]",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "13",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0014",
+      "title": "دراسة تأثير حزمة-x المايكروية على التئام الجروح المفتوحة في الجرذان المختبرية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "14",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0015",
+      "title": "العلاقات السياسية الأميركية – الهندية 1947-1964",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "15",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0016",
+      "title": "تأثير استخدام الجداول التقييمية \"Rubrics\" في تقييم النظير \"Peer Assessment\" لتطوير مهارة التكلم لدى طلبة الجامعة العراقيين من متعلمي اللغة الانجليزية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "16",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0017",
+      "title": "عزل وتصنيف بعض الفطريات من التربة الملوثة بالمخلفات النفطية لمصفى البصرة ودراسة بعض العوامل المؤثرة على التحلل الحيوي للنفط الخام",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "17",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0018",
+      "title": "دراسة التركيب النووي لانوية الرصاص (186-194 Pb) والبلوتونيوم (Pu 246-238) باستخدام انموذج البوزونات المتفاعلة بصيغته IBM-1 و IBM-CM",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "18",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0019",
+      "title": "حماية حقوق الطفل في النزاعات المسلحة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "19",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0020",
+      "title": "اثر البرنامج التدريبي في تحسين اداء الادارات الوسطى-دراسة ميدانية في شركة نفط الجنوب",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "20",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0021",
+      "title": "تحليل مقومات ادارة المعرفة وعلاقتها بالابداع",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "21",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0022",
+      "title": "نظام الادارة المتكامل ودوره في الاداء الشامل لشركة نفط الجنوب (دراسة ميدانية)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "22",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0023",
+      "title": "تحديد النشاط الاشعاعي للنظائر المشعة في الاغذية المستهلكة في البصرة جنوب العراق",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "23",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0024",
+      "title": "العلاقة بين التوجه السوقي وادارة معرفة الزبون في تحقيق الميزة التنافسية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "24",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0025",
+      "title": "تقييم كفاءة حامض السالسليك وبعض العوامل الاحيائية في مكافحة مرض تعفن جذور نبات الباميا المتسبب عن الفطر Rhizoctonia solani kuhn (1858)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "25",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0026",
+      "title": "الغاز الطبيعي في العراق للمدة 2000-2010 (دراسة تقويمية)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "26",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0027",
+      "title": "إفادة أعضاء هيئة التدريس من مصادر المعلومات الالكترونية في كلية الطب – جامعة البصرة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "27",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0028",
+      "title": "تأثير الكافور في بعض المعايير الفسلجية و الكيميوحيوية و النسجية في ذكور الجرذان المختبرية Ruttous ruttous",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "28",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0029",
+      "title": "تأثير استراتيجية الموارد البشرية في الاداء المنظمي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "29",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0030",
+      "title": "صياغة مبادئ ادارة الاعمال وفق المنظور الاسلامي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "30",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0031",
+      "title": "دور إستراتيجية المزيج التسويقي في تحقيق الميزة التنافسية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "31",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0032",
+      "title": "الدرس النحوي العربي الحديث - إشكالية المنهج والمفهوم",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "32",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0033",
+      "title": "صياغة نموذج محاكاة على الحاسوب واستخدامه لتحسين أداء عمليات التفريغ في موانئ العراق دراسة حالة في ميناء أم قصر",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "33",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0034",
+      "title": "دور المنظمات في حماية حقوق المستهلك",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "34",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0036",
+      "title": "الحياة والموت في الشعر العراقي الحديث في النصف الاول من القرن العشرين",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "36",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0037",
+      "title": "الهجرة الوافدة الى دولة الكويت للمدة 1975 – 2005",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "37",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0038",
+      "title": "تصميم وتنفيذ الجامع والضارب الثلاثي الضوئي بالاستناد الى النظام العددي الرقمي المعدل ذي الاشارة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "38",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0039",
+      "title": "تأثير الترامادول كمسكن ومع الكيتامين، الزايلازين والديازيبام كمخدر في الحمير",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "39",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0040",
+      "title": "انتاج الطاقة الكهربائية لتلبية الطلب الكلي في العراق دراسة تحليلة للمدة (1970-1999)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "40",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0041",
+      "title": "الدور الوقائي لسترات الكلومفين ضد التأثيرات الفسلجية الناتجة من التعرض للأترازين في الجرذان المختبرية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "41",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0042",
+      "title": "تأثير مستخلص الشاي الاخضر camellia sinensis على بعض انواع البكتريا وامكانية استخدامه في حفظ اللحوم",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "42",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0043",
+      "title": "تقييم نوعية اسماك الروهو lobeo rohita والمريجال cirrhina mrigal المجمدة المتداولة في اسواق مدينة البصرة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "43",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0044",
+      "title": "تحديد تركيز غاز الرادون في لحوم الاسماك المحلية والمستوردة في محافظة البصرة/جنوب العراق باستخدام تقنية كواشف الاثر النووي الصلبة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "44",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0045",
+      "title": "اثـر الإرشـاد السلوكـي المعرفـي في خفـض سلــوك اللامبالاة لدى طلبة الصف الخامس الإعدادي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "45",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0046",
+      "title": "النفط وتأثيره في التنمية الاقتصادية والاجتماعية والسياسية لدولة الكويت",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "46",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0047",
+      "title": "رموز الغزل في شعر عمر بن ابي ربيعة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "47",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0048",
+      "title": "شعــر العباس بن الأحنف دراسة فنية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "48",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0049",
+      "title": "شعر شاكر العاشور دراسة موضوعية وفنية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "49",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0050",
+      "title": "شعر قصي الشيخ عسكر دراسة موضوعية وفنية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "50",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0051",
+      "title": "فهم الخطاب القرآني بين الامامية والاشاعرة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "51",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0052",
+      "title": "عبد الحسين المبارك سيرته وجهوده في اللغة والتحقيق",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "52",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0053",
+      "title": "امكانية التأويل وحدوده، قراءة تحليلية نقدية .. منة المنان لمحمد الصدر اختيارا",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "53",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0054",
+      "title": "البنيان الاسلوبية في شعر احمد الوائلي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "54",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0055",
+      "title": "الكويت وقضايا الخليج والجزيرة العربية 1950 – 1971",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "55",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0056",
+      "title": "عمود الشعر في النقد العربي المعاصر",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "56",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0057",
+      "title": "الدكتور كامل حسن البصير ودراساته البلاغية والقرآنية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "57",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0058",
+      "title": "النبي آدم دراسة تاريخية في ضوء الآيات القرآنية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "58",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0059",
+      "title": "المسؤولية الدولية لرئيس الدولة عن جرائم النزاعات المسلحة غير الدولية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "59",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0060",
+      "title": "اثر المناخ التنظيمي في عملية الإبداع",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "60",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0061",
+      "title": "الثورة الحيوانية في محافظة البصرة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "61",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0062",
+      "title": "الموازنة بين المصلحة الخاصة والعامة في ضوء القانون الجنائي والدستوري",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "62",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0063",
+      "title": "حلول التفرع لبعض الانظمة من المعادلات التفاضلية للاخطية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "63",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0066",
+      "title": "الدراسات اللغوية في نهج البلاغة في رسائل الجامعات العراقية وأطاريحها دراسة في المنهج والتقويم 1965م - 2011م",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "66",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0067",
+      "title": "دراسة تحليلية لبعض خصائص ستراتيج الفرق الناجحة واللعب الضاغط والتصرفات المواجهة لنهائيات امم اوروبا 2012 بكرة القدم",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "67",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0068",
+      "title": "معارض الكتب ودورها في تنمية المجموعات المكتبية في المكتبات المركزية للجامعات العراقية دراسة مقارنة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "68",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0069",
+      "title": "ضغط الصور باستخدام الشبكات العصبية والتحويل الموجي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "69",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0070",
+      "title": "النتاج الفكري المنشور في مجلات جامعة البصرة: دراسة تحليلة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "70",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0071",
+      "title": "المباحث الدلالية في منهاج البراعة في شرح نهج البلاغة لحبيب الله الهاشمي الخوئي (ت: 1324 هـ)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "71",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0072",
+      "title": "استخدام شبكة الانترنت من قبل الباحثين في مركز علوم البحار- جامعة البصرة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "72",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0073",
+      "title": "معدنية وجيوكيميائية الصخور الطينية لتكوين انجانة ضمن منطقة خانوكة-محافظة صلاح الدين، شمال العراق",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "73",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0074",
+      "title": "مملكة اوده الهندية الاسلامية 1722-1859 دراسة في التطورات السياسية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "74",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0075",
+      "title": "النقل البحري في دولة الامارات العربية المتحدة ومشاكله خلال المدة 1970-2001 (دراسة في جغرافية النقل)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "75",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0076",
+      "title": "اثر التوجيهات اللغوية والنحوية في اختلاف التفسير",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "76",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-000a",
+      "title": "أسواق المشتقات ودورها في العولمة المالية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "a",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0077",
+      "title": "الوليد بن هشام القحذمي (ت222هـ/836م) ودوره في التدوين التاريخي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "77",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0078",
+      "title": "عزل وتشخيص بعض المركبات الفعالة من اوراق نبات البرهامة Albizia lebbeck (L) Benth ودراسة فعاليتها ضد البكتيريا المعزولة من مرضى المسالك البولية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "78",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0079",
+      "title": "تصميم وتقنين اختبارات مركبة والتنبؤ بمؤشر مستوى التدريب بدلالة بعض المتغيرات البدنية والبيوكيميائية بكرة اليد",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "79",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0080",
+      "title": "تطوير نموذج رياضي لتصريف السيح السطحي للطرق",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "80",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0081",
+      "title": "تقدير بعض العناصر الثقيلة في محار ورواسب ومياه شط العرب ومعالجتها بصخور البورسلينات",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "81",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0082",
+      "title": "دراسة الخواص الفيزيائية والكيميائية لترسبات الترب الجبسية في مقالع من محافظة البصرة جنوبي العراق وتحسين خواصها لصناعة الجص",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "82",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0083",
+      "title": "Drug resistance of Mycobacterium tuberculosis with comparison tuberculosis with coparison of diagnostic method fo TB cases",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "83",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0084",
+      "title": "تأثير تمرينات تعليمية باستخدام بعض الأجهزة والأدوات المساعدة في تطوير أهم جوانب تعلم مهارة الدورة الخلفية الكبرى على جهاز العقلة والاحتفاظ بها",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "84",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0085",
+      "title": "اقتصاديات الطاقة المتجددة في دول مختارة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "85",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0086",
+      "title": "تأثير تمرينات المدى الحركي والموجات فوق الصوتية والمايكروية الحرارية في تأهيل الأصابات غير الشديدة للعضلات الضامة لمفصل الورك",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "86",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0087",
+      "title": "دراسة سلوك سبائك النيكل الفائقة (أنكونيل 600 و هيستالوي سي-22) في اوساط تأكلية والاكسدة في درجات الحرارة العالية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "87",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0088",
+      "title": "البنية الفنية في الشعر البصــري المعــاصــر 2003-2012",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "88",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0089",
+      "title": "دراسة نسجية مرضية ووراثية وتركيبية دقيقة لدورالسلينيوم وزيت الزيتون ضد التسمم المستحدث بالرصاص في اناث الفئران(Mus musculus L.).",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "89",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0090",
+      "title": "التناسبُ بينَ التجريمِ والعقابِ في قانون ضريبة الدخل العراقي (دراسة مقارنة)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "90",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0091",
+      "title": "التوقيع الرقمي للملفات النصية بإستخدام RSA وخوارزمية MD5+ خوارزمية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "91",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0092",
+      "title": "الحِجَاجُ في كَلامِ الإمَامِ الحُسَين u",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "92",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0093",
+      "title": "تقييم تأثير التسميد العضوي والكيميائي في بعض خصائص التربة ونمو وحاصل نبات القثاء(Cucumis melo var.flexuosus Nauds )",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "93",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0094",
+      "title": "تأثير استخدام الماء المعالج مغناطيسيا وفيتاميني A & C في الصفات الانتاجية والفسلجية للحملان الذكرية لاغنام العراببي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "94",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0095",
+      "title": "عزل وتشخيص بعض أنواع البكتيريا المرضية وغير المرضية من سمكتي الكرسين Carassius auratus والخشني Liza abuفي محافظة البصرة وفحص حساسية العزلات المرضية تجاه بعض العوامل ضد المايكروبية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "95",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0096",
+      "title": "بناء وتطبيق مقياس التربية البيئية الكشفية لدى مدرسي التربية الرياضية في المنطقة الجنوبية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "96",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0097",
+      "title": "دراسة نظرية وعملية للتراكيب واطياف تحت الحمراء والرنين النووي المغناطيسي لبعض الهيدرازونات المشتقة من الالديهايدات باستخدام طريقة DFT",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "97",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0098",
+      "title": "دراسة مقارنة بين القوة العضلية الثابتة وبعض المتغيرات الوظيفية والانجاز لفعالية الرماية للاعبي البندقية والمسدس الهوائيين رجال",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "98",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0099",
+      "title": "السياسة العثمانية تجاه العشائر العراقية (1750 – 1869",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "99",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0100",
+      "title": "الشخصية في السرد الجبراني المجموعة العربية انموذجا",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "100",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0101",
+      "title": "الكلف البيئية للتنمية ومقتضيات تضمينها للأنشطة التنموية وإظهارها في الحسابات القومية (دراسة حالة العراق)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "101",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0102",
+      "title": "المضامين الفكرية والاجتماعية في المسرحية الشعرية بمصر والعراق \" نماذج مختارة \"",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "102",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0104",
+      "title": "النقدية العراقية في مجلة الاقلام 1990-2003",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "104",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0107",
+      "title": "دراسة تأثير ليزر ثنائي اوكسيد الكاربون على جلد الجرذان المختبرية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "107",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0108",
+      "title": "كفاءة الخدمات التعليمية لمنطقة الصدر في مدينة بغداد",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "108",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0109",
+      "title": "النبي محمد صل الله عليه ةسلم في رؤية امير المؤمنين عليه السلام",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "109",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0110",
+      "title": "التقييم البيئي لشط العرب باستخدام أدلة نوعية المياه والتكامل الاحيائي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "110",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0111",
+      "title": "تحضير و تشخيص و دراسه الفعاليه البايلوجيه لبعض مركبات الازو الجديده",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "111",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0112",
+      "title": "تأثير التمرينات الخاصة في تحسين مؤشر كتلة الجسم والسعرات الحرارية المفقودة وبعض مظاهر الحركة والانجاز لعدائي 100 متر للشباب",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "112",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0113",
+      "title": "الاسلوب المعرفي الاندفاع-التروي وعلاقته بالقدرة على اتخاذ القرار لدى طلبة مرحلة الدراسة الاعدادية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "113",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0114",
+      "title": "المكافحة المتكاملة لدغل الحلفا Imperata cylindrica (L.) P. Beauv. في بعض بساتين أبي الخصيب في البصرة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "114",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0115",
+      "title": "تأريخ حياة وإنتاجية نوعين من الديدان الحلقية قليلة الاهلاب Limnodrilus hoffmeisteri(Claparede,1862) Tubifex tubifex)Müller,1774)و (Oligochaeta:Naididae:Tubificinae) في شط العرب ،البصرة ،العراق",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "115",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0116",
+      "title": "تصميم وتنفيذ منظومة انذار الحريق باستخدام شبكات الحساسات اللاسلكية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "116",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0117",
+      "title": "تحضير وتشخيص مركبي الثلوريوم الحلقيين غير المتجانسين 2- مثيل امين -1- تلوراسايكلوبتتان والتلورازبين ودراسة خواصهما الليكاندية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "117",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0118",
+      "title": "تلوث الهواء والمياه والضوضاء داخل المسكن وخارجه في مدينة السماوة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "118",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0119",
+      "title": "تقييم منهج الكرة الطائرة وفق معايير الجودة الشاملة من وجهة نظر التدريسيين في كليات التربية الرياضية في الجامعات العراقية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "119",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0120",
+      "title": "الفكر العسكري الساساني (226-651 م) دراسة تاريخية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "120",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0121",
+      "title": "بحث تجــريبــي على عينة من لاعبي منتخب شباب المثنى بكرة اليد للموسم الرياضي 2011 – 2012م",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "121",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0122",
+      "title": "رؤية الآلوسي لعقائد الامامية الاثني عشرية في تفسير روح المعاني",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "122",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0123",
+      "title": "التحليل الزلزالي الخطي لبناية خرسانية مسلحة متعددة الطوابق",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "123",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0124",
+      "title": "النمط المظهري للخلايا المنظمة لمرضى داء الذئب الاحمراري في محافظة البصرة/جنوب العراق",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "124",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0125",
+      "title": "التــوزيع الجغرافي لإنتاج واستــهلاك الطاقة الكهربائيــة في العـراق",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "125",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0126",
+      "title": "تأثيـر الأسلـوب التنـافسـي فــي تنمـية القـدرة التوافقية الأدراكية وبعض القدرات البصرية والأداء الفني في سلاح الشيش",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "126",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0127",
+      "title": "الكشف عن دور المفطورات في أصابة الجهاز البولي في كلا الجنسين باستخدام طريقتي الزرع MDCS و تقنية PCR",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "127",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0128",
+      "title": "خصائص الساحل العراقي \"دراسة جغرافية \"",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "128",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0129",
+      "title": "تغيرات الغطاء الارضي لمنطقة هور الحمار للمدة 1973- 2008 باستخدام تقنيات الاستشعار عن بعد",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "129",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0130",
+      "title": "محاكاة بالحاسوب لجريان الدم في الشرايين الكبيرة باستخدام طريقة العناصر المحددة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "130",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0131",
+      "title": "محافظة خوزستان (عربستان) دراسة في الجغرافيا الإقليمية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "131",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0132",
+      "title": "دراسة نظرية لليزرات الانبعاث السطحي ذات التجويف الشاقولي بالبلورة الفوتونية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "132",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0133",
+      "title": "المسكوت عنهُ في الأدب العربي الإسلامي من 1 هـ إلى 132 هـ دراسة في تحليل الخطاب",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "133",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0134",
+      "title": "اهل البيت النبوي في الشعر الاسلامي والاموي دراسة في المضمون والفن",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "134",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0135",
+      "title": "قصيدة الشعر العراقي دراسة في جماليات التشكيل الايقاعي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "135",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0136",
+      "title": "تأثير المطروحات السائلة لمحطة النجيبية الحرارية لتوليد الطاقة على مجتمع النواعم في نهر كرمة علي - البصرة-الهراق",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "136",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0137",
+      "title": "دراسة تحليلية للانعكاسات المجتمعية السائدة على بعض لاعبي أندية العراق بكرة القدم للملاعب والصالات للمدة 2003 – 2011",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "137",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0138",
+      "title": "تأثير منهاج تعليمي مقترح باستخدام بعض المحددات الميكانيكية في تعليم وتطوير الأداء الفني وبعض المتغيرات البيوكينماتيكية لفعالية رمي الرمح",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "138",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0139",
+      "title": "استخدام بعض التمرينات للقدرات البدنية والحركية وتأثيرها في تحسين التوافق العصبي العضلي والانجاز للناشئين للقفز بالزانة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "139",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0140",
+      "title": "عينة الدعوى الجزائية - دراسة مقارنة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "140",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0141",
+      "title": "الاغتراب النفسي وعلاقته بصحة المنظمة(الفريق) لدى لاعبي كرة اليد الدرجة الممتازة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "141",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0143",
+      "title": "نقل الالكترون المعتمد على الزمن خلال نقطة كمية المدعوم بالمجال الكهروماغناطيسي: بوجود وغياب القناة غير الرنينية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "143",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0144",
+      "title": "وصايا النقاد والكتاب والشعراء للمنشئين في الادب العربي القديم حتى نهاية القرن السابع الهجري",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "144",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0145",
+      "title": "دراسة وراثية للبكتيريا المكونة للغشاء الحيوي والمعزولة من اطقم وادوات تقويم الاسنان",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "145",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0147",
+      "title": "اساليب ومناهج البحث العلمي لدى اعضاء هيأة التدريس في اقسام الحاسوب في جامعة البصرة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "147",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0148",
+      "title": "بناء القصيدة في الاصمعيات \"دراسة تحليلة\"",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "148",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0149",
+      "title": "عزل وتشخيص بعض المركبات الكيميائية من ثمار نبات اظافر الجان Astragalus hamosus L ودراسة فعاليتها كمضادات للأكسدة ولداء السكر والبكتيريا",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "149",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0150",
+      "title": "هيدرولوجية وجيومورفولوجية مجرى نهر الفرات والعوامل المثرة عليها وسط وجنوبي العراق",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "150",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0151",
+      "title": "تقنين الحمل البدني وفق معامل الشدة وتأثيره على بعض المتغيرات البدنية وانجاز رفعة الخطف لدى الرباعيين الشباب في محافظة البصرة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "151",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0152",
+      "title": "دراسة بيئية للعوالق الحيوانية في شط العرب وقناة شط البصرة-جنوب العراق",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "152",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0153",
+      "title": "تأثير احلال تفل التمر المضاف اليه الانزيمات او المعزز الحيوي العراقي او كليهما محل الذرة الصفراء في علائق فروج اللحم في الاداء الانتاجي، وبعض معايير الدم الفسلجية والتغيرات المورفولوجية في الامعاء",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "153",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0154",
+      "title": "تأثير التعلم التعاوني بأسلوبي الثابت والمتغير في تعلم واحتفاظ بعض أنواع التصويب والخداع البسيط بكرة اليد",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "154",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0155",
+      "title": "التصوير الفني في شعر الشاب الظريف",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "155",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0156",
+      "title": "نمذجة، محاكاة، وسيطرة لربع منظومة تعليق سيارة باستخدام الماتلاب",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "156",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0157",
+      "title": "الحجاج في نهج البلاغة الرسائل اختيارا",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "157",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0158",
+      "title": "تأثير اللقاح البكتيري وتوليفات من سمادي P و K في نمو وحاصل الباقلاء vicia faba L",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "158",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0159",
+      "title": "هوائي شريطي دائري متحد المحور: تصميم جديد لتحسين عرض الحزمة والتحصيل الاتجاهي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "159",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0160",
+      "title": "اثر السياق في فهم النص القرآني (تفسير البيضاوي انموذجا)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "160",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0161",
+      "title": "تصميم وبناء نظام تدريب اللحام الافتراضي في لحام القوس الكهربائي المعدني المغطى",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "161",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0162",
+      "title": "تأثير فترات التكييس والرش بالمستلخصات النباتية في بعض الصفات الفيزيائية والكيميائية والفسلجية لثمار نخيل التمر phoenix dactylifera L صنف الساير",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "162",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0163",
+      "title": "المسؤواية الجنائية للمنظمان غير الحكومية غير المرخصة في التشريع العراقي (دراسة مقارنة)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "163",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0164",
+      "title": "الديدان المتطفلة في بعض الطيور المائية واهمية الحشرات في دورة حياة البعض منها في محافظة البصرة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "164",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0165",
+      "title": "Analytic study of administrative troubles facing scouting camps from the viewpoint of scouting leaders obtaining on the wood medal in the south and middle region",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "165",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0166",
+      "title": "تأثير منهج تدريبي مقترح في تطوير القدرة اللاأوكسجينية على وفق نظام الطاقة الاول وأدوات تقييم لبعض المهارات الاساسية للشباب بالكرة الطائرة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "166",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0167",
+      "title": "تأثير استخدام أسلوبي التنافس(المقارن ــ الجماعي)وفق جدولة التمرين الموزع في تعلم وتطوير مهارتي الإرسال والدفاع عن الملعب والاحتفاظ بهما بالكرة الطائرة للناشئين",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "167",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0168",
+      "title": "تصميم وتصنيع مجفف بالطاقة الشمسية تحت التفريغ ودراسة كفاءته في تجفيف الاسماك مايكروبيا وكيميائيا وحسيا",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "168",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0169",
+      "title": "تأثيـر استخدام أسلوبي التدريب اللعب والمركب في تطوير بعض المهارات الأساسية وسرعة وتحمل الأداء للاعبين الشباب بكرة القدم",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "169",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0170",
+      "title": "تأثير تمرينات بأسلوب المحاكاة لتطوير المطاولة الخاصة ومتوسط السرعة ومؤشر الكفاءة الوظيفية والإنجاز لفعالية 1500مترللشباب",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "170",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0171",
+      "title": "العلاقات العراقية الكويتية 1968-1990 (دراسة تاريخية سياسية)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "171",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0172",
+      "title": "عقد اجارة الرحم-دراسة مقارنة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "172",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0173",
+      "title": "تقييم مستوى بعض المعادن في الجاموس المحلي في محافظة البصرة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "173",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0174",
+      "title": "بيئة وحياتية حشرة حفار اوراق الطماطة tuta absoluta (Meyrick) lepidoptera: gelechiidae",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "174",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0175",
+      "title": "تعددية المذاهب المسرحية في النص المسرحي العراقي المعاصر",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "175",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0176",
+      "title": "دراسة مقارنة لزيوت نوى ثلاثة اصناف محلية من التمور وادخالها في بعض الانظمة الغذائية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "176",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0177",
+      "title": "تأثير استخدام المعزز الحيوي (Probiotic) وخميرة الخبز (Saccharomyces cerevisiae) مع الماء المعالج مغناطيسيا في بعض الصفات الانتاجية والفسلجية لحملان الاغنام العرابي الذكرية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "177",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0178",
+      "title": "دراسة قابلية الكارفيدلول، البرازوسين، الميتوبرولول و البرازوسين مع الميتوبرولول ضد تسمم الكبد بفعل البراسيتامول في الارانب",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "178",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0179",
+      "title": "استخدام بعض مخلفات معامل تصنيع الأغذية في اطالة مدة حفظ اللحم البقري بالتبريد",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "179",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0180",
+      "title": "استجابة نبات الباقلاء للرش بالخارصين والكلايسين glycine وأثرهما في النمو والحاصل",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "180",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0181",
+      "title": "تأثير اضافة المحسنات والمستويات الرطوبية في الخصائص الفيزياءية للتربة الطينية وكفاءة استعمال الماء لمحصول الذرة الصفراء (Zea mays L) تحت نظامي الري بالتنقيط والسيحي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "181",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0182",
+      "title": "رسائل الجاحظ دراسة في شعرية النثر العربي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "182",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0183",
+      "title": "استخدام تقنية المسح الفولتائي الحلقي لدراسة بعض قواعد شف ذات المجاميع المختلفة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "183",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0184",
+      "title": "دراسة الخواص البصرية الخطية واللاخطية لصبغات عضوية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "184",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0185",
+      "title": "نمط سوء استعمال الأدوية ذات التأثير العقلي بين المرضى الذين يراجعون العيادة الأستشارية للأمراض النفسية وفي مجموعة مختارة من الأشخاص الأصحاء في البصرة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "185",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0186",
+      "title": "حول تقريب دوال في فضاء البعدين باستخدام بعض المؤثرات الخطية الموجه من النمط q",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "186",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0187",
+      "title": "التحكيم في منازعات العلامة التجارية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "187",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0188",
+      "title": "أثر أسلوبي التعزيز و التلامس _ التقارب في تنمية مهارات التفاعل الاجتماعي لدى الأطفال التوحديين",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "188",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0189",
+      "title": "الحياة الفكرية في العراق خلال القرن الثامن الهجري / الرابع عشر الميلادي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "189",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0190",
+      "title": "نظام المراقبة والسيطرة على البيت الزجاجي اعتماداً على شبكة الاستشعار اللاسلكية باستخدام XBee",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "190",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0191",
+      "title": "شعرية الزوال في الشعر الاندلسي رثاء دولة بني عباد اختيارا",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "191",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0192",
+      "title": "اثر اليهود في حركة الانشقاق الديني المسيحي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "192",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0193",
+      "title": "Cytotxic and genotoxic Effects of Tatinium Dioxide Nanoparticles on rat embroyo Fibroblast-3 (REF-3) Cell line in vitro",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "193",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0194",
+      "title": "نحو القرآن في دراسة المعاصرين",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "194",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0195",
+      "title": "الرسائل الفنية في العصر الفاطمي دراسة أسلوبية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "195",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0196",
+      "title": "قياس مهارات الاتصال الفعال لدى المرشدين في المقابلة الارشادية من وجة نظر المسترشدين",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "196",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0197",
+      "title": "قياس العنف الاسري وعلاقته بالحاجات الارشادية لدى طاليات المرحلة الاعدادية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "197",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0198",
+      "title": "العلاقات السياسية الامريكية-الهندية 1947-1964",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "198",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0205",
+      "title": "دراسة تحليلية لآثار الرقابة على النصوص الأدبية المترجمة للقرن العشرين",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "205",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0206",
+      "title": "قياس تركيز النظائر المشعة طبيعيا في بعض المواد الغذائية والاسنان المتوفرة في محافظة البصرة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "206",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0207",
+      "title": "دراسة نظرية لبعض معاملات جهود المصيدة المستخدمة في تكثيف بوز-اينشتين",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "207",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0208",
+      "title": "ملامح الخطاب النقدي في شروح نهج البلاغة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "208",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0209",
+      "title": "التقنين الاشعاعي البيئي لمحافظة البصرة/العراق باستخدام تقنية التألق الحراري",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "209",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0210",
+      "title": "التركيب المحصولي في محافظة المثنى",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "210",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0211",
+      "title": "الآخر في نهج البلاغة، قراءة في مرجعيات المشكلة للذات ولصورة الاخر",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "211",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0212",
+      "title": "التلوق الجرثومي والفيروسي في وحدة الغسيل الكلوي في محافظة البصرة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "212",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0213",
+      "title": "تأثير التهاب اللثة وانسجة حول السن وتسوس الاسنان في بعض المعايير الفسيولوجية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "213",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0214",
+      "title": "دراسة الخواص البصرية والكهربائية لأغشية رقيقة من صبغة المالكيت كرين النقية والمشوبة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "214",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0215",
+      "title": "استخدام الشبكات العصبية المضببة والخوارزمية الجينية لازالة الضوضاء من الصور",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "215",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0216",
+      "title": "فصيلة الموديولات المتصالبة المنتهية أسقاطياً و بعض الأزواج المترافقة للمقرنات التغايرية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "216",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0217",
+      "title": "الجملة عند ابن جنّي في الخصائص(ت 392هـ)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "217",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0218",
+      "title": "الخسائر الاقتصادية والبيئية الناتجة عن حرق الغاز الطبييعي المصاحب للنفط في العراق مع اشارة خاصة للحقول الجنوبية للمدة (1970-2012)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "218",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0220",
+      "title": "لليزر النقطةالكمية بوجود التغذية المرتدة باستخدام معادلة المعدل متعددة التعداد",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "220",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0221",
+      "title": "التجديد في الفكر البلاغي المعاصر \"الدراسات البديعية تحليل وموازنة\"",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "221",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0222",
+      "title": "اثر الارشاد المباشر في تحسين الكفايات المهنية لدى طلبة معاهد اعداد المعلمين",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "222",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0223",
+      "title": "تحسين تحصيل الهوائي الشريطي المربع المحمل بحلقة مربعة ضمن حزمة X: تصميم وتصنيع",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "223",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0224",
+      "title": "انتاج وتنقية وتوصيف مادة الرامنولبيد من عزلة محلة لبكتيريا pseudomonas aeroginosa",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "224",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0225",
+      "title": "الاحتلال الاندونيسي لتيمور الشرقية والموقف الدولي منه 1974-1976",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "225",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0226",
+      "title": "دراسة التأثير المسكن لبعض النباتات الطبية المحلية على الالم المحدث في الفئران المختبرية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "226",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0227",
+      "title": "بروتوكول توجيه المسار المتكيف ذات الطاقة الكفوءة في شبكات الاستشعار اللاسلكية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "227",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0228",
+      "title": "التحكم المتكيف بأداء بروتوكول النقل باستخدام المنطق المضبب في الشبكات الخلوية الجوالة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "228",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0229",
+      "title": "التنبؤ بالتيار المطلوب لمنظومة الحماية الكاثودية باستخدام الشبكات العصبية الصناعية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "229",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0230",
+      "title": "تحضير مركبات كركمين جديدة ودراسة خصائصها ضد الاورام السرطانية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "230",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0231",
+      "title": "تأثير الشدة المطرية على طبقات التبليط في مدينة البصرة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "231",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0232",
+      "title": "تحضير تشخيص ودراسة حيوية-كيميائية لنظائر بعض السترويدات والاندوميثاسين والبايريميدين كمثبطات لأنزيم الفا-هيدروكسيلاز وفايروس نقص المناعة المكتسبة وفايروس التهاب الكبد الفايروسي وانزيم الكينيزين",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "232",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0233",
+      "title": "دراسة تصرف ركائز منفردة معؤضة الى تحميل زائد",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "233",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0234",
+      "title": "دراسة نظرية لتوليد الطاقة الكهربائية وتأثرها باختلاف درجة الحرارة وخصائص الشكل الهندسي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "234",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0235",
+      "title": "البنية السردية في شعر يوسف الصائغ",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "235",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0236",
+      "title": "انتاج الوقود الحيوي من مالت الشعير باستعمال خميرة saccharomyces cerevisiae",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "236",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0237",
+      "title": "تحليل الخطأ بطريقة كالركن الغير مستمرة للعناصر المحددة لمسألة الحمل والانتشار",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "237",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0238",
+      "title": "منهجية التفاضل التربيعي الجديدة على متعددات حدود برنستين وتحسين ADI-DQM لحل معادلات النقل",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "238",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0240",
+      "title": "موازنة الحمل الديناميكي في الشبكات اللاسلكية الخاصة باستخدام تقنية الشبكات العصبية المضببة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "240",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0241",
+      "title": "مفردات الماء في الشعر العباسي (200 ه-350 ه) دراسة موضوعية وفنية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "241",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0242",
+      "title": "مستقبل الدولة الريعية في العراق",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "242",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0243",
+      "title": "دراسة تركيز البورون لمصادر المياه في محافظة البصرة باستخدام تقنية طريقة القيس اللوني الكركومين",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "243",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0244",
+      "title": "درسة عملية ميدانية وانموذج يحاكي هيدروديناميكية ونقل الرسوبيات في نهر شط العرب",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "244",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0245",
+      "title": "فكر ومواقف حزب الدعوة الاسلامية 1957-1979",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "245",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0246",
+      "title": "تحضير وتشخيص بعض الصبغات الازوية ومعقداتها مع النحاس المشتقة من 5.1-ثنائي هيدروكسي نفثا لين ودراستها كمثبطات لتآكل النحاس في الوسط الحامضي والقاعدي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "246",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0247",
+      "title": "دراسة تأثير الجرعات المتكررة لعقاري الترامادول والبنزهكسول على النواقل العصبية في دماغ الأرانب",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "247",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0248",
+      "title": "التوزيع اللغوي الجغرافي في شبه الجزيرة العربية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "248",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0249",
+      "title": "استجابة صنفين من نبات الجرجير Eruca sativa Mill للكثافة النباتية والمعاملة بالمحفز Biohealth في النمو وحاصل البذور والزيت وفعاليته الكيمواحيائية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "249",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0250",
+      "title": "آيات النعيم في القرآن الكريم-دراسة في الدلالة النحوية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "250",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0251",
+      "title": "تاريخ الرسل والملوك لمحمد بن جرير الطبري مصدرا لدراسة سيرة الامام علي (عليه السلام) دراسة نقدية تحليلية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "251",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0252",
+      "title": "النظام القانوني للقيد في سوق الاوراق المالية (دراسة مقارنة)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "252",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0253",
+      "title": "النظام القانون لمحو العقوبة الانضباطية في التشريع العراقي (دراسة مقارنة)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "253",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0254",
+      "title": "المركز القانوني للمحكم (دراسة مقارنة)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "254",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0255",
+      "title": "كفاءة الوظيفة السكنية في مدينةا السماوة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "255",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0256",
+      "title": "العلاقة بين الدعم الحكومي والرفاهية الاقتصادية في العراق للمدة (1975-2011)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "256",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0257",
+      "title": "المباحث اللغوية والأسلوبية فِي التَّحلِيل النَّصِي عِندَ الصَّفَدِي (696هـ-764هـ)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "257",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0258",
+      "title": "معالج للبحث المتوازي عن المسار الاقصر لبروتوكول التوجيه )فتح المسار الاقصر اولا) باعتماد ترتيب البوابات المنطقية المبرمجة مجاليا",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "258",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0259",
+      "title": "تاثير التسميد النتيروجيني و كميات البذار من الشعير(Hordeum vulgare L.) مع البرسيم المصري (Trifolium alexandrinum L.) في حاصل ونوعية العلف",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "259",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0260",
+      "title": "دراسة الخواص الوراثية لجين اللبتين و إعداد منهج بدني غذائي و تأثيره على مؤشر الكتلة و بعض المؤشرات البايوكيميائية و الفسيولوجية و البدنية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "260",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0261",
+      "title": "ضغط الفيديو باستخدام تقنية تحويل المويجة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "261",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0262",
+      "title": "التكوين النوعي للهائمات النباتية في شط العرب واثر العوامل البيئية على مدى قابلية بعضها على انتاج ومراكمة المركبات الهيدروكاربونية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "262",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0263",
+      "title": "التحقيق الصحفي في الصحافة العراقية صحيفة المدى انموذجا",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "263",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0264",
+      "title": "تخليق ودراسة تحليلة-طيفية لصبغات آزوية جديدة لمشتقال الايميدازول ومعقدات بعض الفلزات الانتقالية مع احدى الصبغات المخلقة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "264",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0265",
+      "title": "العثمانية دراسة في الاتجاهات االسياسية والميول الفكرية حتى سنة 60 هـ",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "265",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0266",
+      "title": "الفائدة العلاجية المحتملة للباراسيتامول أو الدايكلوفيناك صوديوم و كليهما في معالجة مرضى السكري من النوع الثاني",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "266",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0267",
+      "title": "تأثير المجاميع الفينولية المعوضة للكركمينات غير المتناظرة على تحضير الجسيمات النانوية وتفاعلها مع الامينات المدعم بالاشعة المايكروية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "267",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0268",
+      "title": "The Cultural Impact on The Poetry of The First Abbassid Era",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "268",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0269",
+      "title": "صورة النبي الأكرم (صلى الله عليه وآله وسلم) في نهج البلاغة دراسة في ضوء منهج الأسلوبية التطبيقية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "269",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0270",
+      "title": "تخليق وتشخيص طيفي ودراسة الفعالية البايولوجية لبعض قواعد شف الجديدة المشتقة ن بعض ادوية السلفا",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "270",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0271",
+      "title": "الرد على الرسول محمد (صلى الله عليه وآله) دراسة تاريخية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "271",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0272",
+      "title": "دراسة عملية وباستخدام الشبكات العصبية الصناعية لتقييم المواد المركبة ذات أساس ألمنيوم",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "272",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0273",
+      "title": "جهود المحدثين في تجديد البلاغة العربية، عرض وتحليل",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "273",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0274",
+      "title": "الوقف علامة للتمييز بين الكلام الانجليزي الفوري والقراءة الجهرية لمتعلمي اللغة الانجليزية العراقيين البالغين والناطقين باللغة الانجليزية: دراسة صوتية سمعية تقابلية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "274",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0275",
+      "title": "أثر النظام الذكي لمعالجة المعرفة (R.I.S.K) في تنمية التفكير الناقد والإبداعي لدى طالبات الخامس الإعدادي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "275",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0276",
+      "title": "القيمة التشخيصية لمضادات الببتيدايل آرجنين -4 و لمضادات الببتيدية الحلقية الحاوية على السترولين بين المرضى العراقيين المصابين بالتهاب المفاصل الرثوي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "276",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0277",
+      "title": "بناء الجملة الشعرية في شعر محمود البريكان",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "277",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0278",
+      "title": "تحليل جغرافي للصناعات التحويلية في محافظة القادسية باستخدام نظم المعلومات الجغرافية (GIS)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "278",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0279",
+      "title": "نظام التأليف في (نشوار المحاضرة واخبار المذاكرة) لأبي علي المحسن بن علي التنوخي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "279",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0281",
+      "title": "الثأر في العصر الاموي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "281",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0283",
+      "title": "حالة الاجهاد التأكسدي ونمط الدهون في مرضى اضطراب الغدة الدرقية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "283",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0284",
+      "title": "البناء اللغوي في شعر السيد رضا الموسوي الهندي( 1873 – 1943 م )",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "284",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0285",
+      "title": "دلالة البنى التركيبية في السور القرآنية القصار",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "285",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0287",
+      "title": "السياق وأثره في دلالة النص القرآني عند مفسري الامامية في العصر الحديث",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "287",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0288",
+      "title": "الدلالة و آليات إنتاجها في شعر مصطفى جمال الدين",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "288",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0289",
+      "title": "دراسة مقارنة باستخدام مستخلص اوراق نبات الكونوكاربي ومخلفات البولي ستايرين المسلفن والبولي الكتروليت التجاري كمساعدات للتخثير في عملية تصفية المياه",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "289",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0290",
+      "title": "تحضـــير وتشخـيص بعـض معقدات العناصر الانتقالية الجديدة الحـاوية على ليكاندات قواعد شف المشتقـة من الببرونال ودراسة خصائصها الحرارية وفعاليتها البايولوجية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "290",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0291",
+      "title": "خطاب الزهراء عليها السلام في ضوء منهج التحليل اللغوي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "291",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0292",
+      "title": "الغزل بين التجربتين العذرية والصوفية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "292",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0293",
+      "title": "اثار الهجرة الدولية في البلدان العربية مع دراسة استقصائية لهجرة الكفاءات العراقية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "293",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0294",
+      "title": "دراسات حيوية وجزيئية وتحليل التتابع الجيني في تشخيص فايروس تجعد واصفرار اوراق الطمامة TYLCV في العراق وسبل مكافحته",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "294",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0295",
+      "title": "الترجيح النحوي عند المفسرين حتى نهاية القرن الثامن الهجري",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "295",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0297",
+      "title": "التنوع المظهري والبيوكيميائي والتشريحي لسلالات بذرية من نخيل التمر Phoenix dactylifera L النامي في البصرة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "297",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0298",
+      "title": "نموذج تمييز لوجه ثابت العمر",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "298",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0299",
+      "title": "صورة السيرة النبوية في صحيح البخاري-دراسة تاريخية تحليلية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "299",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0300",
+      "title": "واقع مكتبات العتبات المقدسة في العراق وسبل النهوض بها:دراسة ميدانية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "300",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0301",
+      "title": "الفكاهة الشفاهية والطرففي (بيت الاسى) لبرنارد شو و (القيم النسبية) لنويل كاورد (دراسة تداولية اسلوبية)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "301",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0302",
+      "title": "الاهوار في الرواية العراقية-دراسة في ضوء النقد الثقافي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "302",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0303",
+      "title": "دور الثقافة في تدريس اللغة الاجنبية بإشارة خاصة لمناهج \"فرص العراق للمرحلة المتوسطة:دراسة تقويمية\"",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "303",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0304",
+      "title": "الجوانب اللنسجية المرضية والكيميائية النسجية والكيموحيوية للسمية العضلية المستحثة بواسطة العقار (الببفاكابين) في العضلات الهيكية لذكور الجرذان المحتبرية Rattus norvegicus",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "304",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0305",
+      "title": "تأثير مغنطة المياه على السلوك الكيميائي للفسفور وكفاءة الاستهلاك المائي لنبات الطمامة (Lycopericon esculantum Mill) تحت مستويات من الري والتسميد الفوسفاتي والعضوي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "305",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0306",
+      "title": "تأثير الارشاد غير المباشر في تحسين التوافق النفسي لدى لاعبي الكرة الطائرة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "306",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0307",
+      "title": "دراسة امتزاز بعض العناصر الثقيلة على سطحي مسحوق اوراق الكونوكاربس واليوكالبتوز وتطبيقها في معالجة مياه الصرف الصحي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "307",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0308",
+      "title": "تأثير السكروز وPEG و ABA في الاسراع من بلوغ الاجنة الخضرية وانباتها وأقلمة النبيتات الناتجة منها لصنفي النخيل البرحي والنيرسي Phoenix dactylifera L",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "308",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0309",
+      "title": "العلاقة بين شدة أعراض اضطرابات المجاري البولية السفلى و بين مستوى الهورمونات الجنسية و المستضد الخاص بالبروستات لدى الرجال المصابين و غير المصابين بداء السكري من النوع الثاني",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "309",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0310",
+      "title": "تقدير بعض الامينات الحيوية والهيدروكربونات والعناصر النزرة في عضلات انواع من الاسماك الطازجة والمعلبة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "310",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0311",
+      "title": "خوارزميات جديدة لفك ترميز المرمزات (TCM TTCM &) لأنظمة الجيل الرابع اللاسلكية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "311",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0312",
+      "title": "تأثير تمرينات خططية في تطوير الاداء المهاري المركب لتنفيذ الخطط الهجومية الفردية لفئة الشباب بكرة القدم",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "312",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0313",
+      "title": "اثر بعض عوامل الاجهاد وأشعة جاما في انتخاب نباتات قصب السكر (Saccharum officinarum L) متحملة للملوحة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "313",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0314",
+      "title": "دراسة تحليلية لإمكانية اللاعب في تصحيح الخطأ البيوكينماتيكي للتصويب بالقفز من الثبات المحتسب بثلاث نقاط لدى لاعبي المنتخب الوطني للمتقدمين بكرة السلة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "314",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0315",
+      "title": "تأثير منهج تدريبي وفق اولويات خاصة لمرحلة الاعداد الخاص في تطوير بعض الصفات البدنية والوظيفية والأداء المهاري بكرة القدم للناشئين",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "315",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0316",
+      "title": "تحضير ودراسة بعض الخواص الفيزيائية لبعض المركبات البلورية السائلة من نوع ازو-شيف",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "316",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0317",
+      "title": "الاستقرار النفسي وعلاقته بالأزمات التي تواجه مدربي العاب القوى في جمهورية العراق",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "317",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0318",
+      "title": "التركيب الاقتصادي لسكان دولة قطر حسب تعداد 2010",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "318",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0319",
+      "title": "دراسة موضوعية فنية في ادب الرقائق مرويات ابن ابي الدنيا انموذجا",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "319",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0320",
+      "title": "تأثير منهجين تأهيليين على أحد مؤشرات تسكين الألم وبعض المتغيرات البيوكيميائيه والبدنية بعد الاستئصال الجزئي للغضروف الهلالي الإنسي وتقويم الرباط الصليبي الأمامي لمفصل الركبة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "320",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0321",
+      "title": "تأثيرأساليب( الإرشاد – الأنشطة– المختلطة ) لخفض السلوك العدواني لدى لاعبي أندية النخبة في كرة اليد",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "321",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0322",
+      "title": "الازمات الاقصادية واثرها في المجتمع الاندلسي 422-897 هـ/ 1030-1491 م",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "322",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0323",
+      "title": "تأثير التركيب الجزيئي على بعض الخواص الفيزيائية للبلورات السائلة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "323",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0324",
+      "title": "التوزيع الجغرافي للصناعات الكبيرة في محافظات البصرة وذي قار وميسان، دراسة كارتوكرافية-صناعية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "324",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0325",
+      "title": "تقييم طرق مختلفة لتقديم المعزز الحيوي المحلي على الاداء الانتاجي والفسلجي لفروج اللحم",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "325",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0326",
+      "title": "دراسة تركيب انوية Sb 123-333 الفردية في اطارانموذج اقتران جسيم - ذبذبة (PVCM) مع ادخال تأثير استقطاب اللب",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "326",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0327",
+      "title": "الاحوال السياسية للبصرة من خلال كتاب انساب الاشراف للبلاذري",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "327",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0328",
+      "title": "الادب العربي المقارن في ضوء \"جمالية التلقي\"",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "328",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0329",
+      "title": "البنية الدارمية في مسرحيات محي الدين زنكنة ( نماذج مختارة )",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "329",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0330",
+      "title": "البنية السردية في شعر الصعاليك",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "330",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0331",
+      "title": "يحيى بن سعيد الأموي (ت 194 هـ/809 م) وجوره في التدوين التاريخي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "331",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0332",
+      "title": "دلالة النص الديني في ضوء نظرية بشرية الوحي عند الدكتور عبد الكريم سروش",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "332",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0333",
+      "title": "البنية التحتية لتكنولوجيا المعلومات والاتصالات في مكتبات جامعة البصرة: دراسة تقييمية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "333",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0334",
+      "title": "تأريخ التعليم في العمارة 1921-1958",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "334",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0335",
+      "title": "تحليل العلاقة بين خصائص منحنى ( القوة ـ الزمن ) وبعض المتغيرات الكينماتيكية خلال الدوران الأخير والتخلص في رمي المطرقة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "335",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0336",
+      "title": "امالي المرتضى- دراسة في المنهج والنقد والتأويل",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "336",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0337",
+      "title": "تأثير استخدام تمرينات بحجم الأداء الفعلي للمنافسة على مستوى الكفاءة البدنية وبعض التحركات الدفاعية الفردية والتكوينات الهجومية بكرة اليد.",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "337",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0338",
+      "title": "جبر ابراهيم جبر ناقد ادبيا",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "338",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0339",
+      "title": "المسؤولية الجنائية للشركات الاجنبية الامنية الخاصة في العراق",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "339",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0340",
+      "title": "دراسة تشخيصية وبيئية لذبابة ثمار القرعيات Dacus frontalis Becker 1922 - Diptera: tephritidae في بعض مناطق محافظتي البصرة وميسان",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "340",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0341",
+      "title": "تحليل البلاطات الكونكريتية المسلحة المسطحة (دراسة حالات)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "341",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0342",
+      "title": "التنظيم الدستوري للحقوق السياسية في دستور جمهورية العراق لسنة 2005 (دراسة مقارنة)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "342",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0343",
+      "title": "التحري عن الفطريات المرافقة لبعض الثمار المجففة وعزلات الفطر Aspergillus flavus المنتجة لسم الأفلا B1 وإمكانية تحطيمه باستخدام بعض الطرق الفيزيائية في البصرة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "343",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0344",
+      "title": "دراسة تحليلية لواقع التوجيه لمدربي السباحة من وجهة نظر السباحين المتقدمين في المنطقتين الوسطى والجنوبية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "344",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0345",
+      "title": "السيطرة الذكية لمجموعة من المحركات الحثية ثلاثية الاطوار",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "345",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0346",
+      "title": "التحليل المكاني للوفيات المسجلة في محافظة البصرة للمدة (1997-2009)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "346",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0347",
+      "title": "الاستطارة الكهرومغناطيسية من اجسام معدنية متناظرة محوريا مطلية بطبقة عازلة (دراسة نظرية)",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "347",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0348",
+      "title": "حازم القرطاجني في الدرس النقدي العربي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "348",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0349",
+      "title": "دراسة الوفرة النسبية والشوع الاحيائي للبائن الارضية فس هور شرق الحمار",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "349",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0350",
+      "title": "تصميم وتصنيع واختبار جهاز لبسترة الحليب لا حراريا بالمجال الكهربائي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "350",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0351",
+      "title": "النحو العربي في ضوء المذهب الذاتي في نظرية المعرفة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "351",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0352",
+      "title": "استقصاء العوامل المسببة للقلق لمتعلمي اللغة الانكليزية العراقيين على المستوى الجامعي وتأثيرها على انجازهم الدراسي: دراسة لغوية نفسي",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "352",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0353",
+      "title": "تحليل الخطاب للتجانس والتماسك في المحادثة المكتوبة باللهجة العراقية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "353",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0354",
+      "title": "الرضا عن العمل الارشادي وعلاقته ببعض سمات الشخصية لدى المرشدين التربويين",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "354",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0356",
+      "title": "اتجاهات التعليم وتكوين رأس المال البشري في العراق وآليات الإصلاح للمدة (1969/1970-2010/2011 )",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "356",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0357",
+      "title": "تقدير موقع المحطة النقالة باستخدام الشبكات العصبية الذكية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "357",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0358",
+      "title": "قصيدة النشر العراقية-دراسة في الانساق الثقافية",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "358",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0359",
+      "title": "تأثير حانض السالسيليك في تحسين التحمل الملحي لصنفين من نبات زهرة الشمس Helianthus annus L",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "359",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    },
+    {
+      "id": "iraqi-theses-refined-0360",
+      "title": "الخصائص الفيزياوية والحرارية لمشتقي رباعي امينو فثالوسيانين ومطعماتهما البوليمرية المختلفة",
+      "source": "بنك الرسائل والأطاريح الجامعية العراقية",
+      "source_line_number": "360",
+      "category": "غير مصنف",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "download_links_count": 0
+    }
+  ],
+  "duplicates": [
+    {
+      "source_line_number": "64",
+      "title": "ابنية المشتقات في نهج البلاغة-دراسة دلالية",
+      "disposition": "existing_normalized_title"
+    },
+    {
+      "source_line_number": "103",
+      "title": "المفردة القرآنية في تهذيب اللغة للأزهري",
+      "disposition": "existing_normalized_title"
+    },
+    {
+      "source_line_number": "142",
+      "title": "الزمن عند النحويين والاصوليين",
+      "disposition": "existing_normalized_title"
+    },
+    {
+      "source_line_number": "146",
+      "title": "كتب الافعال العربية حتى نهاية القرن السابع الهجري دراسة في منهج التأليف",
+      "disposition": "existing_normalized_title"
+    },
+    {
+      "source_line_number": "219",
+      "title": "الخطاب التفسيري (الميــزان في تفسير القرآن) أنموذجاً",
+      "disposition": "existing_normalized_title"
+    },
+    {
+      "source_line_number": "282",
+      "title": "فهم النص القرآني في ضوء آليات التدبر",
+      "disposition": "existing_normalized_title"
+    },
+    {
+      "source_line_number": "286",
+      "title": "الحماية الجنائية للسياسة الاقتصادية في العراق",
+      "disposition": "existing_normalized_title"
+    },
+    {
+      "source_line_number": "296",
+      "title": "الفاظ المحبة والكراهة في البيان القرآني",
+      "disposition": "existing_normalized_title"
+    }
+  ],
+  "blocked": [
+    {
+      "source_line_number": "280",
+      "title": "المنظومات الضغطية المسيطرة على مناخ ايران",
+      "disposition": "blocked_term_policy"
+    },
+    {
+      "source_line_number": "355",
+      "title": "العلاقات الايرانية- السورية 1979 – 1988",
+      "disposition": "blocked_term_policy"
+    }
+  ]
+}
