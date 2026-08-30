@@ -1,13 +1,13 @@
 {
-  "total_items": 141521,
-  "total_materials": 141521,
-  "total_theses": 113929,
+  "total_items": 142129,
+  "total_materials": 142129,
+  "total_theses": 114537,
   "total_research": 20804,
   "total_entries": 591,
-  "total_phd": 4980,
-  "total_masters": 10911,
+  "total_phd": 5028,
+  "total_masters": 11471,
   "total_buhooth": 20804,
-  "total_other": 113929,
+  "total_other": 114537,
   "total_size_mb": 350234.6,
   "total_size_gb": 342.03,
   "categories": {
@@ -450,12 +450,12 @@
     "الاقتصاد الدولي": 1,
     "النحو والصرف": 1,
     "البلاغة والنقد": 4,
-    "غير مصنف": 3216
+    "غير مصنف": 3824
   },
   "degrees": {
     "رسالة علمية": 76467,
-    "ماجستير": 10911,
-    "دكتوراه": 4972,
+    "ماجستير": 11471,
+    "دكتوراه": 5020,
     "بكالوريوس": 3,
     "بحث محكم": 14051,
     "مدخل علمي": 591,
