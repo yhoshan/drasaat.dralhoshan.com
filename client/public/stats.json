@@ -1,13 +1,13 @@
 {
-  "total_items": 137574,
-  "total_materials": 137574,
-  "total_theses": 110716,
+  "total_items": 137704,
+  "total_materials": 137704,
+  "total_theses": 110846,
   "total_research": 20059,
   "total_entries": 592,
-  "total_phd": 4851,
-  "total_masters": 10705,
+  "total_phd": 4916,
+  "total_masters": 10770,
   "total_buhooth": 20059,
-  "total_other": 110716,
+  "total_other": 110846,
   "total_size_mb": 350439.9,
   "total_size_gb": 342.23,
   "categories": {
@@ -36,7 +36,7 @@
     "الاقتصاد والمالية": 3,
     "الفرق والمذاهب": 2,
     "التفسير وعلوم القرآن": 1,
-    "غير مصنّف": 31088,
+    "غير مصنّف": 31218,
     "القانون الجنائي": 52,
     "الإثبات والشهادة": 31,
     "الأنظمة والتشريعات": 40,
@@ -453,8 +453,8 @@
   },
   "degrees": {
     "رسالة علمية": 76578,
-    "ماجستير": 10705,
-    "دكتوراه": 4843,
+    "ماجستير": 10770,
+    "دكتوراه": 4908,
     "بكالوريوس": 3,
     "بحث محكم": 14053,
     "مدخل علمي": 592,
@@ -477,6 +477,6 @@
     "EPUB": 3
   },
   "featured_count": 169,
-  "with_download_links": 79416,
+  "with_download_links": 79546,
   "last_updated": "2026-08-27"
 }
