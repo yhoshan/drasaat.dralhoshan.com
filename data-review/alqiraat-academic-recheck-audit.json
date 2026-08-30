@@ -1,0 +1,24 @@
+{
+  "operation": "recheck_no_merge",
+  "source_project": "مكنز التجويد والقراءات والمصاحف",
+  "source_repository": "yhoshan/alqiraat-thesaurus",
+  "source_commit": "2b95cb697676ddd83f5bc9158043e29adbad4232",
+  "source_record_count": 24205,
+  "selection": {
+    "candidate_count": 209,
+    "candidate_theses": 45,
+    "candidate_research": 156,
+    "ambiguous_count": 99,
+    "duplicates_within_source": 3,
+    "duplicates_in_target": 107
+  },
+  "result": {
+    "accepted_count": 0,
+    "reason": "لم يظهر أي سجل جديد؛ جميع المرشحين ذوي الدليل الكافي موجودون مسبقاً في قاعدة مكنز الدراسات العليا أو استُبعدوا وفق معيار العنوان أو نوع المادة."
+  },
+  "catalog_unchanged": {
+    "total_items": 119183,
+    "total_theses": 92441,
+    "total_research": 19943
+  }
+}

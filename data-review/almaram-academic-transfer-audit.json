@@ -1,0 +1,28 @@
+{
+  "operation": "inspection_no_merge",
+  "source_project": "مكنز بلوغ المرام",
+  "source_repository": "yhoshan/almaram.ralhoshan.com",
+  "source_data_path": "client/src/data/materials.json",
+  "source_record_count": 1336,
+  "material_type_counts": {
+    "شرح": 1038,
+    "بحث": 115,
+    "حاشية": 67,
+    "مخطوط": 22,
+    "نظم": 13,
+    "متن": 12,
+    "غير مصنف": 69
+  },
+  "selection_policy": "تُقبل الرسائل عند وجود دليل صريح على رسالة علمية أو ماجستير أو دكتوراه، وتُقبل البحوث عند إثبات النشر في مجلة علمية أو دورية أو حولية محكمة. لا يكفي حقل نوعه بحث أو اسم جامعة في العنوان وحدهما.",
+  "results": {
+    "thesis_candidates_with_explicit_evidence": 0,
+    "research_candidates_with_explicit_journal_evidence": 0,
+    "research_labeled_without_sufficient_publication_evidence": 115,
+    "accepted_count": 0
+  },
+  "catalog_unchanged": {
+    "total_items": 119183,
+    "total_theses": 92441,
+    "total_research": 19943
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "source": "مكنز كتاب التوحيد",
+  "records": [
+    {
+      "source_id": "tawheed-data:21",
+      "title": "الأدلة القرآنية في كتاب التوحيد - جمع ودراسة",
+      "reason": "research_category_without_explicit_journal_or_peer_review_evidence"
+    },
+    {
+      "source_id": "tawheed-data:22",
+      "title": "الأحاديث النبوية في كتاب التوحيد - تخريج وتحقيق",
+      "reason": "research_category_without_explicit_journal_or_peer_review_evidence"
+    },
+    {
+      "source_id": "tawheed-data:23",
+      "title": "ترجمات كتاب التوحيد إلى اللغات العالمية - دراسة مقارنة",
+      "reason": "research_category_without_explicit_journal_or_peer_review_evidence"
+    },
+    {
+      "source_id": "tawheed-data:24",
+      "title": "مسائل التوحيد في كتاب التوحيد - استخراج وتصنيف",
+      "reason": "research_category_without_explicit_journal_or_peer_review_evidence"
+    },
+    {
+      "source_id": "tawheed-data:39",
+      "title": "مقارنة طبعات كتاب التوحيد",
+      "reason": "research_category_without_explicit_journal_or_peer_review_evidence"
+    },
+    {
+      "source_id": "pdf-works-data:79",
+      "title": "التعليق على فتح المجيد",
+      "reason": "published_item_without_explicit_research_type"
+    }
+  ]
+}

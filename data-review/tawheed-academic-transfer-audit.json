@@ -1,0 +1,44 @@
+{
+  "operation": "applied",
+  "source": "مكنز كتاب التوحيد",
+  "source_repository": "yhoshan/tawheed-maknaz",
+  "source_records_examined": 1407,
+  "selection_policy": "تُقبل الرسائل عند الدليل الصريح في الوصف أو العنوان، والبحوث عند إثبات مجلة علمية وكون المادة دراسة مستقلة. وتُحال مواد تصنيف الدراسات والبحوث غير المثبتة وحالات النشر غير البحثية إلى المراجعة.",
+  "candidates": {
+    "theses": 1,
+    "research": 1,
+    "total": 2
+  },
+  "filtering": {
+    "ambiguous": 6,
+    "duplicates_within_source": 0,
+    "duplicates_in_target": 1
+  },
+  "catalog_before": 116788,
+  "additions": [
+    {
+      "id": "tawheed_academic_tawheed_20",
+      "source_id": "tawheed-data:20",
+      "title": "منهج الإمام محمد بن عبدالوهاب في كتاب التوحيد - دراسة أكاديمية",
+      "author": "د. عبدالله المطيري",
+      "degree": "دكتوراه",
+      "material_type": "رسالة علمية",
+      "content_group": "thesis",
+      "source_url": "https://t.me/k_Tawheed/20"
+    }
+  ],
+  "catalog_after": 116789,
+  "validations": {
+    "ids_unique": true,
+    "titles_new_after_normalization": true,
+    "source_and_links_present": true,
+    "classifications_expected": true
+  },
+  "exclusions_in_target": [
+    {
+      "source_id": "pdf-works-data:6",
+      "title": "منهج الشيخ الإمام محمد بن عبد الوهاب في ترتيب أبواب كتاب التوحيد",
+      "reason": "duplicate_title_in_target_after_normalization"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "operation": "inspection_no_merge",
+  "source_project": "مكنز الإمام ابن القيم",
+  "source_url": "https://ibnalqayyim.dralhoshan.com/items.json",
+  "source_file_sha256": "1bdf8bd25c2037d50a5b25572dd6d95ce01b12fb77b762ea950f0ea8420976bd",
+  "source_record_count": 987,
+  "selection_policy": "تُقبل الرسائل المكتملة ذات الدليل الصريح، والبحوث المنشورة أو المحكمة ذات الدليل الصريح. ويُستبعد ملخص الرسالة والرسالة التراثية أو شروحها أو اختصاراتها ولو صُنفت تقنياً رسالة علمية في المصدر.",
+  "source_signals": {
+    "records_labeled_message_scientific": 5,
+    "research_or_journal_candidates_with_explicit_evidence": 0
+  },
+  "excluded_records": [
+    {
+      "source_id": "536",
+      "title": "ملخص رسالة دكتوراه بعنوان قواعد رفع الاختلاف بين الأحاديث النبوية",
+      "reason": "summary_of_thesis_not_completed_thesis"
+    },
+    {
+      "source_id": "553",
+      "title": "تطريز رسالة ابن القيم إلى أحد إخوانه",
+      "reason": "historical_letter_not_academic_thesis"
+    },
+    {
+      "source_id": "623",
+      "title": "كراسة رسالة ابن القيم إلى أحد إخوانه تصميم عصري",
+      "reason": "historical_letter_not_academic_thesis"
+    },
+    {
+      "source_id": "732",
+      "title": "فوائد منتقاة من رسالة ابن القيم إلى أحد إخوانه",
+      "reason": "historical_letter_not_academic_thesis"
+    },
+    {
+      "source_id": "746",
+      "title": "خلاصة الرسالة التبوكية",
+      "reason": "historical_treatise_summary_not_academic_thesis"
+    }
+  ],
+  "result": {
+    "accepted_theses": 0,
+    "accepted_research": 0,
+    "accepted_total": 0
+  },
+  "catalog_unchanged": {
+    "total_items": 119183,
+    "total_theses": 92441,
+    "total_research": 19943
+  }
+}
