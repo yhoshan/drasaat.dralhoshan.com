@@ -1,0 +1,388 @@
+{
+  "source": "جامعة الأزهر – بوابة الأبحاث والرسائل العلمية",
+  "merged_at": "2026-08-31T22:28:26.874Z",
+  "before_count": 146761,
+  "input_detail_links": 43877,
+  "valid_title_candidates": 43872,
+  "missing_valid_title_after_detail_check": 5,
+  "excluded_count": 17033,
+  "excluded_by_reason": {
+    "blocked_content_policy": 23,
+    "duplicate_normalized_title_in_makanez": 12484,
+    "duplicate_normalized_title_within_portal": 4511,
+    "missing_required_field": 15
+  },
+  "added_count": 26839,
+  "added_by_material_type": {
+    "بحث": 26748,
+    "رسالة علمية": 91
+  },
+  "after_count": 173600,
+  "source_record_count_after_merge": 26839,
+  "source_record_count_by_material_type": {
+    "بحث": 26748,
+    "رسالة علمية": 91
+  },
+  "category_for_all_new_records": "غير مصنف",
+  "existing_records_semantic_sha256_before": "2296d05d51f5c99efb75663fa21110914eb868e49a08b72910d5032ec5b9f084",
+  "existing_prefix_semantic_sha256_after": "2296d05d51f5c99efb75663fa21110914eb868e49a08b72910d5032ec5b9f084",
+  "items_sha256_after": "15cfff696a2bff9a8f0bd5cb0595a842159cca82ef6309b688225a4e5b78a7f5",
+  "stats": {
+    "total_theses": 124745,
+    "total_research": 48264,
+    "total_entries": 591,
+    "category_unclassified": 35295
+  },
+  "exclusion_samples": [
+    {
+      "id": "azhar_research_gate_353103",
+      "source_id": "353103",
+      "title": "«تحسين ديناميكية المجموع الخضري للفول البلدي باستخدام مستخلص المورينجا الورقي تحت ظروف الري الناقص في البيئات القاحلة",
+      "normalized_title": "تحسين ديناميكيه المجموع الخضري للفول البلدي باستخدام مستخلص المورينجا الورقي تحت ظروف الري الناقص في البييات القاحله",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_353069",
+      "source_id": "353069",
+      "title": "-Tibial Suspensory Fixation Has Superior Early Subjective and Objective Outcomes Compared with Tibial Screw Fixation, But There Are No Consistent Significant Differences at Medium-Term Follow-Up (?2 Years).",
+      "normalized_title": "tibial suspensory fixation has superior early subjective and objective outcomes compared with tibial screw fixation but there are no consistent significant differences at medium term follow up 2 years",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_353066",
+      "source_id": "353066",
+      "title": "-The Reproducibility of Conventional Minimally Invasive Osteosynthesis for the treatment of Intra articular Calcaneal fractures: The Traditional Technique is Regaining Popularity (prospective interventional study)",
+      "normalized_title": "the reproducibility of conventional minimally invasive osteosynthesis for the treatment of intra articular calcaneal fractures the traditional technique is regaining popularity prospective interventional study",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_353065",
+      "source_id": "353065",
+      "title": "-COMPARATIVE OUTCOMES OF LATERAL VERSUS COMBINED LATERAL–ANTEROMEDIAL APPROACHES IN THE SURGICAL MANAGEMENT OF TERRIBLE TRIAD ELBOW INJURIES: A PROSPECTIVE COHORT STUDY",
+      "normalized_title": "comparative outcomes of lateral versus combined lateral anteromedial approaches in the surgical management of terrible triad elbow injuries a prospective cohort study",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_353064",
+      "source_id": "353064",
+      "title": "-Outcomes of Definitive Spinal Fusion Using All Pedicle Screw for a Borderline Immature Patient with Idiopathic Early Onset Scoliosis",
+      "normalized_title": "outcomes of definitive spinal fusion using all pedicle screw for a borderline immature patient with idiopathic early onset scoliosis",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_353063",
+      "source_id": "353063",
+      "title": "-COMPARATIVE STUDY BETWEEN RAFTING SCREW AND BONE GRAFT IN DEPRESSED TIBIAL PLATEAU FRACTURE",
+      "normalized_title": "comparative study between rafting screw and bone graft in depressed tibial plateau fracture",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_353062",
+      "source_id": "353062",
+      "title": "-Role of Arthroscopy in Diagnosis and Treatment of Hip Joint Pathology",
+      "normalized_title": "role of arthroscopy in diagnosis and treatment of hip joint pathology",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_353050",
+      "source_id": "353050",
+      "title": "طريقة تجميع للمعادلات التفاضلية الكسرية باستخدام دوال تشيليشكوف الهجينة ذات الرتبة الكسرية.",
+      "normalized_title": "طريقه تجميع للمعادلات التفاضليه الكسريه باستخدام دوال تشيليشكوف الهجينه ذات الرتبه الكسريه",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_353027",
+      "source_id": "353027",
+      "title": "تقييم المؤشرات المناخية الحالية و المستقبلية لدرجة الحرارة والمطر فى مصر",
+      "normalized_title": "تقييم الموشرات المناخيه الحاليه و المستقبليه لدرجه الحراره والمطر في مصر",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "azhar_research_gate_353016",
+      "source_id": "353016",
+      "title": "تحسين كفاءة التمثيل الضوئي وإنتاجية نباتات الفراولة (Fragaria ananassa Duch.) باستخدام أنظمة LED",
+      "normalized_title": "تحسين كفاءه التمثيل الضويي وانتاجيه نباتات الفراوله fragaria ananassa duch باستخدام انظمه led",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352918",
+      "source_id": "352918",
+      "title": "تحليل الأعطال بمضخات العمود الماص وإصلاحها فى حقول شركة خالدة للبترول",
+      "normalized_title": "تحليل الاعطال بمضخات العمود الماص واصلاحها في حقول شركه خالده للبترول",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "azhar_research_gate_352880",
+      "source_id": "352880",
+      "title": "فن وصف الشخصيات في الأدب الأوردي من خلال كتاب (کچھ شگفتگي کچھ سنجيدگي: بين الهزل والجد) لابن كنول (دراسة تحليلية وصفية)",
+      "normalized_title": "فن وصف الشخصيات في الادب الاوردي من خلال كتاب کچھ شگفتگي کچھ سنجيدگي بين الهزل والجد لابن كنول دراسه تحليليه وصفيه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "azhar_research_gate_352772",
+      "source_id": "352772",
+      "title": "فلسفة الإنسان والمصير بين النزعة العقلية والرؤية اللاهوتية (أبو العلاء المعري ودانتي أليغييري) أنموذجًا",
+      "normalized_title": "فلسفه الانسان والمصير بين النزعه العقليه والرويه اللاهوتيه ابو العلاء المعري ودانتي اليغييري انموذجا",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352768",
+      "source_id": "352768",
+      "title": "القيمة التشخيصية لتقنية التصوير فائق الدقة للأوعية الدقيقة في تقييم الآفات البؤرية الكبدية",
+      "normalized_title": "القيمه التشخيصيه لتقنيه التصوير فايق الدقه للاوعيه الدقيقه في تقييم الافات البوريه الكبديه",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352750",
+      "source_id": "352750",
+      "title": ".",
+      "normalized_title": "",
+      "reason": "missing_required_field"
+    },
+    {
+      "id": "azhar_research_gate_352749",
+      "source_id": "352749",
+      "title": ".",
+      "normalized_title": "",
+      "reason": "missing_required_field"
+    },
+    {
+      "id": "azhar_research_gate_352748",
+      "source_id": "352748",
+      "title": ".",
+      "normalized_title": "",
+      "reason": "missing_required_field"
+    },
+    {
+      "id": "azhar_research_gate_352747",
+      "source_id": "352747",
+      "title": ".",
+      "normalized_title": "",
+      "reason": "missing_required_field"
+    },
+    {
+      "id": "azhar_research_gate_352673",
+      "source_id": "352673",
+      "title": "آليات إصدار القرارات في المنظمات الدولية ومدى مساهمتها في تحقيق أهدافها دراسة مقارنة بالفقه الإسلامي",
+      "normalized_title": "اليات اصدار القرارات في المنظمات الدوليه ومدي مساهمتها في تحقيق اهدافها دراسه مقارنه بالفقه الاسلامي",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "azhar_research_gate_352656",
+      "source_id": "352656",
+      "title": "أساليب المعاملة الوالدية كمتغير وسيط بين استخدام الألعاب الإلكترونية وبعض المشكلات السلوكية لدى الأطفال \"دراسة سيكومترية إكلينيكية\"",
+      "normalized_title": "اساليب المعامله الوالديه كمتغير وسيط بين استخدام الالعاب الالكترونيه وبعض المشكلات السلوكيه لدي الاطفال دراسه سيكومتريه اكلينيكيه",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352642",
+      "source_id": "352642",
+      "title": "رؤى إحصائية حول اتجاهات الشباب الريفي نحو ريادة الأعمال واستراتيجيات التحسين",
+      "normalized_title": "روي احصاييه حول اتجاهات الشباب الريفي نحو رياده الاعمال واستراتيجيات التحسين",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352639",
+      "source_id": "352639",
+      "title": "أنماط التواصل الزواجي وعلاقته بجودة الحياة الزوجية (دراسة ببعض قرى مركز طنطا محافظة الغربية)",
+      "normalized_title": "انماط التواصل الزواجي وعلاقته بجوده الحياه الزوجيه دراسه ببعض قري مركز طنطا محافظه الغربيه",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352636",
+      "source_id": "352636",
+      "title": "محددات المسئولية الاجتماعية للشباب الريفي الجامعي",
+      "normalized_title": "محددات المسيوليه الاجتماعيه للشباب الريفي الجامعي",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352460",
+      "source_id": "352460",
+      "title": "الضغوط المهنية والنفسية لدى أطباء الإمتياز في مستشفى الزهراء الجامعي",
+      "normalized_title": "الضغوط المهنيه والنفسيه لدي اطباء الامتياز في مستشفي الزهراء الجامعي",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352426",
+      "source_id": "352426",
+      "title": "مِنْ مَعَايير انْتِقَاء المُفْرَدة القُرْآنِيَّة - دِرَاسَة فِي الأَسْرَار البَلَاغِيَّة",
+      "normalized_title": "من معايير انتقاء المفرده القرانيه دراسه في الاسرار البلاغيه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "azhar_research_gate_352423",
+      "source_id": "352423",
+      "title": "فعالية الديكسميديتوميدين في الوقاية من الهذيان بعد اجراء استئصال الورم الدماغي جراحيا",
+      "normalized_title": "فعاليه الديكسميديتوميدين في الوقايه من الهذيان بعد اجراء استيصال الورم الدماغي جراحيا",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "azhar_research_gate_352397",
+      "source_id": "352397",
+      "title": "العلاقة بين مستويات الأسبروسين في المصل واعتلال الكلى السكري لدى المرضى المصابين بداء السكري من النوع الثاني",
+      "normalized_title": "العلاقه بين مستويات الاسبروسين في المصل واعتلال الكلي السكري لدي المرضي المصابين بداء السكري من النوع الثاني",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "azhar_research_gate_352333",
+      "source_id": "352333",
+      "title": "- A novel potassium channel opener for spontaneous preterm birth prevention: Bringing the concepts together",
+      "normalized_title": "a novel potassium channel opener for spontaneous preterm birth prevention bringing the concepts together",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352286",
+      "source_id": "352286",
+      "title": "دراسة تحليلية للفجوة الزيتية في مصر",
+      "normalized_title": "دراسه تحليليه للفجوه الزيتيه في مصر",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352283",
+      "source_id": "352283",
+      "title": "دراسة اقتصادية تحليلية لزيادة معدل الاكتفاء الذاتي من القمح في جمهورية مصر العربية",
+      "normalized_title": "دراسه اقتصاديه تحليليه لزياده معدل الاكتفاء الذاتي من القمح في جمهوريه مصر العربيه",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352178",
+      "source_id": "352178",
+      "title": "فتاوي فضيلة الشيخ عطية صقر ت (1427هـ) في فقه الفراق دراسة فقهية مقارنة",
+      "normalized_title": "فتاوي فضيله الشيخ عطيه صقر ت 1427ه في فقه الفراق دراسه فقهيه مقارنه",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352162",
+      "source_id": "352162",
+      "title": ".",
+      "normalized_title": "",
+      "reason": "missing_required_field"
+    },
+    {
+      "id": "azhar_research_gate_352076",
+      "source_id": "352076",
+      "title": "-The Reproducibility of Conventional Minimally Invasive Osteosynthesis for the treatment of Intra articular Calcaneal fractures: The Traditional Technique is Regaining Popularity (prospective interventional study)",
+      "normalized_title": "the reproducibility of conventional minimally invasive osteosynthesis for the treatment of intra articular calcaneal fractures the traditional technique is regaining popularity prospective interventional study",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352075",
+      "source_id": "352075",
+      "title": "-COMPARATIVE OUTCOMES OF LATERAL VERSUS COMBINED LATERAL–ANTEROMEDIAL APPROACHES IN THE SURGICAL MANAGEMENT OF TERRIBLE TRIAD ELBOW INJURIES: A PROSPECTIVE COHORT STUDY",
+      "normalized_title": "comparative outcomes of lateral versus combined lateral anteromedial approaches in the surgical management of terrible triad elbow injuries a prospective cohort study",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352068",
+      "source_id": "352068",
+      "title": "-Semi-active robot-assisted total hip arthroplasty versus conventional surgery: A Meta-analysis of randomized controlled studies",
+      "normalized_title": "semi active robot assisted total hip arthroplasty versus conventional surgery a meta analysis of randomized controlled studies",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352067",
+      "source_id": "352067",
+      "title": "-Achieving correction of moderate to severe hallux valgus deformity of the 1st metatarsal by Proximal opening wedge osteotomy using a locking plate (A prospective study)",
+      "normalized_title": "achieving correction of moderate to severe hallux valgus deformity of the 1st metatarsal by proximal opening wedge osteotomy using a locking plate a prospective study",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352066",
+      "source_id": "352066",
+      "title": "-The Reproducibility of Conventional Minimally Invasive Osteosynthesis for the treatment of Intra articular Calcaneal fractures: The Traditional Technique is Regaining Popularity (prospective interventional study)",
+      "normalized_title": "the reproducibility of conventional minimally invasive osteosynthesis for the treatment of intra articular calcaneal fractures the traditional technique is regaining popularity prospective interventional study",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352065",
+      "source_id": "352065",
+      "title": "-Comparative Outcomes of Lateral Versus Combined Lateral– Anteromedial Approaches in the Surgical Management of Terrible Triad Elbow Injuries: A Prospective Cohort Study",
+      "normalized_title": "comparative outcomes of lateral versus combined lateral anteromedial approaches in the surgical management of terrible triad elbow injuries a prospective cohort study",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352064",
+      "source_id": "352064",
+      "title": ".Outcomes of Definitive Spinal Fusion Using All Pedicle Screw for a Borderline Immature Patient with Idiopathic Early Onset Scoliosis",
+      "normalized_title": "outcomes of definitive spinal fusion using all pedicle screw for a borderline immature patient with idiopathic early onset scoliosis",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352063",
+      "source_id": "352063",
+      "title": "-COMPARATIVE STUDY BETWEEN RAFTING SCREW AND BONE GRAFT IN DEPRESSED TIBIAL PLATEAU FRACTURE",
+      "normalized_title": "comparative study between rafting screw and bone graft in depressed tibial plateau fracture",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352062",
+      "source_id": "352062",
+      "title": ".Role of Arthroscopy in Diagnosis and Treatment of Hip Joint Pathology",
+      "normalized_title": "role of arthroscopy in diagnosis and treatment of hip joint pathology",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_352008",
+      "source_id": "352008",
+      "title": "موقف (فولتير ت 1778م ، نيتشه ت1900) من الدين . دراسة تحليلية نقدية",
+      "normalized_title": "موقف فولتير ت 1778م نيتشه ت1900 من الدين دراسه تحليليه نقديه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "azhar_research_gate_352007",
+      "source_id": "352007",
+      "title": "دراسة أشكال المداخل والمخارج على معدلات التدفق للبرابخ الصندوقية",
+      "normalized_title": "دراسه اشكال المداخل والمخارج علي معدلات التدفق للبرابخ الصندوقيه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "azhar_research_gate_351955",
+      "source_id": "351955",
+      "title": "تأثير البولي بروبلين فايبر وبودرة الحجر الجيري على التربة الطينية",
+      "normalized_title": "تاثير البولي بروبلين فايبر وبودره الحجر الجيري علي التربه الطينيه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "azhar_research_gate_351952",
+      "source_id": "351952",
+      "title": "التقييم الحيوي لتأثيرات التعرض الحاد والاستجابة التكيفية الإشعاعية لجرعات منخفضة من أشعة جاما في الفئران.",
+      "normalized_title": "التقييم الحيوي لتاثيرات التعرض الحاد والاستجابه التكيفيه الاشعاعيه لجرعات منخفضه من اشعه جاما في الفيران",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_351920",
+      "source_id": "351920",
+      "title": "مستجدات جراحة سرطان القولون والمستقيم: معدل الإصابة وعوامل خطر التسرب التفاغري الحاد: دراسة استعادية",
+      "normalized_title": "مستجدات جراحه سرطان القولون والمستقيم معدل الاصابه وعوامل خطر التسرب التفاغري الحاد دراسه استعاديه",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_351919",
+      "source_id": "351919",
+      "title": "عامل الخطر الخاص بكوفيد ــ19 للمضاعفات المبكرة بعد استئصال الزائدة الدودية (EPAC) لدى المرضى الأكبر سنًا: دراسة بأثر رجعي",
+      "normalized_title": "عامل الخطر الخاص بكوفيد 19 للمضاعفات المبكره بعد استيصال الزايده الدوديه epac لدي المرضي الاكبر سنا دراسه باثر رجعي",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_351918",
+      "source_id": "351918",
+      "title": "الضعف يتنبأ بالرجوع بعد تنظير البطن Nissen Fundoplication مع شباك شبكية للفتق المنزلق العملاق مع الارتجاع الشديد والتهاب المريء في المرضى المسنين: دراسة متعددة المراكز بأثر رجعي",
+      "normalized_title": "الضعف يتنبا بالرجوع بعد تنظير البطن nissen fundoplication مع شباك شبكيه للفتق المنزلق العملاق مع الارتجاع الشديد والتهاب المريء في المرضي المسنين دراسه متعدده المراكز باثر رجعي",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_351917",
+      "source_id": "351917",
+      "title": "إعادة الدخول المبكر بعد استئصال الغدة الكظرية لعلاج ورم القواتم: دراسة استعادية",
+      "normalized_title": "اعاده الدخول المبكر بعد استيصال الغده الكظريه لعلاج ورم القواتم دراسه استعاديه",
+      "reason": "duplicate_normalized_title_within_portal"
+    },
+    {
+      "id": "azhar_research_gate_351916",
+      "source_id": "351916",
+      "title": "الرفرقة المخاطية التقدمية مقابل ربط مسار الناسور بين العضلتين العاصرتين في إدارة الناسور العجاني العابر للعضلة العاصرة لدى كبار السن: دراسة استعادية",
+      "normalized_title": "الرفرقه المخاطيه التقدميه مقابل ربط مسار الناسور بين العضلتين العاصرتين في اداره الناسور العجاني العابر للعضله العاصره لدي كبار السن دراسه استعاديه",
+      "reason": "duplicate_normalized_title_within_portal"
+    }
+  ]
+}

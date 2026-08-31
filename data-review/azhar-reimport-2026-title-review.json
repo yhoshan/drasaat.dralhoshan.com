@@ -1,0 +1,40 @@
+{
+  "count": 5,
+  "records": [
+    {
+      "source_id": "6590",
+      "source_url": "https://azu.edu.eg/AzResearchGate/Home/Details/6590",
+      "meta": "ابحاث جمال السيد احمد السيد 2021/01/30",
+      "reason": "العنوان غير ظاهر في صفحة التفاصيل",
+      "needs_title_review": true
+    },
+    {
+      "source_id": "6632",
+      "source_url": "https://azu.edu.eg/AzResearchGate/Home/Details/6632",
+      "meta": "ابحاث منى عبد العزيز زكريا حسن 2021/01/30",
+      "reason": "العنوان غير ظاهر في صفحة التفاصيل",
+      "needs_title_review": true
+    },
+    {
+      "source_id": "206393",
+      "source_url": "https://azu.edu.eg/AzResearchGate/Home/Details/206393",
+      "meta": "ابحاث فاتن عبد الودود عبد القوي حسين 2024/06/18",
+      "reason": "العنوان غير ظاهر في صفحة التفاصيل",
+      "needs_title_review": true
+    },
+    {
+      "source_id": "259313",
+      "source_url": "https://azu.edu.eg/AzResearchGate/Home/Details/259313",
+      "meta": "ابحاث علي مصطفى علي حسن 2025/02/17",
+      "reason": "العنوان غير ظاهر في صفحة التفاصيل",
+      "needs_title_review": true
+    },
+    {
+      "source_id": "259246",
+      "source_url": "https://azu.edu.eg/AzResearchGate/Home/Details/259246",
+      "meta": "رسائل علي مصطفى علي حسن 2025/02/16",
+      "reason": "العنوان غير ظاهر في صفحة التفاصيل",
+      "needs_title_review": true
+    }
+  ]
+}
