@@ -82,23 +82,6 @@ export default function FilterBar({
         </select>
       </FilterSection>
 
-      {/* المصدر — في الموضع المرجعي أسفل الترتيب */}
-      <FilterSection title="المصدر">
-        <select
-          value={selectedSource}
-          onChange={(e) => onSourceChange(e.target.value)}
-          className="w-full text-sm border border-teal-200 dark:border-border rounded-lg px-3 py-2 bg-white dark:bg-background text-gray-700 dark:text-gray-200 focus:outline-none focus:border-teal-500"
-          style={{ fontFamily: "Cairo, sans-serif" }}
-        >
-          <option value="الكل">المصدر: الكل</option>
-          {sources.slice(0, 20).map((source) => (
-            <option key={source} value={source}>
-              {source.length > 42 ? `${source.slice(0, 42)}…` : source}
-            </option>
-          ))}
-        </select>
-      </FilterSection>
-
       {/* الدرجة العلمية */}
       <FilterSection title="الدرجة العلمية">
         <div className="space-y-1">

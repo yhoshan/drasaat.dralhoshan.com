@@ -197,12 +197,7 @@ function ThesisCard({ item, index }: { item: ThesisItem; index: number }) {
 
       {/* بيانات فهرسية */}
       <div className="space-y-1 text-xs" style={{ fontFamily: "Cairo, sans-serif" }}>
-        {item.category && item.category !== "دراسات متنوعة" && (
-          <div className="flex items-center gap-1.5 text-teal-700 dark:text-teal-300">
-            <span className="w-1 h-1 rounded-full bg-teal-400 flex-shrink-0" />
-            {item.category}
-          </div>
-        )}
+        {/* احتواء ما قبل الإطلاق: تظل قيمة التصنيف داخل البيانات والبحث، ولا تعرض في البطاقة. */}
         {item.file_size && (
           <div className="flex items-center gap-1.5 text-gray-400">
             <span className="w-1 h-1 rounded-full bg-gray-300 flex-shrink-0" />

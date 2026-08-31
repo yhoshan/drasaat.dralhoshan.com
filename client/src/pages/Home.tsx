@@ -84,6 +84,22 @@ const PAGE_SIZE = 20;
 const SEARCH_DEBOUNCE_MS = 180;
 const SEARCH_FRAME_BUDGET_MS = 8;
 
+// احتواء ما قبل الإطلاق: هذه وحدها الأقسام المسموح بإبرازها في شريط التصفح.
+// يبقى البحث العام شاملاً لجميع قيم التصنيف داخل البيانات.
+const PRIMARY_CATEGORY_TABS = [
+  "الكل",
+  "القرآن الكريم وعلومه",
+  "الحديث النبوي وعلومه",
+  "الفقه الإسلامي",
+  "القضاء والأنظمة والقانون",
+  "اللغة العربية وآدابها",
+  "التربية والتعليم",
+  "العلوم الاجتماعية والنفسية",
+  "الإدارة والأعمال",
+  "التاريخ والحضارة",
+  "الإعلام والاتصال",
+] as const;
+
 interface ProgressiveSearchState {
   signature: string;
   matches: ThesisItem[];
@@ -462,7 +478,6 @@ export default function Home() {
     resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   }, [hasActiveSearch, itemsLoaded, canUseTitleSearchIndex]);
 
-  const categories = useMemo(() => ["الكل", ...Object.keys(stats?.categories || {})], [stats]);
   const degrees = useMemo(() => ["الكل", ...Object.keys(stats?.degrees || {})], [stats]);
 
   const sources = useMemo(() => {
@@ -569,7 +584,7 @@ export default function Home() {
       <div className="bg-white dark:bg-card border-b border-border sticky top-16 z-30 shadow-sm">
         <div className="container">
           <div className="flex items-center gap-2 py-3 overflow-x-auto scrollbar-hide">
-            {categories.slice(0, 12).map((category) => (
+            {PRIMARY_CATEGORY_TABS.map((category) => (
               <button
                 key={category}
                 onClick={() => setSelectedCategory(category)}
