@@ -1,0 +1,35 @@
+{
+  "verification": "arab-society-theses-transfer",
+  "source_counts": {
+    "expected_additions": 1392,
+    "actual_prefixed_additions": 1392,
+    "items_total": 146243,
+    "index_total": 146243
+  },
+  "id_integrity": {
+    "database_duplicate_ids": [],
+    "missing_from_database": [],
+    "unexpected_prefixed_ids": [],
+    "audit_additions_match_plan": true
+  },
+  "title_integrity": {
+    "duplicate_new_normalized_titles": [],
+    "matches_with_preexisting_normalized_titles": []
+  },
+  "content_policy": {
+    "blocked_text_field_matches": []
+  },
+  "statistics": {
+    "expected_total": 146243,
+    "items_length": 146243,
+    "stats_total_items": 146243,
+    "stats_total_materials": 146243,
+    "matches": true
+  },
+  "search_index": {
+    "index_duplicate_ids": 0,
+    "missing_or_mismatched_entries": [],
+    "matches": true
+  },
+  "passed": true
+}

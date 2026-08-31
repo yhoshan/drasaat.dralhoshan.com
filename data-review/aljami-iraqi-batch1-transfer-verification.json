@@ -1,0 +1,36 @@
+{
+  "verification": "aljami-iraqi-batch1-transfer",
+  "generated_at": "2026-08-31T08:17:08.978Z",
+  "source_counts": {
+    "expected_additions": 588,
+    "actual_prefixed_additions": 588,
+    "items_total": 143459,
+    "index_total": 143459
+  },
+  "id_integrity": {
+    "database_duplicate_ids": [],
+    "missing_from_database": [],
+    "unexpected_prefixed_ids": [],
+    "audit_additions_match_plan": true
+  },
+  "title_integrity": {
+    "duplicate_new_normalized_titles": [],
+    "matches_with_preexisting_normalized_titles": []
+  },
+  "content_policy": {
+    "blocked_text_field_matches": []
+  },
+  "statistics": {
+    "expected_total": 143459,
+    "items_length": 143459,
+    "stats_total_items": 143459,
+    "stats_total_materials": 143459,
+    "matches": true
+  },
+  "search_index": {
+    "index_duplicate_ids": 0,
+    "missing_or_mismatched_entries": [],
+    "matches": true
+  },
+  "passed": true
+}

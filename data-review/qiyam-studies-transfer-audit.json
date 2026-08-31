@@ -1,0 +1,24 @@
+{
+  "source": "منصة قيم",
+  "executed_at": "2026-08-31T06:37:10.718Z",
+  "before_count": 142129,
+  "added_count": 742,
+  "after_count": 142871,
+  "dry_run_summary": {
+    "accepted": 742,
+    "duplicates_internal": 28,
+    "duplicates_existing": 35,
+    "blocked": 0,
+    "review": 223,
+    "final_total_after_merge": 142871
+  },
+  "additions_by_material_type": {
+    "بحث محكم": 513,
+    "رسالة علمية": 229
+  },
+  "verification": {
+    "ids_match_plan": true,
+    "stats_match_items": true,
+    "search_index_match_items": true
+  }
+}

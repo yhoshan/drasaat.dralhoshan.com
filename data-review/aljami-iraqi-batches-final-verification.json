@@ -1,0 +1,51 @@
+{
+  "verification": "aljami-iraqi-batches-final",
+  "generated_at": "2026-08-31T08:22:57.072Z",
+  "batches": {
+    "batch1": {
+      "expected_additions": 588,
+      "actual_additions": 588,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "audit_matches_plan": true,
+      "before_total": 142871,
+      "after_total": 143459
+    },
+    "batch2": {
+      "expected_additions": 615,
+      "actual_additions": 615,
+      "missing_ids": [],
+      "unexpected_ids": [],
+      "audit_matches_plan": true,
+      "before_total": 143459,
+      "after_total": 144074
+    }
+  },
+  "sequence": {
+    "batch1_before": 142871,
+    "batch1_after": 143459,
+    "batch2_before": 143459,
+    "batch2_after": 144074,
+    "continuous": true
+  },
+  "database": {
+    "total_items": 144074,
+    "duplicate_ids": [],
+    "added_items": 1203,
+    "duplicate_normalized_titles_among_added": [],
+    "added_titles_matching_preexisting": [],
+    "blocked_text_field_matches": []
+  },
+  "statistics": {
+    "total_items": 144074,
+    "total_materials": 144074,
+    "matches": true
+  },
+  "search_index": {
+    "index_count": 144074,
+    "duplicate_ids": 0,
+    "mismatched_ids": [],
+    "matches": true
+  },
+  "passed": true
+}
