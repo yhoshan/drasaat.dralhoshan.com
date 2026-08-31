@@ -1,0 +1,2142 @@
+{
+  "total_items": 149744,
+  "category_counts": [
+    {
+      "name": "غير مصنّف",
+      "items_count": 22541
+    },
+    {
+      "name": "دراسات متنوعة",
+      "items_count": 12544
+    },
+    {
+      "name": "غير مصنف",
+      "items_count": 11439
+    },
+    {
+      "name": "غير محدد",
+      "items_count": 9246
+    },
+    {
+      "name": "القضاء والأنظمة والقانون",
+      "items_count": 8759
+    },
+    {
+      "name": "الفقه الإسلامي",
+      "items_count": 8756
+    },
+    {
+      "name": "القرآن الكريم وعلومه",
+      "items_count": 8007
+    },
+    {
+      "name": "اللغة العربية وآدابها",
+      "items_count": 7837
+    },
+    {
+      "name": "التربية والتعليم",
+      "items_count": 7203
+    },
+    {
+      "name": "دراسات إسلامية",
+      "items_count": 6907
+    },
+    {
+      "name": "الحديث النبوي وعلومه",
+      "items_count": 6447
+    },
+    {
+      "name": "الشريعة والدراسات الإسلامية",
+      "items_count": 5004
+    },
+    {
+      "name": "العلوم والتقنية والهندسة",
+      "items_count": 4082
+    },
+    {
+      "name": "الإدارة والأعمال",
+      "items_count": 3317
+    },
+    {
+      "name": "الاقتصاد والمالية الإسلامية",
+      "items_count": 3151
+    },
+    {
+      "name": "العقيدة والتوحيد",
+      "items_count": 2652
+    },
+    {
+      "name": "العلوم الاجتماعية والنفسية",
+      "items_count": 2522
+    },
+    {
+      "name": "الطب والصحة",
+      "items_count": 2298
+    },
+    {
+      "name": "أصول الفقه",
+      "items_count": 2139
+    },
+    {
+      "name": "التاريخ والحضارة",
+      "items_count": 1945
+    },
+    {
+      "name": "السياسة والعلاقات الدولية",
+      "items_count": 1832
+    },
+    {
+      "name": "الدراسات الإسلامية العامة",
+      "items_count": 1489
+    },
+    {
+      "name": "الحديث وعلومه",
+      "items_count": 1386
+    },
+    {
+      "name": "الفقه وأصوله",
+      "items_count": 737
+    },
+    {
+      "name": "fiqh",
+      "items_count": 707
+    },
+    {
+      "name": "الدراسات الإنسانية العامة",
+      "items_count": 600
+    },
+    {
+      "name": "المداخل العلمية",
+      "items_count": 591
+    },
+    {
+      "name": "الإعلام والاتصال",
+      "items_count": 531
+    },
+    {
+      "name": "البيئة والجغرافيا",
+      "items_count": 476
+    },
+    {
+      "name": "القانون والأنظمة",
+      "items_count": 446
+    },
+    {
+      "name": "الآداب والعلوم الإنسانية",
+      "items_count": 401
+    },
+    {
+      "name": "العلوم السياسية والدراسات الدولية",
+      "items_count": 378
+    },
+    {
+      "name": "الشريعة والفقه",
+      "items_count": 307
+    },
+    {
+      "name": "التربية وعلم النفس",
+      "items_count": 272
+    },
+    {
+      "name": "qawaid_fiqhiyya",
+      "items_count": 173
+    },
+    {
+      "name": "الاجتماع والإعلام",
+      "items_count": 168
+    },
+    {
+      "name": "dawah",
+      "items_count": 135
+    },
+    {
+      "name": "hadith",
+      "items_count": 135
+    },
+    {
+      "name": "اللغة العربية",
+      "items_count": 115
+    },
+    {
+      "name": "الأدب والنقد",
+      "items_count": 109
+    },
+    {
+      "name": "aqeeda",
+      "items_count": 104
+    },
+    {
+      "name": "الدعوة والثقافة الإسلامية",
+      "items_count": 87
+    },
+    {
+      "name": "usul_fiqh",
+      "items_count": 84
+    },
+    {
+      "name": "tafsir",
+      "items_count": 79
+    },
+    {
+      "name": "القانون المدني",
+      "items_count": 63
+    },
+    {
+      "name": "القانون التجاري",
+      "items_count": 61
+    },
+    {
+      "name": "firaq",
+      "items_count": 59
+    },
+    {
+      "name": "القانون الجنائي",
+      "items_count": 52
+    },
+    {
+      "name": "qiraat",
+      "items_count": 52
+    },
+    {
+      "name": "الترجمة",
+      "items_count": 47
+    },
+    {
+      "name": "تفسير وعلوم القرآن",
+      "items_count": 45
+    },
+    {
+      "name": "العقيدة والفكر الإسلامي",
+      "items_count": 41
+    },
+    {
+      "name": "الأنظمة والتشريعات",
+      "items_count": 40
+    },
+    {
+      "name": "sira",
+      "items_count": 40
+    },
+    {
+      "name": "quran_sciences",
+      "items_count": 39
+    },
+    {
+      "name": "القانون الإداري",
+      "items_count": 35
+    },
+    {
+      "name": "الإثبات والشهادة",
+      "items_count": 31
+    },
+    {
+      "name": "التحكيم والوساطة",
+      "items_count": 28
+    },
+    {
+      "name": "اللغة والآداب",
+      "items_count": 28
+    },
+    {
+      "name": "الأدب",
+      "items_count": 28
+    },
+    {
+      "name": "القضاء الإداري",
+      "items_count": 26
+    },
+    {
+      "name": "history",
+      "items_count": 26
+    },
+    {
+      "name": "المحاكم والمرافعات",
+      "items_count": 24
+    },
+    {
+      "name": "maqasid",
+      "items_count": 24
+    },
+    {
+      "name": "حديث",
+      "items_count": 23
+    },
+    {
+      "name": "الأحوال الشخصية",
+      "items_count": 20
+    },
+    {
+      "name": "القضاء والأنظمة العامة",
+      "items_count": 17
+    },
+    {
+      "name": "فقه",
+      "items_count": 16
+    },
+    {
+      "name": "لغة عربية",
+      "items_count": 16
+    },
+    {
+      "name": "القانون المدني والتجاري",
+      "items_count": 15
+    },
+    {
+      "name": "القانون الدستوري",
+      "items_count": 14
+    },
+    {
+      "name": "الأنظمة العقارية",
+      "items_count": 14
+    },
+    {
+      "name": "تعليم اللغة الإنجليزية",
+      "items_count": 13
+    },
+    {
+      "name": "المبادئ والقرارات القضائية",
+      "items_count": 12
+    },
+    {
+      "name": "الإجراءات القضائية",
+      "items_count": 12
+    },
+    {
+      "name": "hadith_terminology",
+      "items_count": 12
+    },
+    {
+      "name": "الأبحاث القانونية والقضائية",
+      "items_count": 11
+    },
+    {
+      "name": "قانون العمل",
+      "items_count": 11
+    },
+    {
+      "name": "اقتصاد إسلامي",
+      "items_count": 11
+    },
+    {
+      "name": "القضاء الشرعي",
+      "items_count": 10
+    },
+    {
+      "name": "اللغة واللسانيات",
+      "items_count": 10
+    },
+    {
+      "name": "الدراسات الثقافية",
+      "items_count": 10
+    },
+    {
+      "name": "القانون الدولي",
+      "items_count": 8
+    },
+    {
+      "name": "الملكية الفكرية",
+      "items_count": 8
+    },
+    {
+      "name": "السيميائية",
+      "items_count": 8
+    },
+    {
+      "name": "التناص",
+      "items_count": 8
+    },
+    {
+      "name": "الرواية",
+      "items_count": 8
+    },
+    {
+      "name": "اللسانيات",
+      "items_count": 8
+    },
+    {
+      "name": "اللغة العربية والآداب",
+      "items_count": 7
+    },
+    {
+      "name": "التعليمية",
+      "items_count": 7
+    },
+    {
+      "name": "تعليمية اللغات",
+      "items_count": 7
+    },
+    {
+      "name": "الدراسات النسوية",
+      "items_count": 7
+    },
+    {
+      "name": "تعليم اللغة الفرنسية",
+      "items_count": 7
+    },
+    {
+      "name": "تحليل الخطاب",
+      "items_count": 6
+    },
+    {
+      "name": "القواعد الفقهية",
+      "items_count": 5
+    },
+    {
+      "name": "القرآن وعلومه",
+      "items_count": 5
+    },
+    {
+      "name": "المكان",
+      "items_count": 5
+    },
+    {
+      "name": "دراسات الجندر",
+      "items_count": 5
+    },
+    {
+      "name": "الهوية الثقافية",
+      "items_count": 5
+    },
+    {
+      "name": "الترجمة والترجمة المرئية",
+      "items_count": 5
+    },
+    {
+      "name": "الجنايات والحدود",
+      "items_count": 4
+    },
+    {
+      "name": "تربية إسلامية",
+      "items_count": 4
+    },
+    {
+      "name": "الفضاء",
+      "items_count": 4
+    },
+    {
+      "name": "جماليات",
+      "items_count": 4
+    },
+    {
+      "name": "الشعرية",
+      "items_count": 4
+    },
+    {
+      "name": "البنية",
+      "items_count": 4
+    },
+    {
+      "name": "المتشابه اللفظي",
+      "items_count": 4
+    },
+    {
+      "name": "الشخصية",
+      "items_count": 4
+    },
+    {
+      "name": "الأدب العربي",
+      "items_count": 4
+    },
+    {
+      "name": "التواصل بين الثقافات",
+      "items_count": 4
+    },
+    {
+      "name": "التحليل النفسي",
+      "items_count": 4
+    },
+    {
+      "name": "التعليم والتدريس",
+      "items_count": 4
+    },
+    {
+      "name": "البلاغة والنقد",
+      "items_count": 4
+    },
+    {
+      "name": "الاقتصاد والمالية",
+      "items_count": 3
+    },
+    {
+      "name": "الأنظمة الجزائية",
+      "items_count": 3
+    },
+    {
+      "name": "المحاماة",
+      "items_count": 3
+    },
+    {
+      "name": "سيرة وتاريخ",
+      "items_count": 3
+    },
+    {
+      "name": "التقويم",
+      "items_count": 3
+    },
+    {
+      "name": "المصطلح",
+      "items_count": 3
+    },
+    {
+      "name": "السرد",
+      "items_count": 3
+    },
+    {
+      "name": "الخطاب",
+      "items_count": 3
+    },
+    {
+      "name": "المسرح",
+      "items_count": 3
+    },
+    {
+      "name": "الشعر",
+      "items_count": 3
+    },
+    {
+      "name": "الإيقاع",
+      "items_count": 3
+    },
+    {
+      "name": "الرثاء",
+      "items_count": 3
+    },
+    {
+      "name": "السيمياء",
+      "items_count": 3
+    },
+    {
+      "name": "العجائبية",
+      "items_count": 3
+    },
+    {
+      "name": "الذاكرة الثقافية",
+      "items_count": 3
+    },
+    {
+      "name": "الإعلام",
+      "items_count": 3
+    },
+    {
+      "name": "علم المصطلح",
+      "items_count": 3
+    },
+    {
+      "name": "اللغة الفرنسية",
+      "items_count": 3
+    },
+    {
+      "name": "الرمزية",
+      "items_count": 3
+    },
+    {
+      "name": "التعلم",
+      "items_count": 3
+    },
+    {
+      "name": "الفرق والمذاهب",
+      "items_count": 2
+    },
+    {
+      "name": "القضاء التجاري",
+      "items_count": 2
+    },
+    {
+      "name": "عقيدة",
+      "items_count": 2
+    },
+    {
+      "name": "الاقتصاد الإسلامي",
+      "items_count": 2
+    },
+    {
+      "name": "نظرية",
+      "items_count": 2
+    },
+    {
+      "name": "التداولية",
+      "items_count": 2
+    },
+    {
+      "name": "التدريس",
+      "items_count": 2
+    },
+    {
+      "name": "الأسلوب",
+      "items_count": 2
+    },
+    {
+      "name": "المشافهة",
+      "items_count": 2
+    },
+    {
+      "name": "التراث الشعبي",
+      "items_count": 2
+    },
+    {
+      "name": "تعليمية",
+      "items_count": 2
+    },
+    {
+      "name": "الاختبار",
+      "items_count": 2
+    },
+    {
+      "name": "جماليات الاستعارة",
+      "items_count": 2
+    },
+    {
+      "name": "الرحلة",
+      "items_count": 2
+    },
+    {
+      "name": "الموت",
+      "items_count": 2
+    },
+    {
+      "name": "المفارقة",
+      "items_count": 2
+    },
+    {
+      "name": "المقاربة النصية",
+      "items_count": 2
+    },
+    {
+      "name": "اللغة الشعرية",
+      "items_count": 2
+    },
+    {
+      "name": "السياسة اللغوية",
+      "items_count": 2
+    },
+    {
+      "name": "الأسماء المشتقة",
+      "items_count": 2
+    },
+    {
+      "name": "الصوت",
+      "items_count": 2
+    },
+    {
+      "name": "الحوار",
+      "items_count": 2
+    },
+    {
+      "name": "التاريخ والحضارة الإسلامية",
+      "items_count": 2
+    },
+    {
+      "name": "الأدب الجزائري",
+      "items_count": 2
+    },
+    {
+      "name": "التعليم والتعلم",
+      "items_count": 2
+    },
+    {
+      "name": "النحو والقواعد",
+      "items_count": 2
+    },
+    {
+      "name": "علم النفس",
+      "items_count": 2
+    },
+    {
+      "name": "الآداب",
+      "items_count": 2
+    },
+    {
+      "name": "فهم المقروء",
+      "items_count": 2
+    },
+    {
+      "name": "الأدب الدرامي",
+      "items_count": 2
+    },
+    {
+      "name": "التعليم القائم على المهام",
+      "items_count": 2
+    },
+    {
+      "name": "التفسير وعلوم القرآن",
+      "items_count": 1
+    },
+    {
+      "name": "الأنظمة التجارية",
+      "items_count": 1
+    },
+    {
+      "name": "القانون المدني والجنائي",
+      "items_count": 1
+    },
+    {
+      "name": "القضاء الجنائي",
+      "items_count": 1
+    },
+    {
+      "name": "القضاء والنيابة",
+      "items_count": 1
+    },
+    {
+      "name": "حقوق",
+      "items_count": 1
+    },
+    {
+      "name": "الحقوق والخصوصية",
+      "items_count": 1
+    },
+    {
+      "name": "القانون الدستوري والإداري",
+      "items_count": 1
+    },
+    {
+      "name": "فقه الأسرة",
+      "items_count": 1
+    },
+    {
+      "name": "تحليل",
+      "items_count": 1
+    },
+    {
+      "name": "الكتابة الروائية",
+      "items_count": 1
+    },
+    {
+      "name": "الرحلة الجزائرية",
+      "items_count": 1
+    },
+    {
+      "name": "نجيب الكيلاني",
+      "items_count": 1
+    },
+    {
+      "name": "الجهود النَّحويَّة",
+      "items_count": 1
+    },
+    {
+      "name": "القصّة القرآنيّة",
+      "items_count": 1
+    },
+    {
+      "name": "إبداع",
+      "items_count": 1
+    },
+    {
+      "name": "التعددية اللغوية",
+      "items_count": 1
+    },
+    {
+      "name": "ادب الاعتراف",
+      "items_count": 1
+    },
+    {
+      "name": "أفعال الكلام",
+      "items_count": 1
+    },
+    {
+      "name": "مصطلح",
+      "items_count": 1
+    },
+    {
+      "name": "المعتمد بن عبّاد",
+      "items_count": 1
+    },
+    {
+      "name": "آليات الكتابة",
+      "items_count": 1
+    },
+    {
+      "name": "المتنبي",
+      "items_count": 1
+    },
+    {
+      "name": "الادب الجزائري القديم",
+      "items_count": 1
+    },
+    {
+      "name": "أدب جزائري قديم",
+      "items_count": 1
+    },
+    {
+      "name": "التضمين النحوي",
+      "items_count": 1
+    },
+    {
+      "name": "الفضائيات العربية",
+      "items_count": 1
+    },
+    {
+      "name": "حركية",
+      "items_count": 1
+    },
+    {
+      "name": "العتبات",
+      "items_count": 1
+    },
+    {
+      "name": "ابن محرز الوهراني",
+      "items_count": 1
+    },
+    {
+      "name": "العجائبي",
+      "items_count": 1
+    },
+    {
+      "name": "البناء",
+      "items_count": 1
+    },
+    {
+      "name": "منهجية",
+      "items_count": 1
+    },
+    {
+      "name": "البطل",
+      "items_count": 1
+    },
+    {
+      "name": "النهر الماد",
+      "items_count": 1
+    },
+    {
+      "name": "الخطاب المسرحي",
+      "items_count": 1
+    },
+    {
+      "name": "ما بعد الكولونيالية",
+      "items_count": 1
+    },
+    {
+      "name": "المقاربة",
+      "items_count": 1
+    },
+    {
+      "name": "الغربة",
+      "items_count": 1
+    },
+    {
+      "name": "النّحو البصري",
+      "items_count": 1
+    },
+    {
+      "name": "المعجم",
+      "items_count": 1
+    },
+    {
+      "name": "منهاج",
+      "items_count": 1
+    },
+    {
+      "name": "النسق،المصطلح",
+      "items_count": 1
+    },
+    {
+      "name": "منهجية التأليف",
+      "items_count": 1
+    },
+    {
+      "name": "الموروث الشعبي",
+      "items_count": 1
+    },
+    {
+      "name": "العجيب",
+      "items_count": 1
+    },
+    {
+      "name": "الاتساق",
+      "items_count": 1
+    },
+    {
+      "name": "لغة الجسد",
+      "items_count": 1
+    },
+    {
+      "name": "الثّقافة",
+      "items_count": 1
+    },
+    {
+      "name": "الاستعداد",
+      "items_count": 1
+    },
+    {
+      "name": "شعرية",
+      "items_count": 1
+    },
+    {
+      "name": "المعجم المختص",
+      "items_count": 1
+    },
+    {
+      "name": "تراكيب نحوية",
+      "items_count": 1
+    },
+    {
+      "name": "اللغة",
+      "items_count": 1
+    },
+    {
+      "name": "المهارات اللغوية",
+      "items_count": 1
+    },
+    {
+      "name": "رشيد بن مالك",
+      "items_count": 1
+    },
+    {
+      "name": "نثر",
+      "items_count": 1
+    },
+    {
+      "name": "محتوى",
+      "items_count": 1
+    },
+    {
+      "name": "القواعد الكلّيّة",
+      "items_count": 1
+    },
+    {
+      "name": "علم العروض",
+      "items_count": 1
+    },
+    {
+      "name": "تعليم",
+      "items_count": 1
+    },
+    {
+      "name": "تعليمية اللغة",
+      "items_count": 1
+    },
+    {
+      "name": "تأويل",
+      "items_count": 1
+    },
+    {
+      "name": "الاقتباس",
+      "items_count": 1
+    },
+    {
+      "name": "الشِّعر",
+      "items_count": 1
+    },
+    {
+      "name": "الحجاج",
+      "items_count": 1
+    },
+    {
+      "name": "تحليل الخطاب التعريفي",
+      "items_count": 1
+    },
+    {
+      "name": "الأسطورة",
+      "items_count": 1
+    },
+    {
+      "name": "المسرحية",
+      "items_count": 1
+    },
+    {
+      "name": "ملامح",
+      "items_count": 1
+    },
+    {
+      "name": "لسانيات النص",
+      "items_count": 1
+    },
+    {
+      "name": "تقويم جامعي",
+      "items_count": 1
+    },
+    {
+      "name": "مصطلح عروضي",
+      "items_count": 1
+    },
+    {
+      "name": "التّصوّف",
+      "items_count": 1
+    },
+    {
+      "name": "السلطة",
+      "items_count": 1
+    },
+    {
+      "name": "الوصم",
+      "items_count": 1
+    },
+    {
+      "name": "المعجمية",
+      "items_count": 1
+    },
+    {
+      "name": "الخطاب القرآني",
+      "items_count": 1
+    },
+    {
+      "name": "التفكير الناقد",
+      "items_count": 1
+    },
+    {
+      "name": "الانزياح",
+      "items_count": 1
+    },
+    {
+      "name": "الايقاع",
+      "items_count": 1
+    },
+    {
+      "name": "الأسلوبية",
+      "items_count": 1
+    },
+    {
+      "name": "أصول النحو",
+      "items_count": 1
+    },
+    {
+      "name": "الرّواية النسوية",
+      "items_count": 1
+    },
+    {
+      "name": "الشعر العربي الرقمي",
+      "items_count": 1
+    },
+    {
+      "name": "غريب القرآن",
+      "items_count": 1
+    },
+    {
+      "name": "الضعف القرائي",
+      "items_count": 1
+    },
+    {
+      "name": "نشاط القراءة",
+      "items_count": 1
+    },
+    {
+      "name": "البطل الثوري",
+      "items_count": 1
+    },
+    {
+      "name": "مصطلح التناص",
+      "items_count": 1
+    },
+    {
+      "name": "أبعاد",
+      "items_count": 1
+    },
+    {
+      "name": "القواعد النحوية",
+      "items_count": 1
+    },
+    {
+      "name": "بناء الشخصية",
+      "items_count": 1
+    },
+    {
+      "name": "مصطلح المجاز",
+      "items_count": 1
+    },
+    {
+      "name": "الصورة البلاغية",
+      "items_count": 1
+    },
+    {
+      "name": "صعوبة القراءة",
+      "items_count": 1
+    },
+    {
+      "name": "الفضاء الدرامي",
+      "items_count": 1
+    },
+    {
+      "name": "مهارة",
+      "items_count": 1
+    },
+    {
+      "name": "مسرحية \"لاينفع غير الصح\"",
+      "items_count": 1
+    },
+    {
+      "name": "المسرحية المدرسية",
+      "items_count": 1
+    },
+    {
+      "name": "المفاهيم النصية",
+      "items_count": 1
+    },
+    {
+      "name": "قواعد نحوية",
+      "items_count": 1
+    },
+    {
+      "name": "مصطلح السرقات الشعرية",
+      "items_count": 1
+    },
+    {
+      "name": "المصطلح البديعي اللفظي",
+      "items_count": 1
+    },
+    {
+      "name": "بنية المسرحية الشعرية",
+      "items_count": 1
+    },
+    {
+      "name": "الثنائیة اللغویة",
+      "items_count": 1
+    },
+    {
+      "name": "نقد الحداثة",
+      "items_count": 1
+    },
+    {
+      "name": "المصطلح البلاغي",
+      "items_count": 1
+    },
+    {
+      "name": "التكامل",
+      "items_count": 1
+    },
+    {
+      "name": "البناء الفني",
+      "items_count": 1
+    },
+    {
+      "name": "تقويم",
+      "items_count": 1
+    },
+    {
+      "name": "طرائق تدریس",
+      "items_count": 1
+    },
+    {
+      "name": "التكرار",
+      "items_count": 1
+    },
+    {
+      "name": "الذوق",
+      "items_count": 1
+    },
+    {
+      "name": "تحليل المحتوى",
+      "items_count": 1
+    },
+    {
+      "name": "الجاحظ",
+      "items_count": 1
+    },
+    {
+      "name": "الزمن",
+      "items_count": 1
+    },
+    {
+      "name": "الأصوات اللغوية",
+      "items_count": 1
+    },
+    {
+      "name": "المعالجة البيداغوجية",
+      "items_count": 1
+    },
+    {
+      "name": "الجمال",
+      "items_count": 1
+    },
+    {
+      "name": "إسلامي",
+      "items_count": 1
+    },
+    {
+      "name": "التعبيرالكتابي",
+      "items_count": 1
+    },
+    {
+      "name": "بيداغوجيا",
+      "items_count": 1
+    },
+    {
+      "name": "الديوان",
+      "items_count": 1
+    },
+    {
+      "name": "الحقول الدلالية",
+      "items_count": 1
+    },
+    {
+      "name": "صورة",
+      "items_count": 1
+    },
+    {
+      "name": "مولدية",
+      "items_count": 1
+    },
+    {
+      "name": "المقامة",
+      "items_count": 1
+    },
+    {
+      "name": "أسلوب الاستثناء",
+      "items_count": 1
+    },
+    {
+      "name": "المستوى الصوتي",
+      "items_count": 1
+    },
+    {
+      "name": "نصوص القراءة",
+      "items_count": 1
+    },
+    {
+      "name": "الأخطاء الصرفية",
+      "items_count": 1
+    },
+    {
+      "name": "التعليمية.",
+      "items_count": 1
+    },
+    {
+      "name": "النظرية السياقية",
+      "items_count": 1
+    },
+    {
+      "name": "- التعليمية",
+      "items_count": 1
+    },
+    {
+      "name": "التعبير",
+      "items_count": 1
+    },
+    {
+      "name": "الرمز",
+      "items_count": 1
+    },
+    {
+      "name": "الوضعيّة النّقديّة",
+      "items_count": 1
+    },
+    {
+      "name": "مسرحية أوديب",
+      "items_count": 1
+    },
+    {
+      "name": "الجمالية",
+      "items_count": 1
+    },
+    {
+      "name": "الرسوم المتحركة المدبلجة",
+      "items_count": 1
+    },
+    {
+      "name": "البنية السردية",
+      "items_count": 1
+    },
+    {
+      "name": "الكلمات المفتاحية",
+      "items_count": 1
+    },
+    {
+      "name": "التفاعلي",
+      "items_count": 1
+    },
+    {
+      "name": "الاغتراب",
+      "items_count": 1
+    },
+    {
+      "name": "كتاب الأمثال",
+      "items_count": 1
+    },
+    {
+      "name": "الموروث الثقافي",
+      "items_count": 1
+    },
+    {
+      "name": "المصطلح النّحوي",
+      "items_count": 1
+    },
+    {
+      "name": "تعدد الأصوات",
+      "items_count": 1
+    },
+    {
+      "name": "الفضاءالروائى",
+      "items_count": 1
+    },
+    {
+      "name": "التراكيب اللغوية",
+      "items_count": 1
+    },
+    {
+      "name": "نشاط",
+      "items_count": 1
+    },
+    {
+      "name": "الأطلس اللساني",
+      "items_count": 1
+    },
+    {
+      "name": "مراثي",
+      "items_count": 1
+    },
+    {
+      "name": "التعليم عن بعد",
+      "items_count": 1
+    },
+    {
+      "name": "التمرد",
+      "items_count": 1
+    },
+    {
+      "name": "النظرية ما بعد الكولونيالية",
+      "items_count": 1
+    },
+    {
+      "name": "جمالية",
+      "items_count": 1
+    },
+    {
+      "name": "المسدي",
+      "items_count": 1
+    },
+    {
+      "name": "المشتــــرك اللفظـــــي",
+      "items_count": 1
+    },
+    {
+      "name": "المقاومة بالكتابة",
+      "items_count": 1
+    },
+    {
+      "name": "الخطاب السمعي",
+      "items_count": 1
+    },
+    {
+      "name": "الديوان الإسبرطي",
+      "items_count": 1
+    },
+    {
+      "name": "نسق",
+      "items_count": 1
+    },
+    {
+      "name": "دراسة نفسية",
+      "items_count": 1
+    },
+    {
+      "name": "الصِّراع",
+      "items_count": 1
+    },
+    {
+      "name": "المواد التعليمية",
+      "items_count": 1
+    },
+    {
+      "name": "الحروف العربية",
+      "items_count": 1
+    },
+    {
+      "name": "شعر الابتهال",
+      "items_count": 1
+    },
+    {
+      "name": "التعلم النشط",
+      "items_count": 1
+    },
+    {
+      "name": "مقدمة",
+      "items_count": 1
+    },
+    {
+      "name": "العامية",
+      "items_count": 1
+    },
+    {
+      "name": "المجلس الأعلى للغة العربية",
+      "items_count": 1
+    },
+    {
+      "name": "بيداغوجيا المشروع",
+      "items_count": 1
+    },
+    {
+      "name": "الطرائق النشطة",
+      "items_count": 1
+    },
+    {
+      "name": "الصورة التّعليميّة",
+      "items_count": 1
+    },
+    {
+      "name": "علم البيان",
+      "items_count": 1
+    },
+    {
+      "name": "التعليم اللوحي",
+      "items_count": 1
+    },
+    {
+      "name": "المقاربة بالكفاءات",
+      "items_count": 1
+    },
+    {
+      "name": "المحتوى",
+      "items_count": 1
+    },
+    {
+      "name": "الامتحانات",
+      "items_count": 1
+    },
+    {
+      "name": "الفهم القرائي",
+      "items_count": 1
+    },
+    {
+      "name": "القراءة السليمة",
+      "items_count": 1
+    },
+    {
+      "name": "السنة الثانية",
+      "items_count": 1
+    },
+    {
+      "name": "الجملة في النحو العربي",
+      "items_count": 1
+    },
+    {
+      "name": "النداء",
+      "items_count": 1
+    },
+    {
+      "name": "الصورة",
+      "items_count": 1
+    },
+    {
+      "name": "إيقاع",
+      "items_count": 1
+    },
+    {
+      "name": "الأسماء",
+      "items_count": 1
+    },
+    {
+      "name": "المقاربة بالأهداف",
+      "items_count": 1
+    },
+    {
+      "name": "المرأة",
+      "items_count": 1
+    },
+    {
+      "name": "التجربة الصوفية",
+      "items_count": 1
+    },
+    {
+      "name": "الاستعارة",
+      "items_count": 1
+    },
+    {
+      "name": "سورة البقرة",
+      "items_count": 1
+    },
+    {
+      "name": "الإصلاح التربوي",
+      "items_count": 1
+    },
+    {
+      "name": "أداءات",
+      "items_count": 1
+    },
+    {
+      "name": "اضطرابات النطق",
+      "items_count": 1
+    },
+    {
+      "name": "التداخل اللغوي",
+      "items_count": 1
+    },
+    {
+      "name": "الأساليب",
+      "items_count": 1
+    },
+    {
+      "name": "معلم",
+      "items_count": 1
+    },
+    {
+      "name": "أوراق الخريف",
+      "items_count": 1
+    },
+    {
+      "name": "المدرسة الجزائرية",
+      "items_count": 1
+    },
+    {
+      "name": "الشعر التونسي",
+      "items_count": 1
+    },
+    {
+      "name": "ربيع كورونا",
+      "items_count": 1
+    },
+    {
+      "name": "العامل",
+      "items_count": 1
+    },
+    {
+      "name": "دراسة فنية",
+      "items_count": 1
+    },
+    {
+      "name": "التصوف",
+      "items_count": 1
+    },
+    {
+      "name": "العتبات النصية",
+      "items_count": 1
+    },
+    {
+      "name": "النص",
+      "items_count": 1
+    },
+    {
+      "name": "التهجين",
+      "items_count": 1
+    },
+    {
+      "name": "نظرية الحقول الدلالية",
+      "items_count": 1
+    },
+    {
+      "name": "أغراض",
+      "items_count": 1
+    },
+    {
+      "name": "ألفاظ الغنى",
+      "items_count": 1
+    },
+    {
+      "name": "الشواهد البلاغية",
+      "items_count": 1
+    },
+    {
+      "name": "ابن سنان",
+      "items_count": 1
+    },
+    {
+      "name": "السياق",
+      "items_count": 1
+    },
+    {
+      "name": "الكذب",
+      "items_count": 1
+    },
+    {
+      "name": "الإختلافات النحوية",
+      "items_count": 1
+    },
+    {
+      "name": "بنية المكان",
+      "items_count": 1
+    },
+    {
+      "name": "المنهجية",
+      "items_count": 1
+    },
+    {
+      "name": "إستراتيجية التدريس",
+      "items_count": 1
+    },
+    {
+      "name": "الصوفية",
+      "items_count": 1
+    },
+    {
+      "name": "التجريب",
+      "items_count": 1
+    },
+    {
+      "name": "الرائية",
+      "items_count": 1
+    },
+    {
+      "name": "المنهج النفسي",
+      "items_count": 1
+    },
+    {
+      "name": "البنية الدلالية",
+      "items_count": 1
+    },
+    {
+      "name": "الشخصية الروائية",
+      "items_count": 1
+    },
+    {
+      "name": "القصدية",
+      "items_count": 1
+    },
+    {
+      "name": "بلاغة",
+      "items_count": 1
+    },
+    {
+      "name": "بنية",
+      "items_count": 1
+    },
+    {
+      "name": "ساق البامبو",
+      "items_count": 1
+    },
+    {
+      "name": "الوصف",
+      "items_count": 1
+    },
+    {
+      "name": "الاستباق",
+      "items_count": 1
+    },
+    {
+      "name": "الاسترجاع",
+      "items_count": 1
+    },
+    {
+      "name": "رواية زنقة الطليان",
+      "items_count": 1
+    },
+    {
+      "name": "دراسة أسلوبية",
+      "items_count": 1
+    },
+    {
+      "name": "الذاكرة",
+      "items_count": 1
+    },
+    {
+      "name": "ثائرة عقرباوي",
+      "items_count": 1
+    },
+    {
+      "name": "دلالة",
+      "items_count": 1
+    },
+    {
+      "name": "البدل",
+      "items_count": 1
+    },
+    {
+      "name": "جموع التكسير",
+      "items_count": 1
+    },
+    {
+      "name": "الفعل",
+      "items_count": 1
+    },
+    {
+      "name": "الفصل",
+      "items_count": 1
+    },
+    {
+      "name": "النفي",
+      "items_count": 1
+    },
+    {
+      "name": "قرآن",
+      "items_count": 1
+    },
+    {
+      "name": "المرجعيّة الثقافيّة",
+      "items_count": 1
+    },
+    {
+      "name": "المشكلة",
+      "items_count": 1
+    },
+    {
+      "name": "الخريمي",
+      "items_count": 1
+    },
+    {
+      "name": "السرديات",
+      "items_count": 1
+    },
+    {
+      "name": "النص التعليمي",
+      "items_count": 1
+    },
+    {
+      "name": "الطريقة التكاملية",
+      "items_count": 1
+    },
+    {
+      "name": "واقع توظيف المعجم",
+      "items_count": 1
+    },
+    {
+      "name": "مصطلح اقتصادي",
+      "items_count": 1
+    },
+    {
+      "name": "رسائل الهدية",
+      "items_count": 1
+    },
+    {
+      "name": "المعهد العالي للدراسات الاسلامية",
+      "items_count": 1
+    },
+    {
+      "name": "التعليم الأساسي",
+      "items_count": 1
+    },
+    {
+      "name": "الدراسات الأفريقية",
+      "items_count": 1
+    },
+    {
+      "name": "الاستقلالية في التعلم",
+      "items_count": 1
+    },
+    {
+      "name": "القراءة الناقدة",
+      "items_count": 1
+    },
+    {
+      "name": "النطق",
+      "items_count": 1
+    },
+    {
+      "name": "المقاربة التواصلية",
+      "items_count": 1
+    },
+    {
+      "name": "رمزیة",
+      "items_count": 1
+    },
+    {
+      "name": "النحو",
+      "items_count": 1
+    },
+    {
+      "name": "التحكم في اللغة الفرنسیة",
+      "items_count": 1
+    },
+    {
+      "name": "علم العنونة",
+      "items_count": 1
+    },
+    {
+      "name": "تعليمية اللغة الفرنسية",
+      "items_count": 1
+    },
+    {
+      "name": "الصحافة",
+      "items_count": 1
+    },
+    {
+      "name": "الألعاب التعليمية",
+      "items_count": 1
+    },
+    {
+      "name": "النقد الأدبي",
+      "items_count": 1
+    },
+    {
+      "name": "البلاغة",
+      "items_count": 1
+    },
+    {
+      "name": "نظام التعليم العالي",
+      "items_count": 1
+    },
+    {
+      "name": "التداولية اللغوية",
+      "items_count": 1
+    },
+    {
+      "name": "الدراسات ما بعد الاستعمارية",
+      "items_count": 1
+    },
+    {
+      "name": "العقاب الجماعي",
+      "items_count": 1
+    },
+    {
+      "name": "خصائص المقاول",
+      "items_count": 1
+    },
+    {
+      "name": "الاقتصاد الدولي",
+      "items_count": 1
+    },
+    {
+      "name": "النحو والصرف",
+      "items_count": 1
+    }
+  ],
+  "material_type_counts": [
+    {
+      "name": "رسالة علمية",
+      "items_count": 120297
+    },
+    {
+      "name": "بحث",
+      "items_count": 14123
+    },
+    {
+      "name": "بحث محكم",
+      "items_count": 7685
+    },
+    {
+      "name": "غير محدد",
+      "items_count": 5354
+    },
+    {
+      "name": "رسالة ماجستير",
+      "items_count": 625
+    },
+    {
+      "name": "مدخل",
+      "items_count": 591
+    },
+    {
+      "name": "رسالة دكتوراه",
+      "items_count": 356
+    },
+    {
+      "name": "ماجستير",
+      "items_count": 352
+    },
+    {
+      "name": "دكتوراه",
+      "items_count": 169
+    },
+    {
+      "name": "كتاب",
+      "items_count": 92
+    },
+    {
+      "name": "نظام",
+      "items_count": 39
+    },
+    {
+      "name": "ورقة مؤتمر أو ندوة",
+      "items_count": 19
+    },
+    {
+      "name": "مجلة",
+      "items_count": 9
+    },
+    {
+      "name": "مجموعة قضائية",
+      "items_count": 8
+    },
+    {
+      "name": "مادة قانونية",
+      "items_count": 4
+    },
+    {
+      "name": "لائحة",
+      "items_count": 4
+    },
+    {
+      "name": "بكالوريوس",
+      "items_count": 3
+    },
+    {
+      "name": "دليل",
+      "items_count": 2
+    },
+    {
+      "name": "قواعد دولية",
+      "items_count": 2
+    },
+    {
+      "name": "قانون نموذجي",
+      "items_count": 2
+    },
+    {
+      "name": "اتفاقية دولية",
+      "items_count": 2
+    },
+    {
+      "name": "تنظيم",
+      "items_count": 2
+    },
+    {
+      "name": "ضوابط",
+      "items_count": 2
+    },
+    {
+      "name": "دليل إجرائي",
+      "items_count": 1
+    },
+    {
+      "name": "أحكام نظامية",
+      "items_count": 1
+    }
+  ],
+  "content_group_counts": [
+    {
+      "name": "thesis",
+      "items_count": 121639
+    },
+    {
+      "name": "research",
+      "items_count": 21317
+    },
+    {
+      "name": "academic_title",
+      "items_count": 5354
+    },
+    {
+      "name": "غير محدد",
+      "items_count": 642
+    },
+    {
+      "name": "entry",
+      "items_count": 591
+    },
+    {
+      "name": "academic",
+      "items_count": 201
+    }
+  ],
+  "tag_examples": [
+    {
+      "id": "arabic_makanez_research_c0b49bfdc068d0a24692",
+      "title": "أثر إستراتيجيات تعليم التعبيرات الاصطلاحية في فهمها واكتسابها لدى متعلمي اللغة العربية من الناطقين بغيرها: دراسةٌ تجريبيةٌ",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_209eac90576c7863c251",
+      "title": "الأبعاد الأنثروبولوجية في ديوان: (عيناك يتجلى فيهما الوطن): مقاربةٌ موضوعاتيةٌ",
+      "category": "غير مصنّف",
+      "tags": [
+        "ديوان شعري",
+        "شعر وأدب"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_20ef26f0fea9aa4b5fb6",
+      "title": "الازدواجية في الدراسات اللسانية في اللغة العربية",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_5f09af959f52b977d214",
+      "title": "البلاغة القرآنية في آيات التعايش مع غير المسلمين",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_f34ac94d77798720cd6f",
+      "title": "البنى السردية في القصة القصيرة ((ثرثرةٌ خلف المحراب) أنموذجاً)",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_ce2281e65761fffc6062",
+      "title": "البنية الأسلوبية في قصيدة: (ريحانة الكون)، لأبي الطيب محمد بن علي العمري",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_6c9a8a85a81ac39710b8",
+      "title": "التماسك النصي في قصيدة: (بوابة الريح)، لمحمدٍ الثبيتي",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_592c7d2a129494ed3271",
+      "title": "الصور التعبيرية (Emojis) من منظور علم اللغة القضائي",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_cfd568b71bdc209f124d",
+      "title": "الصورة الشعرية في ديوان: (ما لم يقله ناي): دراسةٌ سيميائيةٌ",
+      "category": "غير مصنّف",
+      "tags": [
+        "ديوان شعري",
+        "شعر وأدب"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_030e147d116006a09d7c",
+      "title": "الصيغ الصرفية ودورها في النظرية التواصلية",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_fa5c6d328d42ee0b59d2",
+      "title": "الضرائر الشعرية في: (الإفصاح في شرح أبيات مشكلة الإعراب)، للفارقي: صورها، وتوجيهها",
+      "category": "غير مصنّف",
+      "tags": [
+        "شعر وأدب"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_df97a87197a9d2d6297a",
+      "title": "المتلازمات اللفظية في معجم: (الفروق اللغوية)، للعسكري: دراسةٌ تركيبيةٌ",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_c1dc47c40cc441c26853",
+      "title": "النية في كتاب سيبويه ودورها في النظرية النحوية",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_29432e94db076198f152",
+      "title": "آليات التناص في شعر/ أبي نواسٍ الخمري",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_1019ec106a5397851d8e",
+      "title": "آيات انشراح الصدر: سياقاتها، وأسرارها البلاغية",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_a50a9391877dc1bdebe4",
+      "title": "ترتيب البناء الصوتي للمفردة اللغوية وأثره في الفصاحة عند السبكي: دراسةٌ صوتيةٌ مقارنةٌ من خلال: (معجم الصحاح)",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_65a750a79da4c53634ad",
+      "title": "تفاعل مصطلحات علم السرد عند/ تودوروف وجونات وغريماس في: (المدونة النقدية العربية)",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_c29ade25393dd1a8748a",
+      "title": "رواية: (الانمساخ)، لفرانز كافكا وأثرها في الرواية السعودية: دراسةٌ مقارنةٌ",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_25457fca51ad3306dec0",
+      "title": "سورة: (الملك) في ضوء التحليلات الأسلوبية الحديثة (الدائرة الفلولوجية والكلمات المفاتيح (التيمات))",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_9ba42c8b304b749ba147",
+      "title": "صورة/ عيلان كردي في الشعر العربي: دراسةٌ سيميائيةٌ",
+      "category": "غير مصنّف",
+      "tags": [
+        "شعر وأدب"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_c19f1c2a4e6212026765",
+      "title": "لغة الشعر السعودي المعاصر: بين التراث والحداثة",
+      "category": "غير مصنّف",
+      "tags": [
+        "شعر وأدب"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_a740dad438b2dd86a4d3",
+      "title": "مرحلة الطفولة في السرد الذاتي، وأهميتها في الكتابة للأطفال واليافعين: قراءة لاوعي النص",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_8597155529fcfe79206b",
+      "title": "موقف/ عبد العزيز حمودة من البلاغة العربية: قراءةٌ في كتاب: (المرايا المقعرة)",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_af74f685b67b4961ffec",
+      "title": "من مظاهر اللهجات اليمنية القديمة في اللهجة القصيمية المعاصرة: دراسةٌ دلاليةٌ لألفاظ مختلفةٌ تبدأ بحرفَي الباء والراء وحروفٍ أخرى بينهما",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_8ff6c2f89a196a99a732",
+      "title": "أثر العدول عن قرينة الرتبة النحوية في توجيه المعنى (الخبر أنموذجاً)",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_cf377d39a9b04e6726eb",
+      "title": "آراء/ سيبويه النحوية والصرفية في: (شرح الحماسة)، للمرزوقي، وموقفه منها",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_f924d9df0db0a2a21d23",
+      "title": "الأبعاد الدرامية في ديوان: (يقف وحيداً كشجرتين)، لعامرٍ الطيب",
+      "category": "غير مصنّف",
+      "tags": [
+        "ديوان شعري",
+        "شعر وأدب"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_5bbb68f350be2fcaaa49",
+      "title": "الإشاريات التداولية في قصيدة: (الوطن بأبجديةٍ ثانيةٍ)، للشاعر/ جاسمٍ الصحيح",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_541c7a223fd5e23fab8e",
+      "title": "البلاغة المرئية للصور الرسمية والكاريكاتوريةفي طرح قضايا الفساد",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    },
+    {
+      "id": "arabic_makanez_research_649db7b379369dd2fa09",
+      "title": "التعريف بالاسم الموصول في سورة: (الحشر) وأسراره البلاغية",
+      "category": "غير مصنّف",
+      "tags": [
+        "دراسات لغوية"
+      ]
+    }
+  ]
+}
