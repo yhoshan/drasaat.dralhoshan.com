@@ -1,0 +1,390 @@
+{
+  "source": "مركز تدوين للبحوث والدراسات الحديثية - فهرس عناوين الرسائل الجامعية في السنة والسيرة النبوية",
+  "category": "الحديث النبوي وعلومه",
+  "merged_at": "2026-09-01T02:29:42.010Z",
+  "before_count": 173600,
+  "input_records": 8314,
+  "internal_duplicate_normalized_titles": 67,
+  "already_in_makanez_by_normalized_title": 609,
+  "excluded_count": 676,
+  "excluded_by_reason": {
+    "duplicate_normalized_title_in_makanez": 609,
+    "duplicate_normalized_title_within_tadween_file": 67
+  },
+  "added_count": 7638,
+  "after_count": 181238,
+  "source_record_count_after_merge": 7638,
+  "category_count_after_merge": 14085,
+  "azhar_source_record_count_preserved": 26839,
+  "existing_records_semantic_sha256_before": "b4ca137ee6a88259e189aeb772a4fb8fb20eec3fbbe8053ef7fcf85a111011e4",
+  "existing_prefix_semantic_sha256_after": "b4ca137ee6a88259e189aeb772a4fb8fb20eec3fbbe8053ef7fcf85a111011e4",
+  "items_sha256_after": "f79befb17b977fde95ab4d3f152daa62bef7320151377685b654655bd98b608f",
+  "exclusion_samples": [
+    {
+      "id": "tadween_sunnah_sirah_00065",
+      "source_record_number": 65,
+      "title": "أبو جعفر الطحاوي وأثره في الحديث",
+      "normalized_title": "ابو جعفر الطحاوي واثره في الحديث",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00067",
+      "source_record_number": 67,
+      "title": "أبو حاتم الرازي وآثاره العلمية",
+      "normalized_title": "ابو حاتم الرازي واثاره العلميه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00069",
+      "source_record_number": 69,
+      "title": "أبو حنيفة بين الجرح والتعديل",
+      "normalized_title": "ابو حنيفه بين الجرح والتعديل",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00070",
+      "source_record_number": 70,
+      "title": "أبو داود السجستاني وأثره في علم الحديث",
+      "normalized_title": "ابو داود السجستاني واثره في علم الحديث",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00083",
+      "source_record_number": 83,
+      "title": "أبو هريرة في ضوء مروياته بشواهدها وحال انفرادها",
+      "normalized_title": "ابو هريره في ضوء مروياته بشواهدها وحال انفرادها",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00084",
+      "source_record_number": 84,
+      "title": "الأبواب التي قيل إنه لم يصح فيها حديث: دراسة نقدية",
+      "normalized_title": "الابواب التي قيل انه لم يصح فيها حديث دراسه نقديه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00092",
+      "source_record_number": 92,
+      "title": "الاتجاه الفقهي لدى شراح الحديث",
+      "normalized_title": "الاتجاه الفقهي لدي شراح الحديث",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00103",
+      "source_record_number": 103,
+      "title": "اتحاد مخرج الحديث الشريف وأثره في الرواية",
+      "normalized_title": "اتحاد مخرج الحديث الشريف واثره في الروايه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00114",
+      "source_record_number": 114,
+      "title": "اتساع الدلالة اللغوية في صحيح البخاري",
+      "normalized_title": "اتساع الدلاله اللغويه في صحيح البخاري",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00117",
+      "source_record_number": 117,
+      "title": "الاتصال الإنساني في الحديث النبوي: دراسة تأصيلية",
+      "normalized_title": "الاتصال الانساني في الحديث النبوي دراسه تاصيليه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00131",
+      "source_record_number": 131,
+      "title": "آثار الصحابة في أبواب الأطعمة وأبواب اللباس والزينة",
+      "normalized_title": "اثار الصحابه في ابواب الاطعمه وابواب اللباس والزينه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00134",
+      "source_record_number": 134,
+      "title": "آثار الصحابة من أول كتاب الديات إلى آخره",
+      "normalized_title": "اثار الصحابه من اول كتاب الديات الي اخره",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00160",
+      "source_record_number": 160,
+      "title": "الآثار المروية عن الصحابة في الجنائز",
+      "normalized_title": "الاثار المرويه عن الصحابه في الجنايز",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00162",
+      "source_record_number": 162,
+      "title": "الآثار المروية عن زيد بن ثابت في الفرائض",
+      "normalized_title": "الاثار المرويه عن زيد بن ثابت في الفرايض",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00182",
+      "source_record_number": 182,
+      "title": "أثر اتجاهات المحدثين العقدية في النقد",
+      "normalized_title": "اثر اتجاهات المحدثين العقديه في النقد",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00184",
+      "source_record_number": 184,
+      "title": "أثر اختلاف النقاد في قبول الراوي أو رده دراسة نماذج تطبيقية",
+      "normalized_title": "اثر اختلاف النقاد في قبول الراوي او رده دراسه نماذج تطبيقيه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00208",
+      "source_record_number": 208,
+      "title": "أثر الحديث النبوي الشريف في اختلاف الفقهاء",
+      "normalized_title": "اثر الحديث النبوي الشريف في اختلاف الفقهاء",
+      "reason": "duplicate_normalized_title_within_tadween_file"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00217",
+      "source_record_number": 217,
+      "title": "أثر السياق في توجيه شرح الأحاديث عند ابن حجر العسقلاني",
+      "normalized_title": "اثر السياق في توجيه شرح الاحاديث عند ابن حجر العسقلاني",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00223",
+      "source_record_number": 223,
+      "title": "أثر القران الكريم والحديث النبوي الشريف في رسالة الغفران",
+      "normalized_title": "اثر القران الكريم والحديث النبوي الشريف في رساله الغفران",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00232",
+      "source_record_number": 232,
+      "title": "أثر المتابعات والشواهد في الحكم على الأحاديث",
+      "normalized_title": "اثر المتابعات والشواهد في الحكم علي الاحاديث",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00235",
+      "source_record_number": 235,
+      "title": "أثر المرويات في الحكم على الرواة",
+      "normalized_title": "اثر المرويات في الحكم علي الرواه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00239",
+      "source_record_number": 239,
+      "title": "أثر الوسائل التعليمية في نشر الإسلام بالتطبيق على منهج الرسول صلى الله عليه وسلم",
+      "normalized_title": "اثر الوسايل التعليميه في نشر الاسلام بالتطبيق علي منهج الرسول صلي الله عليه وسلم",
+      "reason": "duplicate_normalized_title_within_tadween_file"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00250",
+      "source_record_number": 250,
+      "title": "أثر زيادة الثقة في اختلاف الفقهاء",
+      "normalized_title": "اثر زياده الثقه في اختلاف الفقهاء",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00252",
+      "source_record_number": 252,
+      "title": "أثر علل الحديث في اختلاف الفقهاء",
+      "normalized_title": "اثر علل الحديث في اختلاف الفقهاء",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00258",
+      "source_record_number": 258,
+      "title": "أثر مباحث كتاب »علوم الحديث« لابن الصلاح في نقد المعاصرين للحديث",
+      "normalized_title": "اثر مباحث كتاب علوم الحديث لابن الصلاح في نقد المعاصرين للحديث",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00261",
+      "source_record_number": 261,
+      "title": "أثر معرفة التصرفات النبوية في التعامل مع الحديث فقها وتنزيلا",
+      "normalized_title": "اثر معرفه التصرفات النبويه في التعامل مع الحديث فقها وتنزيلا",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00268",
+      "source_record_number": 268,
+      "title": "الإجازات الحديثية وضوابطها في وسائل التواصل الاجتماعي الحديثة: دراسة مقارنة",
+      "normalized_title": "الاجازات الحديثيه وضوابطها في وسايل التواصل الاجتماعي الحديثه دراسه مقارنه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00301",
+      "source_record_number": 301,
+      "title": "أحاديث أشراط الساعة الصغرى",
+      "normalized_title": "احاديث اشراط الساعه الصغري",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00306",
+      "source_record_number": 306,
+      "title": "أحاديث الأحكام: دراسة تأصيلية",
+      "normalized_title": "احاديث الاحكام دراسه تاصيليه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00309",
+      "source_record_number": 309,
+      "title": "الأحاديث الأربعون النووية: دراسة في بلاغة الحجاج",
+      "normalized_title": "الاحاديث الاربعون النوويه دراسه في بلاغه الحجاج",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00311",
+      "source_record_number": 311,
+      "title": "أحاديث الإعلام في الغزوات دراسة موضوعية",
+      "normalized_title": "احاديث الاعلام في الغزوات دراسه موضوعيه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00328",
+      "source_record_number": 328,
+      "title": "أحاديث التقرير التصريحي في الكتب الستة: دراسة موضوعية",
+      "normalized_title": "احاديث التقرير التصريحي في الكتب السته دراسه موضوعيه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00358",
+      "source_record_number": 358,
+      "title": "الأحاديث التي أعلها الإمام أحمد",
+      "normalized_title": "الاحاديث التي اعلها الامام احمد",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00359",
+      "source_record_number": 359,
+      "title": "الأحاديث التي أعلها الإمام البخاري في كتابه »التاريخ الكبير« من بداية ترجمة: سعيد بن عامر إلى نهاية الكتاب: دراسة نظرية تطبيقية",
+      "normalized_title": "الاحاديث التي اعلها الامام البخاري في كتابه التاريخ الكبير من بدايه ترجمه سعيد بن عامر الي نهايه الكتاب دراسه نظريه تطبيقيه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00363",
+      "source_record_number": 363,
+      "title": "الأحاديث التي أعلها الإمام الترمذي في كتابيْه الجامع والعلل الكبير دراسة الأحاديث من أول باب )الديات( إلى آخر باب )الزهد(",
+      "normalized_title": "الاحاديث التي اعلها الامام الترمذي في كتابيه الجامع والعلل الكبير دراسه الاحاديث من اول باب الديات الي اخر باب الزهد",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00364",
+      "source_record_number": 364,
+      "title": "الأحاديث التي أعلها الإمام الترمذي في كتابيه الجامع والعلل الكبير دراسة الأحاديث من أول باب )صفة القيامة( إلى آخر باب )المناقب(",
+      "normalized_title": "الاحاديث التي اعلها الامام الترمذي في كتابيه الجامع والعلل الكبير دراسه الاحاديث من اول باب صفه القيامه الي اخر باب المناقب",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00389",
+      "source_record_number": 389,
+      "title": "الأحاديث التي أعلها الخطيب البغدادي في كتابه تاريخ بغداد: جمعا ودراسة من ترجمة هارون بن موسى إلى آخر الكتاب",
+      "normalized_title": "الاحاديث التي اعلها الخطيب البغدادي في كتابه تاريخ بغداد جمعا ودراسه من ترجمه هارون بن موسي الي اخر الكتاب",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00405",
+      "source_record_number": 405,
+      "title": "الأحاديث التي حسنها أبو عيسى الترمذي وانفرد بإخراجها عن أصحاب الكتب الستة",
+      "normalized_title": "الاحاديث التي حسنها ابو عيسي الترمذي وانفرد باخراجها عن اصحاب الكتب السته",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00421",
+      "source_record_number": 421,
+      "title": "الأحاديث التي ذكر ابن أبي خيثمة فيها اختلافا في التاريخ الكبير: السفر الثاني: جمعا وتخريجا ودراسة",
+      "normalized_title": "الاحاديث التي ذكر ابن ابي خيثمه فيها اختلافا في التاريخ الكبير السفر الثاني جمعا وتخريجا ودراسه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00443",
+      "source_record_number": 443,
+      "title": "الأحاديث التي ذكر الحافظ ابن منده فيها اختلافا جمعا ودراسة",
+      "normalized_title": "الاحاديث التي ذكر الحافظ ابن منده فيها اختلافا جمعا ودراسه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00456",
+      "source_record_number": 456,
+      "title": "الأحاديث التي رواها الخطيب البغدادي في تاريخه من بداية »ترجمة أحمد بن مخلد الدقاق« إلى نهاية ترجمة »أسيد بن زيد الجمال« تحقيقًا وتخريجا",
+      "normalized_title": "الاحاديث التي رواها الخطيب البغدادي في تاريخه من بدايه ترجمه احمد بن مخلد الدقاق الي نهايه ترجمه اسيد بن زيد الجمال تحقيقا وتخريجا",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00461",
+      "source_record_number": 461,
+      "title": "الأحاديث التي سمعها الحسن البصري من سمرة بن جندب في السنن الأربعة: جمعا ودراسة",
+      "normalized_title": "الاحاديث التي سمعها الحسن البصري من سمره بن جندب في السنن الاربعه جمعا ودراسه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00473",
+      "source_record_number": 473,
+      "title": "«الأحاديث التي ظاهرها التعارض في كتاب فتح الباري للحافظ ابن حجر من بداية كتاب الدعوات »إلى نهاية« كتاب التوحيد«",
+      "normalized_title": "الاحاديث التي ظاهرها التعارض في كتاب فتح الباري للحافظ ابن حجر من بدايه كتاب الدعوات الي نهايه كتاب التوحيد",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00474",
+      "source_record_number": 474,
+      "title": "الأحاديث التي ظاهرها التعارض في كتاب فتح الباري للحافظ ابن حجر من كتاب النكاح باب ]من أوْلمَ على بعض نسائه أكثر من بعض[ إلى نهاية كتاب الطب جمعًا ودراسةً",
+      "normalized_title": "الاحاديث التي ظاهرها التعارض في كتاب فتح الباري للحافظ ابن حجر من كتاب النكاح باب من اولم علي بعض نسايه اكثر من بعض الي نهايه كتاب الطب جمعا ودراسه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00475",
+      "source_record_number": 475,
+      "title": "الأحاديث التي ظاهرها التعارض في كتاب فتح الباري للحافظ ابن حجر من بداية كتاب الزكاة إلى نهاية كتاب العمرة",
+      "normalized_title": "الاحاديث التي ظاهرها التعارض في كتاب فتح الباري للحافظ ابن حجر من بدايه كتاب الزكاه الي نهايه كتاب العمره",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00476",
+      "source_record_number": 476,
+      "title": "الأحاديث التي ظاهرها التعارض في كتاب فتح الباري للحافظ ابن حجر من بداية كتاب المحصر إلى نهاية كتاب الكفالة",
+      "normalized_title": "الاحاديث التي ظاهرها التعارض في كتاب فتح الباري للحافظ ابن حجر من بدايه كتاب المحصر الي نهايه كتاب الكفاله",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00484",
+      "source_record_number": 484,
+      "title": "الأحاديث التي لم تصح وعليها العمل )دراسة استقرائية نقدية لأبواب العبادات في جامع الترمذي(",
+      "normalized_title": "الاحاديث التي لم تصح وعليها العمل دراسه استقراييه نقديه لابواب العبادات في جامع الترمذي",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00500",
+      "source_record_number": 500,
+      "title": "أحاديث الجمعة: دراسة نقدية",
+      "normalized_title": "احاديث الجمعه دراسه نقديه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00510",
+      "source_record_number": 510,
+      "title": "الأحاديث الحسان الغرائب في جامع الإمام الترمذي جمعًا ودراسةً حديثية",
+      "normalized_title": "الاحاديث الحسان الغرايب في جامع الامام الترمذي جمعا ودراسه حديثيه",
+      "reason": "duplicate_normalized_title_in_makanez"
+    },
+    {
+      "id": "tadween_sunnah_sirah_00520",
+      "source_record_number": 520,
+      "title": "أحاديث الدجال جمعها ودراستها دراسة حديثية وبيان المعلول منها",
+      "normalized_title": "احاديث الدجال جمعها ودراستها دراسه حديثيه وبيان المعلول منها",
+      "reason": "duplicate_normalized_title_in_makanez"
+    }
+  ],
+  "verification": {
+    "duplicate_ids": 0,
+    "invalid_tadween_items": 0,
+    "missing_or_invalid_search_index_entries": 0,
+    "azhar_source_records_preserved": 26839,
+    "existing_records_unchanged": true,
+    "stats_and_search_index_match_total": true,
+    "search_tests": [
+      "الابتداع وموقف المحدثين منه",
+      "الابتلاء في حياة الدعاة",
+      "إبراهيم بن المنذر الحزامي"
+    ],
+    "typescript_check": "passed",
+    "production_build": "passed",
+    "local_backup_items_sha256": "f79befb17b977fde95ab4d3f152daa62bef7320151377685b654655bd98b608f"
+  }
+}
