@@ -1,0 +1,44 @@
+{
+  "before_count": 183291,
+  "after_count": 184046,
+  "before_items_sha256": "8a31f0fb444d184bd89f1ebd2f9b770cbff658beb041ac1adf8f55b39175cdea",
+  "after_items_sha256": "a1c5d71dd89b6e8dcb93c944e9882de02ded69f03a0d0a72c92fcd04997071dd",
+  "existing_records_semantic_sha256_before": "8a31f0fb444d184bd89f1ebd2f9b770cbff658beb041ac1adf8f55b39175cdea",
+  "existing_prefix_semantic_sha256_after": "8a31f0fb444d184bd89f1ebd2f9b770cbff658beb041ac1adf8f55b39175cdea",
+  "additions": 755,
+  "plan": {
+    "before_count": 183291,
+    "before_items_sha256": "8a31f0fb444d184bd89f1ebd2f9b770cbff658beb041ac1adf8f55b39175cdea",
+    "sources": {
+      "saudi_guide_third_1000": {
+        "input_records": 780,
+        "internal_duplicates": 8,
+        "existing_title_duplicates": 17,
+        "duplicate_ids": 0,
+        "invalid_titles": 0,
+        "blocked_by_policy": 0,
+        "candidates": 755
+      },
+      "dar_al_ulum_registered_extra": {
+        "input_records": 45,
+        "internal_duplicates": 0,
+        "existing_title_duplicates": 45,
+        "duplicate_ids": 0,
+        "invalid_titles": 0,
+        "blocked_by_policy": 0,
+        "candidates": 0
+      }
+    },
+    "duplicate_ids": 0,
+    "cross_source_duplicates": 0,
+    "existing_title_duplicates": 62,
+    "invalid_titles": 0,
+    "blocked_by_policy": 0,
+    "additions": 755,
+    "after_count": 184046
+  },
+  "source_counts_after_merge": {
+    "saudi_guide_third_1000": 755,
+    "dar_al_ulum_registered": 45
+  }
+}

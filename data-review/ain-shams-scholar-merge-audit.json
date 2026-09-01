@@ -1,0 +1,38 @@
+{
+  "source": "جامعة عين شمس – Ain Shams Scholar",
+  "applied_at_utc": "2026-09-01T10:21:13.034Z",
+  "baseline_count": 184046,
+  "candidate_count": 204625,
+  "final_count": 388671,
+  "added_by_type": {
+    "thesis": 177804,
+    "research": 26821
+  },
+  "final_stats": {
+    "theses": 312682,
+    "research": 75398,
+    "entries": 591
+  },
+  "invariants": {
+    "baseline_prefix_unchanged_in_memory": true,
+    "baseline_bytes_before": 120372830,
+    "unique_candidate_ids": 204625,
+    "unique_candidate_source_ids": 204625,
+    "unique_candidate_titles": 204625,
+    "category": "غير مصنف"
+  },
+  "verification": {
+    "search_tests_passed": [
+      "برنامج مقترح لتنمية مهارات التدريس لدي معلمي الحاسب الآلي بالمدارس الثانوية التجارية نظام الثلاث سنوات",
+      "Chemical precipitation in waste water treatment",
+      "Arbuscular mycorrhizal fungi and Trichoderma harzianum induced resistance in tomato varieties against Fusarium oxysporum f. sp. lycopersici"
+    ],
+    "postmerge_data_verification": "passed",
+    "typescript_check": "passed",
+    "production_build": "passed",
+    "git_diff_check": "passed",
+    "final_items_sha256": "a3c00ad4c00327be82cbd7cc6aeeba31d6278e662e2482b5ad035aa59321d3af",
+    "premerge_backup_path": "/home/ubuntu/makanez-local-backups/drasaat-dralhoshan-ain-shams-premerge-20260901",
+    "premerge_backup_items_sha256": "a1c5d71dd89b6e8dcb93c944e9882de02ded69f03a0d0a72c92fcd04997071dd"
+  }
+}
