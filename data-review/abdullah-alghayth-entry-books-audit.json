@@ -1,0 +1,40 @@
+{
+  "source": "كتب المداخل العلمية",
+  "author": "أ.د. عبد الله بن عبد العزيز الغيث",
+  "baseline_count": 388671,
+  "requested_count": 6,
+  "added_count": 5,
+  "rejected": [
+    {
+      "title": "المدخل الى علم السيرة النبوية",
+      "reason": "duplicate_normalized_title"
+    }
+  ],
+  "final_count": 388676,
+  "final_entries": 596,
+  "added_ids": [
+    "entry_alghayth_001",
+    "entry_alghayth_002",
+    "entry_alghayth_003",
+    "entry_alghayth_004",
+    "entry_alghayth_006"
+  ],
+  "baseline_prefix_unchanged": true,
+  "stats_repaired_from_baseline": true,
+  "final_stats": {
+    "total_items": 388676,
+    "total_theses": 312682,
+    "total_research": 75398,
+    "total_entries": 596
+  },
+  "final_validation": {
+    "catalog_ids_unique": true,
+    "baseline_records_unchanged": true,
+    "search_indexes_match_catalog_count": true,
+    "search_test_title": "المدخل الى حقوق الانسان بين الشريعة والقانون",
+    "search_test_passed": true,
+    "typescript_check": "passed",
+    "production_build": "passed",
+    "items_sha256": "84a8ac96071225922442db1432568a480e3a0d71a0c18ae50dff60855a69e843"
+  }
+}
