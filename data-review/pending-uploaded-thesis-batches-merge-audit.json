@@ -1,0 +1,44 @@
+{
+  "before_count": 182411,
+  "after_count": 183291,
+  "before_items_sha256": "3f2882f5f517f9d5dab966fc3c52ddfa1a15a73ada29e3819643ff8ff39f51f9",
+  "after_items_sha256": "8a31f0fb444d184bd89f1ebd2f9b770cbff658beb041ac1adf8f55b39175cdea",
+  "existing_records_semantic_sha256_before": "3f2882f5f517f9d5dab966fc3c52ddfa1a15a73ada29e3819643ff8ff39f51f9",
+  "existing_prefix_semantic_sha256_after": "3f2882f5f517f9d5dab966fc3c52ddfa1a15a73ada29e3819643ff8ff39f51f9",
+  "additions": 880,
+  "plan": {
+    "before_count": 182411,
+    "before_items_sha256": "3f2882f5f517f9d5dab966fc3c52ddfa1a15a73ada29e3819643ff8ff39f51f9",
+    "sources": {
+      "saudi_guide_second_1000": {
+        "input_records": 853,
+        "invalid_titles": 0,
+        "internal_duplicates": 7,
+        "already_in_makanez": 11,
+        "blocked_by_policy": 0,
+        "duplicate_ids": 0,
+        "added_candidates": 835
+      },
+      "dar_al_ulum_registered": {
+        "input_records": 45,
+        "invalid_titles": 0,
+        "internal_duplicates": 0,
+        "already_in_makanez": 0,
+        "blocked_by_policy": 0,
+        "duplicate_ids": 0,
+        "added_candidates": 45
+      }
+    },
+    "cross_source_duplicates": 0,
+    "duplicate_ids": 0,
+    "invalid_titles": 0,
+    "blocked_by_policy": 0,
+    "already_in_makanez": 11,
+    "additions": 880,
+    "after_count": 183291
+  },
+  "source_counts_after_merge": {
+    "دليل الرسائل الجامعية في المملكة العربية السعودية": 1718,
+    "الرسائل العلمية المسجلة - كلية دار العلوم": 45
+  }
+}

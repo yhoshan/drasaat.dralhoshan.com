@@ -1,0 +1,63 @@
+{
+  "before_count": 181238,
+  "after_count": 182411,
+  "before_items_sha256": "f79befb17b977fde95ab4d3f152daa62bef7320151377685b654655bd98b608f",
+  "after_items_sha256": "3f2882f5f517f9d5dab966fc3c52ddfa1a15a73ada29e3819643ff8ff39f51f9",
+  "existing_records_semantic_sha256_before": "52211f86798e0bc2776778d2344fe19dc074003ecf952544ce38218ceb59ed42",
+  "existing_prefix_semantic_sha256_after": "52211f86798e0bc2776778d2344fe19dc074003ecf952544ce38218ceb59ed42",
+  "additions": 1173,
+  "plan": {
+    "before_count": 181238,
+    "before_items_sha256": "f79befb17b977fde95ab4d3f152daa62bef7320151377685b654655bd98b608f",
+    "sources": {
+      "saudi_guide": {
+        "input_records": 927,
+        "invalid_titles": 0,
+        "internal_duplicates": 3,
+        "already_in_makanez": 41,
+        "blocked_by_policy": 0,
+        "duplicate_ids": 0,
+        "added_candidates": 883
+      },
+      "dar_al_ulum": {
+        "input_records": 208,
+        "invalid_titles": 0,
+        "internal_duplicates": 0,
+        "already_in_makanez": 20,
+        "blocked_by_policy": 0,
+        "duplicate_ids": 0,
+        "added_candidates": 188
+      },
+      "madinah_guide": {
+        "input_records": 118,
+        "invalid_titles": 0,
+        "internal_duplicates": 0,
+        "already_in_makanez": 16,
+        "blocked_by_policy": 0,
+        "duplicate_ids": 0,
+        "added_candidates": 102
+      }
+    },
+    "cross_source_duplicates": 0,
+    "duplicate_ids": 0,
+    "blocked_by_policy": 0,
+    "invalid_titles": 0,
+    "already_in_makanez": 77,
+    "additions": 1173,
+    "after_count": 182411
+  },
+  "source_counts_after_merge": {
+    "دليل الرسائل الجامعية في المملكة العربية السعودية": 883,
+    "الرسائل التي نوقشت في كلية دار العلوم من 1950 حتى عام 1997": 188,
+    "دليل الرسائل الجامعية عن المدينة المنورة": 102
+  },
+  "category_counts_after_merge": {
+    "غير مصنف": 36468
+  },
+  "correction": {
+    "restored_existing_records": 181238,
+    "source_records_kept": 1173,
+    "changed_existing_content_group_records_reversed": 6198,
+    "stats_preserve_explicit_content_group": true
+  }
+}
